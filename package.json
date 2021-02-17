@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "request": "^2.67.0"
-  }
+  },
 
   "name": "ls",
   "version": "1.0.0",
