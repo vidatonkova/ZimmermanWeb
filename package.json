@@ -1,8 +1,6 @@
 {
 
-  "name": "Discussion4",
-  "version": "1.0.0",
-  "description": "Testing Practice",
+ 
   "main": "server.js",
   "scripts": {
     "test": "mocha server.test.js",
@@ -21,9 +19,6 @@
   "version": "1.0.0",
   "description": "Website for the Zimmerman Lab - VJAM SWE",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vidatonkova/ZimmermanWeb.git"
