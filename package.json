@@ -1,4 +1,5 @@
 {
+
   "name": "Discussion4",
   "version": "1.0.0",
   "description": "Testing Practice",
@@ -15,4 +16,23 @@
   "dependencies": {
     "request": "^2.67.0"
   }
+
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Website for the Zimmerman Lab - VJAM SWE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidatonkova/ZimmermanWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidatonkova/ZimmermanWeb/issues"
+  },
+  "homepage": "https://github.com/vidatonkova/ZimmermanWeb#readme"
+
 }
