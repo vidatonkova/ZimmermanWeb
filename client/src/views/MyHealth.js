@@ -4,24 +4,24 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 
-const Home = () => {
+const health = () => {
         return (
         <div>
             <Container>
+            <div className="spacer" > &nbsp; </div>
+            <div className="spacer" > &nbsp; </div>
               <Row>
-                  <p className = "sample" > ur all hoes</p>
-                  <Col>Home Page</Col>
+                  <Col>My Health Page</Col>
               </Row>
               <div className="spacer" > &nbsp; </div>
               <div className="spacer" > &nbsp; </div>
               <div className="spacer" > &nbsp; </div>
               <Row>
-                  <Col> hi bbs</Col>
+                  <Col> halth</Col>
               </Row>
             </Container>
         </div>
         );
 };
 
-export default Home;
-
+export default health;
