@@ -1,24 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { 
+  Route, 
+  Switch, 
+  Redirect, 
+  BrowserRouter as Router
+} from 'react-router-dom';
+import {useState} from 'react';
+
+import NavBar from './components/Nav';
+
+import Home from './views/Home';
+import MyHealth from './views/MyHealth';
+
+
 function App() {
+  let [username, setUsername] = useState("")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div id='page-container'>
+       <NavBar/>
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Redirect to="/Home"/>
+            </Route>
+            <Route exact path="/Home" render={(props) => <Home {...props}/>}/>
+            <Route exact path="/My_Health" render={(props) => <MyHealth {...props}/>}/>
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
 
