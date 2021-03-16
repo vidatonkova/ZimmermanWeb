@@ -1,18 +1,33 @@
-
 const express = require('express');
-const bodyParser = require('body-parser')
-const path = require('path');
-const app = express();
-app.use(express.static(path.join(__dirname, 'build')));
+const MongoClient = require('mongodb').MongoClient;
+const cors = require('cors');
 
-app.get('/ping', function (req, res) {
- return res.send('pong');
+const uri = "mongodb+srv://vidavida:18Bees@cluster0.xng4p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+client.connect(err => {
+  if (err) {
+    console.log(err);  
+    throw "MongoConnectionError"
+  }
+
+  //const Posts = client.db("ExampleAppDb").collection("Posts");
+
+  const port = process.env.PORT || 5000;
+
+  const app = express()
+
+  app.use(express.json());
+  app.use(cors());
+
+  app.get('/ping', function (req, res) {
+  return res.send('pong');
+  });
+
+  app.get('/', function (req, res) {
+  // res.sendFile('/client/');
+  });
+
+
+  app.listen(port, () => console.log(`Server now running on port ${port}!`));
 });
-
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
-
-const port = process.env.PORT || 8080;
-app.listen(port, () => console.log(`Server now running on port ${port}!`));
