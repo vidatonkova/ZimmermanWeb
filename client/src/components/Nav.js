@@ -9,6 +9,7 @@ const NavBar = (props) => {
                 <Link className = "nav-link" to='/Home'>HOME</Link>
                 <Link className = "nav-link" to='/My_Health'>My Health</Link>
                 <Link className = "nav-link" to='/Sign_In'>Sign In</Link>
+                <Link className = "nav-link" to='/Sign_Up'>Sign Up</Link>
             </div>
         </div>
     )
