@@ -15,7 +15,9 @@ import Home from './views/Home';
 import MyHealth from './views/MyHealth';
 import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
-
+import Research from './views/Research';
+import Discussion from './views/Discussion';
+import FAQ from './views/FAQ';
 
 function App() {
   let [username, setUsername] = useState("")
@@ -33,6 +35,9 @@ function App() {
             <Route exact path="/My_Health" render={(props) => <MyHealth {...props}/>}/>
             <Route exact path="/Sign_In" render={(props) => <SignIn {...props}/>}/>
             <Route exact path="/Sign_Up" render={(props) => <SignUp {...props}/>}/>
+            <Route exact path="/Research" render={(props) => <Research {...props}/>}/>
+            <Route exact path="/Discussion" render={(props) => <Discussion {...props}/>}/>
+            <Route exact path="/FAQ" render={(props) => <FAQ {...props}/>}/>
           </Switch>
         </div>
       </div>
