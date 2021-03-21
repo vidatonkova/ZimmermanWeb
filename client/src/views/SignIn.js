@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -31,8 +32,11 @@ const SignIn = () => {
                 </div>
             </div>
             <div class="row entry-row">
-                <div class="col-sm-12 text-center">
-                    <p>Dont have an account? LINK TO SIGNUP PAGE</p>
+                <div class="col-sm-6 text-right">
+                    <p>Dont have an account?</p>
+                </div>
+                <div class="col-sm-6 text-left">
+                    <Link className = "nav-link" to='/Sign_Up'>Sign Up</Link>
                 </div>
             </div>
         </div>
