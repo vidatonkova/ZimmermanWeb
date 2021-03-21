@@ -25,8 +25,8 @@ const NavBar = (props) => {
                 <div class="col-sm-2 text-center">
                     <Link className = "nav-link" to='/Discussion'>Discussion Board</Link>
                 </div>
-                <div class="col-sm-2 text-center">
-                    <p>FAQ/Contact</p>
+                <div class="col-sm-2 text-center"> 
+                    <Link className = "nav-link" to='/FAQ'>FAQ/Contact</Link>
                 </div>
                 <div class="col-sm-1 text-right">
                     <Link className = "nav-link" to='/Sign_In'>Sign In</Link>
