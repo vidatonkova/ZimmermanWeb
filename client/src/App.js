@@ -18,6 +18,8 @@ import SignUp from './views/SignUp';
 import Research from './views/Research';
 import Discussion from './views/Discussion';
 import FAQ from './views/FAQ';
+import Events from './views/Events';
+import Basic from './views/Basic';
 
 function App() {
   let [username, setUsername] = useState("")
@@ -38,6 +40,8 @@ function App() {
             <Route exact path="/Research" render={(props) => <Research {...props}/>}/>
             <Route exact path="/Discussion" render={(props) => <Discussion {...props}/>}/>
             <Route exact path="/FAQ" render={(props) => <FAQ {...props}/>}/>
+            <Route exact path="/Events" render={(props) => <Events {...props}/>}/>
+            <Route exact path="/Basic" render={(props) => <Basic {...props}/>}/>
           </Switch>
         </div>
       </div>
