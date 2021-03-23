@@ -1,9 +1,6 @@
 import React from 'react';
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './FAQ.css';
+import './Format.css';
 
 
 const FAQ = () => {
@@ -54,12 +51,12 @@ const FAQ = () => {
             </div>
         </div>
 
-        <div class="row spacer-row">
+        <div class="row title-row">
             <div class="col-sm-12 ">
             </div>
         </div>
 
-        <div class="row title-row">
+        <div class="row entry-row">
             <div class="col-sm-12 text-left">
                 <h3>Contact Us</h3>
             </div>

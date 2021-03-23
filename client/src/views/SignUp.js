@@ -1,9 +1,6 @@
 import React from 'react';
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './SignUp.css';
+import './Format.css';
 
 
 const SignUp = () => {
@@ -16,38 +13,46 @@ const SignUp = () => {
             </div>
 
             <div class="row entry-row">
-                <div class="col-sm-3 text-right">
+                <div class="col-sm-5 text-right">
                     Full Name:
                 </div>
-                <div class="col-sm-9 test-left">
-                    Box 
+                <div class="col-sm-7 test-left">
+                    <form>
+                        <input type="text" name="newName"></input>
+                    </form>  
                 </div>
             </div>
 
             <div class="row entry-row">
-                <div class="col-sm-3 text-right">
+                <div class="col-sm-5 text-right">
                     UF ID:
                 </div>
-                <div class="col-sm-9 test-left">
-                    Box 
+                <div class="col-sm-7 test-left">
+                    <form>
+                        <input type="text" name="newUFID"></input>
+                    </form>  
                 </div>
             </div>
 
             <div class="row entry-row">
-                <div class="col-sm-3 text-right">
+                <div class="col-sm-5 text-right">
                     Username:
                 </div>
-                <div class="col-sm-9 test-left">
-                    Box 
+                <div class="col-sm-7 test-left">
+                    <form>
+                        <input type="text" name="newUsername"></input>
+                    </form>  
                 </div>
             </div>
 
             <div class="row entry-row">
-            <div class="col-sm-3 text-right">
+            <div class="col-sm-5 text-right">
                     <p>Password:</p>
                 </div>
-                <div class="col-sm-9 text-left">
-                    <p>Box to enter information goes here</p>
+                <div class="col-sm-7 text-left">
+                    <form>
+                        <input type="password" name="newPassword"></input>
+                    </form> 
                 </div>
             </div>
         </div>
