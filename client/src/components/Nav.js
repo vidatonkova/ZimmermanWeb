@@ -13,13 +13,16 @@ const NavBar = (props) => {
                 <div class="col-sm-1 text-center">
                     <Link className = "nav-link" to='/Home'>HOME</Link>
                 </div>
-                <div class="col-sm-2 text-center">
-                    <p>Basic IBD</p>
+                <div class="col-sm-1 text-center">
+                <Link className = "nav-link" to='/Basic'>Basic IBD</Link>
                 </div>
                 <div class="col-sm-1 text-center">
                     <Link className = "nav-link" to='/Research'>Research</Link>
                 </div>
                 <div class="col-sm-2 text-center">
+                    <Link className = "nav-link" to='/Events'>Events and Surveys</Link>
+                </div>
+                <div class="col-sm-1 text-center">
                     <Link className = "nav-link" to='/My_Health'>My Health</Link>
                 </div>
                 <div class="col-sm-2 text-center">
@@ -37,3 +40,9 @@ const NavBar = (props) => {
 };
 
 export default NavBar;
+
+/*
+
+Test out messing with the Nav Bar to make it horizontal
+
+*/
