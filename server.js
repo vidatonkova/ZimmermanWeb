@@ -22,7 +22,7 @@ client.connect(err => {
   });
 
   app.get('/', function (req, res) {
-  // res.sendFile('/client/');
+      res.send('hi');
   });
 
   app.listen(port, () => console.log(`Server now running on port ${port}!`));
