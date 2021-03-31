@@ -4,56 +4,49 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Format.css';
 /*
 import Col from "react-bootstrap/Col"
+*/
 
 
-const Home = () => {
+const Basic = () => {
     return (
     <div>
         <div class="container">
           <div class="row title-row">
             <div className="col-md-12 text-center">
-              <h1>Home Page</h1>
+              <h1>Basics of IBD</h1>
             </div>
           </div>
           <div class="row entry-row">
-            <div className="col-md-6 text-left">
-              Heres a picture of our research!
-            </div>
-            <div className="col-md-6 text-right">
-              <h2>Welcome</h2>
+            <div className="col-md-12 text-left">
+              Welcome to the Basics of IBD page, your source for relavant information about IBD when you want to know more information.
             </div>
           </div>
           <div class="row entry-row">
             <div className="col-md-6 text-center">
-              <h3>Need to Know</h3>
+              <h3>IBD Information</h3>
             </div>
             <div className="col-md-6 text-center">
-              <h3>Student or Physician?</h3>
+              <h3>Ileitis</h3>
             </div>
           </div>
           <div class="row entry-row">
-            <div class="col-sm-3 text-right">
-              <Link className = "nav-link" to='/FAQ'>FAQ</Link>
+            <div class="col-sm-6 text-center">
+              Heres some information about IBD
             </div>
-            <div class="col-sm-3 text-left">
-              <Link className = "nav-link" to='/Basic'>Basics of IBD</Link>
-            </div>
-            <div className="col-md-3 text-right">
-            <Link className = "nav-link" to='/Sign_In'>Login</Link>
-            </div>
-            <div className="col-md-3 text-left">
-            <Link className = "nav-link" to='/Sign_Up'>Create an Account</Link>
+            <div class="col-sm-6 text-center">
+              Heres some information about Ileitis
             </div>
           </div>
           <div class="row entry-row">
             <div className="col-md-12 text-center">
-              <h3>Meet the team!</h3>
+              <h3>Didn't answer your question or want to learn more?</h3>
             </div>
           </div>
           <div class="row entry-row">
             <div className="col-md-12 text-center">
-              Here you'll find some information about the research and current team! 
-              <Link className = "nav-link" to='/Research'>Team</Link>
+              Check out these pages for more information!
+              <Link className = "nav-link" to='/Research'>Research</Link>
+              <Link className = "nav-link" to='/Discussion'>Discussion board</Link>
             </div>
           </div>
         </div>
@@ -113,5 +106,4 @@ const Home = () => {
 </div>
 */
 
-export default Home;
-
+export default Basic;
