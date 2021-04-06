@@ -1,38 +1,40 @@
 import React from 'react';
-import Col from 'react-bootstrap/esm/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import './../views/Format.css';
 
 const NavBar = (props) => {
     return (
         <div class="container">
-            <div class="row">
+            <div class="row nav-bar">
                 <div class="col-sm-1 text-left">
                     <p> Logo </p>
                 </div>
                 <div class="col-sm-1 text-center">
-                    <Link className = "nav-link" to='/Home'>HOME</Link>
+                    <Link className = "nav-link" to='/Home' class= "nav-link">HOME</Link>
                 </div>
                 <div class="col-sm-1 text-center">
-                <Link className = "nav-link" to='/Basic'>Basic IBD</Link>
+                <Link className = "nav-link" to='/Basic' class= "nav-link">Basic IBD</Link>
                 </div>
                 <div class="col-sm-1 text-center">
-                    <Link className = "nav-link" to='/Research'>Research</Link>
+                    <Link className = "nav-link" to='/Research' class= "nav-link">Research</Link>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <Link className = "nav-link" to='/Events'>Events and Surveys</Link>
+                    <Link className = "nav-link" to='/Events' class= "nav-link">Events and Surveys</Link>
                 </div>
                 <div class="col-sm-1 text-center">
-                    <Link className = "nav-link" to='/My_Health'>My Health</Link>
+                    <Link className = "nav-link" to='/My_Health' class= "nav-link">My Health</Link>
                 </div>
                 <div class="col-sm-2 text-center">
-                    <Link className = "nav-link" to='/Discussion'>Discussion Board</Link>
+                    <Link className = "nav-link" to='/Discussion' class= "nav-link">Discussion Board</Link>
                 </div>
-                <div class="col-sm-2 text-center"> 
-                    <Link className = "nav-link" to='/FAQ'>FAQ/Contact</Link>
+                <div class="col-sm-1 text-center"> 
+                    <Link className = "nav-link" to='/FAQ' class= "nav-link">FAQ/Contact</Link>
                 </div>
-                <div class="col-sm-1 text-right">
-                    <Link className = "nav-link" to='/Sign_In'>Sign In</Link>
+                <div class="col-sm-1 text-center">
+                </div>
+                <div class="col-sm-1 text-center">
+                    <Link className = "nav-link" to='/Sign_In' class= "nav-link">Sign In</Link>
                 </div>
             </div>
         </div>
