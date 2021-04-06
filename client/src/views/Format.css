@@ -9,11 +9,45 @@
 .spacer-row{
     height: 50px;
 }
+.faq-spacer{
+    height:20px;
+}
   
 .picture-row{
     height: 20%;
 }
 
-body {
-    background: #2B4D59;
+.nav-link{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.nav-link:hover{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav-bar{
+    height: 60px;
+}
+
+.faq-box{
+    background-color: rgb(204, 204, 204);
+    width: 70%;
+}
+
+.faq-box:hover{
+    background-color: rgb(177, 177, 177);
+    width: 72%;
+}
+
+.faq-box:active{
+    background-color: rgb(177, 177, 177);
+    width: 72%;
+}
+
+.faq-box:focus{
+    background-color: rgb(177, 177, 177);
+    width: 72%;
+
 }
