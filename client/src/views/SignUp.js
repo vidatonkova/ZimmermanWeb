@@ -4,59 +4,38 @@ import './Format.css';
 
 
 const SignUp = () => {
-        return (
+    return (
         <div class="container">
             <div class="row title-row">
                 <div class="col-sm-12 text-center">
                     <h3>Sign Up</h3>
                 </div>
             </div>
-
-            <div class="row entry-row">
-                <div class="col-sm-5 text-right">
-                    Full Name:
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName4">Name</label>
+                        <input type="newName" class="form-control" id="inputName4" placeholder="Name"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputUFID4">UF ID</label>
+                        <input type="newUFID" class="form-control" id="inputUFID4" placeholder="UFID"/>
+                    </div>
                 </div>
-                <div class="col-sm-7 test-left">
-                    <form>
-                        <input type="text" name="newName"></input>
-                    </form>  
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputUsername4">Username</label>
+                        <input type="newUsername" class="form-control" id="inputUsername4" placeholder="Username"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="newPassword" class="form-control" id="inputPassword4" placeholder="Password"/>
+                    </div>
                 </div>
-            </div>
-
-            <div class="row entry-row">
-                <div class="col-sm-5 text-right">
-                    UF ID:
-                </div>
-                <div class="col-sm-7 test-left">
-                    <form>
-                        <input type="text" name="newUFID"></input>
-                    </form>  
-                </div>
-            </div>
-
-            <div class="row entry-row">
-                <div class="col-sm-5 text-right">
-                    Username:
-                </div>
-                <div class="col-sm-7 test-left">
-                    <form>
-                        <input type="text" name="newUsername"></input>
-                    </form>  
-                </div>
-            </div>
-
-            <div class="row entry-row">
-            <div class="col-sm-5 text-right">
-                    <p>Password:</p>
-                </div>
-                <div class="col-sm-7 text-left">
-                    <form>
-                        <input type="password" name="newPassword"></input>
-                    </form> 
-                </div>
-            </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
         </div>
-        );
+    );
 };
 
 export default SignUp;
