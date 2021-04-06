@@ -13,7 +13,7 @@ const Discussion = () => {
             </div>
             <div class="row entry-row">
                 <div class="col-sm-12 text-center">
-                    IDK how this is gonna work just yet
+                
                 </div>
             </div>
         </div>
