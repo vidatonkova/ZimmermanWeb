@@ -13,7 +13,7 @@ const FAQ = () => {
     return (
     <div class="container">
         <div class="row title-row">
-            <div class="col-sm-12 text-left">
+            <div class="col-sm-12 text-center">
                 <h3>Frequently Asked Questions</h3>
             </div>
         </div>
@@ -30,12 +30,10 @@ const FAQ = () => {
                 click
                 </Button>
                 <Collapse in={open1}>
-                    <div id="example-collapse-text">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                        labore wes anderson cred nesciunt sapiente ea proident.
+                    <div id="example-text" class="faq-box">
+                        <p class="txt-color">Insert response from database.</p>
                     </div>
-                    </Collapse>
+                </Collapse>
                 </div>
         </div>
 
@@ -52,11 +50,10 @@ const FAQ = () => {
                 Q: How do I learn more about IBD?
                 </Button>
                 <Collapse in={open2}>
-                    <div id="example-collapse-text">
-                    You can learn a lot about IBD by reading the Basic IBD page on this website. 
-                    You can also read some of the wonderful publications of the professors.
+                    <div id="example-text" class="faq-box">
+                        <p class="txt-color">Insert response from database.</p>
                     </div>
-                    </Collapse>
+                </Collapse>
                 </div>
         </div>
 
@@ -73,10 +70,10 @@ const FAQ = () => {
                 Q: Where can I go to visit the professors and the Zimmerman Lab?
                 </Button>
                 <Collapse in={open3}>
-                    <div id="example-collapse-text">
-                    You can visit this place on campus to see the lab and meet the awesome professors and Dr. Zimmerman herself!
+                    <div id="example-text" class="faq-box">
+                        <p class="txt-color">Insert response from database.</p>
                     </div>
-                    </Collapse>
+                </Collapse>
                 </div>
         </div>
 

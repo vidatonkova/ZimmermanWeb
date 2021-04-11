@@ -12,7 +12,7 @@ const Research = () => {
         return (
         <div class="container">
             <div class="row title-row">
-                <div class="col-sm-12 text-left">
+                <div class="col-sm-12 text-center">
                     <h3>Research</h3>
                 </div>
             </div>

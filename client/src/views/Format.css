@@ -32,22 +32,52 @@
 }
 
 .faq-box{
-    background-color: rgb(204, 204, 204);
+    background-color:  rgb(43,77,89);
     width: 70%;
 }
 
 .faq-box:hover{
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(57, 153, 142);
     width: 72%;
 }
 
 .faq-box:active{
-    background-color: rgb(177, 177, 177);
-    width: 72%;
+    background-color: rgb(57, 153, 142);
+    width: 70%;
 }
 
 .faq-box:focus{
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(57, 153, 142);
     width: 72%;
 
 }
+
+.question-box{
+    background-color: rgb(43,77,89);
+    overflow-x: hidden;
+}
+
+.txt-color{
+    background-color:rgb(255,220,124);
+    width: 70%;
+    margin-left: 15%;
+}
+
+.custom-button{
+    background-color: rgb(255,220,124);
+    color: black;
+    border-color: rgb(57, 153, 142);
+}
+
+.custom-button:hover{
+    background-color: rgb(224, 194, 109);
+    color: black;
+    border-color: rgb(57, 153, 142);
+}
+
+.white-text{
+    color:white;
+}
+
+
+
