@@ -18,6 +18,9 @@ const FAQ = () => {
             </div>
         </div>
 
+        <div class="row faq-spacer"></div>
+        <div class="row faq-spacer"></div>
+
         <div class="row">
             <div class="col-sm-12 text-center ">
                 <Button
@@ -77,10 +80,9 @@ const FAQ = () => {
                 </div>
         </div>
 
-        <div class="row title-row">
-            <div class="col-sm-12 ">
-            </div>
-        </div>
+        <div class="row faq-spacer"></div>
+        <div class="row faq-spacer"></div>
+        <div class="row faq-spacer"></div>
 
         <div class="row contact-us">
             <div class="col-sm-12 text-center">
