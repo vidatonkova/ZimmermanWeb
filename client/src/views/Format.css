@@ -1,72 +1,79 @@
 .title-row {
-    height: 50px;
-    background-color: #2b4d59;
-    -webkit-text-fill-color: #ffffff;
-  }
-  
-  .home-row {
-    background-color: #39998e;
-    height: 200px;
-    -webkit-text-fill-color: #ffffff;
-  }
-  
-  .picture-row {
-    background-color: #eff0eb;
-  }
-  
-  .entry-row {
-    height: 50px;
-    background-color: #eff0eb;
-  }
-  
-  .spacer-row {
-    height: 45px;
-    width: 100%;
-  }
-  
-  .faq-spacer {
-    height: 20px;
-  }
-  
-  .col-sm-2 {
-    background-color: #ffffff;
-  }
-  
-  .picture-row {
-    height: 20%;
-  }
-  
-  .nav-link {
-    display: inline-block;
-    font-size: 13px;
-  }
-  
-  .nav-link:hover {
-    font-size: 14px;
-    text-decoration: none;
-  }
-  
-  .nav-bar {
-    height: 40px;
-  }
-  
-  .faq-box {
-    background-color: rgb(204, 204, 204);
-    width: 70%;
-  }
-  
-  .faq-box:hover {
-    background-color: rgb(177, 177, 177);
-    width: 72%;
-  }
-  
-  .faq-box:active {
-    background-color: rgb(177, 177, 177);
-    width: 72%;
-  }
-  
-  .faq-box:focus {
-    background-color: rgb(177, 177, 177);
-    width: 72%;
-  }
-  
+  height: 50px;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.home-row {
+  background-color: #39998e;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.homeSpacer-row {
+  background-color: #39998e;
+  height: 20px;
+}
+
+.picture-row {
+  background-color: #eff0eb;
+}
+
+.entry-row {
+  background-color: #eff0eb;
+}
+
+.entrySpacer-row {
+  background-color: #eff0eb;
+  height: 20px;
+}
+
+.spacer-row {
+  height: 45px;
+  width: 100%;
+}
+
+.faq-spacer {
+  height: 20px;
+}
+
+.col-sm-2 {
+  background-color: #ffffff;
+}
+
+.picture-row {
+  height: 20%;
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.nav-link:hover {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-bar {
+  height: 40px;
+}
+
+.faq-box {
+  background-color: rgb(204, 204, 204);
+  width: 70%;
+}
+
+.faq-box:hover {
+  background-color: rgb(177, 177, 177);
+  width: 72%;
+}
+
+.faq-box:active {
+  background-color: rgb(177, 177, 177);
+  width: 72%;
+}
+
+.faq-box:focus {
+  background-color: rgb(177, 177, 177);
+  width: 72%;
+}
