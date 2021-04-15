@@ -2,11 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Format.css';
-/*
-import Col from "react-bootstrap/Col"
-
 
 const Home = () => {
+
+    
     return (
     <div>
         <div class="container">
@@ -60,7 +59,7 @@ const Home = () => {
     </div>
   );
 };
-/* 
+/*
 <div class="container">
             <div class="row title-row">
                 <div class="col-sm-12 text-center">
@@ -94,7 +93,7 @@ const Home = () => {
         </div>
         );
 
-
+/*
 <div className="spacer" > &nbsp; </div>
 
 <div className="container">

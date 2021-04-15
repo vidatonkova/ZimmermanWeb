@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Format.css';
+import {getUser} from '../api';
 
+class SignIn extends Component{
 
-const SignIn = () => {
+async componentDidMount(){
+    let response = await getUser();
+    console.log(response);
+}
+
+   render(){
         return (
         <div class="container">
             <div class="row title-row">
@@ -43,5 +50,9 @@ const SignIn = () => {
         </div>
         );
 };
+
+}
+
+
 
 export default SignIn;

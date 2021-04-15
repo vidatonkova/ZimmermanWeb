@@ -1,15 +1,16 @@
 const express = require('express');
-const MongoClient = require('mongodb').MongoClient;
+//const MongoClient = require('mongodb').MongoClient;
 const cors = require('cors');
+const Users = require ('./models/users').Users;
+const mongoose = require ('mongoose');
+const config = require ('./config');
 
-const uri = "mongodb+srv://vidavida:18Bees@cluster0.xng4p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+const uri = mongouri;
+console.log(config);
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'mongodb coneection error;;;;;'));
 
-client.connect(err => {
-  if (err) {
-    console.log(err);  
-    throw "MongoConnectionError"
-  }
   //const Posts = client.db("ExampleAppDb").collection("Posts");
   const port = process.env.PORT || 8080;
 
@@ -22,8 +23,36 @@ client.connect(err => {
   });
 
   app.get('/', function (req, res) {
-      res.send('hi');
+      res.body = "yeah boi";
+      return res.send('ur a hoe');
   });
 
-  app.listen(port, () => console.log(`Server now running on port ${port}!`));
+  app.get('/users/find', function (req, res) {
+      Users.find({}, (error, documents) => {
+        if (error) {
+          res.send(error);
+        }
+        else {
+          res.send(documents);
+        }
+      });
+  });
+
+  app.post('/users/create', async (req, res) => {
+    
+    const user = new Users({
+        fname: req.body.fname,
+        lname: req.body.lname
+    });
+    
+    try {
+        const saveUser = await user.save();
+        res.json(saveUser);
+    }
+    catch (err) {
+      console.error(err);
+        res.json({ message: "ur moms a hoe ur a hoe too" });
+    }
 });
+
+  app.listen(port, () => console.log(`Server now running on port ${port}!`));
