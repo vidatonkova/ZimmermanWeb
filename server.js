@@ -5,6 +5,7 @@ const Users = require ('./models/users').Users;
 const mongoose = require ('mongoose');
 const config = require ('./config');
 
+
 const uri = mongouri;
 console.log(config);
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -56,3 +57,4 @@ db.on('error', console.error.bind(console, 'mongodb coneection error;;;;;'));
 });
 
   app.listen(port, () => console.log(`Server now running on port ${port}!`));
+
