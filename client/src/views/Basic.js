@@ -1,55 +1,63 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Format.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Format.css";
 /*
 import Col from "react-bootstrap/Col"
 */
 
-
 const Basic = () => {
-    return (
+  return (
     <div>
-        <div class="container">
-          <div class="row title-row">
-            <div className="col-md-12 text-center">
-              <h1>Basics of IBD</h1>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-12 text-left">
-              Welcome to the Basics of IBD page, your source for relavant information about IBD when you want to know more information.
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-6 text-center">
-              <h3>IBD Information</h3>
-            </div>
-            <div className="col-md-6 text-center">
-              <h3>Ileitis</h3>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div class="col-sm-6 text-center">
-              Heres some information about IBD
-            </div>
-            <div class="col-sm-6 text-center">
-              Heres some information about Ileitis
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-12 text-center">
-              <h3>Didn't answer your question or want to learn more?</h3>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-12 text-center">
-              Check out these pages for more information!
-              <Link className = "nav-link" to='/Research'>Research</Link>
-              <Link className = "nav-link" to='/Discussion'>Discussion board</Link>
-            </div>
+      <div class="container">
+        <div class="row title-row">
+          <div className="col-sm-12 text-left">
+            <h2>Basics of IBD</h2>
           </div>
         </div>
+        <div class="row entry-row">
+          <div className="col-sm-12 text-left">
+            Welcome to the Basics of IBD page, your source for relavant
+            information about IBD when you want to know more information.
+          </div>
+        </div>
+        <div class="row spacer-row"></div>
+        <div class="row title-row">
+          <div className="col-sm-5 text-center">
+            <h3>IBD Information</h3>
+          </div>
+          <div className="col-sm-2 text-center"></div>
+          <div className="col-sm-5 text-center">
+            <h3>Ileitis</h3>
+          </div>
+        </div>
+        <div class="row entry-row">
+          <div class="col-sm-5 text-center">
+            Heres some information about IBD
+          </div>
+          <div className="col-sm-2 text-center"></div>
+          <div class="col-sm-5 text-center">
+            Heres some information about Ileitis
+          </div>
+        </div>
+        <div class="row spacer-row"></div>
+        <div class="row title-row">
+          <div className="col-sm-12 text-center">
+            <h3>Didn't answer your question or want to learn more?</h3>
+          </div>
+        </div>
+        <div class="row entry-row">
+          <div className="col-sm-12 text-center">
+            Check out these pages for more information!
+            <Link className="nav-link" to="/Research">
+              Research
+            </Link>
+            <Link className="nav-link" to="/Discussion">
+              Discussion board
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

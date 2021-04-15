@@ -1,61 +1,67 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Format.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Format.css";
+/*
+import Col from "react-bootstrap/Col"
+*/
 
 const Home = () => {
-
-    
-    return (
+  return (
     <div>
-        <div class="container">
-          <div class="row title-row">
-            <div className="col-md-12 text-center">
-              <h1>Home Page</h1>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-6 text-left">
-              Heres a picture of our research!
-            </div>
-            <div className="col-md-6 text-right">
-              <h2>Welcome</h2>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-6 text-center">
-              <h3>Need to Know</h3>
-            </div>
-            <div className="col-md-6 text-center">
-              <h3>Student or Physician?</h3>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div class="col-sm-3 text-right">
-              <Link className = "nav-link" to='/FAQ'>FAQ</Link>
-            </div>
-            <div class="col-sm-3 text-left">
-              <Link className = "nav-link" to='/Basic'>Basics of IBD</Link>
-            </div>
-            <div className="col-md-3 text-right">
-            <Link className = "nav-link" to='/Sign_In'>Login</Link>
-            </div>
-            <div className="col-md-3 text-left">
-            <Link className = "nav-link" to='/Sign_Up'>Create an Account</Link>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-12 text-center">
-              <h3>Meet the team!</h3>
-            </div>
-          </div>
-          <div class="row entry-row">
-            <div className="col-md-12 text-center">
-              Here you'll find some information about the research and current team! 
-              <Link className = "nav-link" to='/Research'>Team</Link>
-            </div>
+      <div class="container">
+        <div class="row home-row">
+          <div className="col-sm-6 text-left"></div>
+          <div className="col-sm-6 text-left">
+            <h2>Welcome</h2>
+            <h9>Here is the welcome page and some information</h9>
           </div>
         </div>
+        <div class="row spacer-row"></div>
+        <div class="row title-row">
+          <div className="col-sm-5 text-center">
+            <h3>Need to Know</h3>
+          </div>
+          <div className="col-sm-2 text-center"></div>
+          <div className="col-sm-5 text-center">
+            <h3>Returning User?</h3>
+          </div>
+        </div>
+        <div class="row entry-row">
+          <div class="col-sm-1 text-right">
+            <Link className="nav-link" to="/FAQ">
+              FAQ
+            </Link>
+          </div>
+          <div class="col-sm-1 text-right"></div>
+          <div class="col-sm-3 text-left">
+            <Link className="nav-link" to="/Basic">
+              IBD Basics
+            </Link>
+          </div>
+          <div className="col-sm-2 text-right"></div>
+          <div className="col-sm-5 text-center">
+            <Link className="nav-link" to="/Sign_In">
+              Login
+            </Link>
+          </div>
+        </div>
+        <div class="row spacer-row"></div>
+        <div class="row title-row">
+          <div className="col-sm-12 text-center">
+            <h3>Meet the team!</h3>
+          </div>
+        </div>
+        <div class="row entry-row">
+          <div className="col-sm-12 text-center">
+            Here you'll find some information about the research and current
+            team!
+            <Link className="nav-link" to="/Research">
+              Research
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
@@ -113,4 +119,3 @@ const Home = () => {
 */
 
 export default Home;
-
