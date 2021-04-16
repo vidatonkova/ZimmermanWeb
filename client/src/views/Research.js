@@ -11,9 +11,27 @@ import abreu from "./img/abreu.png";
 const Research = () => {
   return (
     <div class="container">
+      <div class="row research-row">
+        <div class="col-sm-12 text-center">
+          <h2>Research</h2>
+        </div>
+      </div>
+
+      <div class="row spacer-row"></div>
+
+      <div class="row align-items-center">
+        <div class="col-sm-2 text-center"></div>
+        <div class="col-sm-8 text-center note-block align-self-center">
+          <p>To make an appointment with any of these physicians, contact (352) 273-9400. </p>
+        </div>
+        <div class="col-sm-2 text-center"></div>
+      </div>
+
+      <div class="row spacer-row"></div>
+
       <div class="row title-row">
         <div class="col-sm-12 text-left">
-          <h2>Research</h2>
+          <h2>University of Florida</h2>
         </div>
       </div>
 
@@ -25,7 +43,7 @@ const Research = () => {
             </a>
           </div>
         </div>
-        <div class="col-sm-8 test-left">
+        <div class="col-sm-8 text-left">
           <h5>Dr. Ellen Zimmermann</h5>
           <p>
             Dr. Ellen Zimmermann has 20 years experience in academic medicine at
@@ -41,10 +59,18 @@ const Research = () => {
           </p>
         </div>
       </div>
-
-      <div class="row spacer-row">
-        <div class="col-sm-12 text-center"></div>
+      <div class="row picture-contact-row">
+          <div class="col-sm-4 text-left">
+            <p class="font-weight-bold">Contact Info:</p>
+          </div>
       </div>
+      <div class="row picture-row">
+          <div class="col-sm-4 text-left">
+            <p>Email: ellen.zimmermann@medicine.ufl.edu</p>
+          </div>
+      </div>
+
+      <div class="row spacer-row"></div>
 
       <div class="row picture-row">
         <div class="col-sm-4 text-right">
@@ -60,6 +86,16 @@ const Research = () => {
             Some text here
           </p>
         </div>
+      </div>
+      <div class="row picture-contact-row">
+          <div class="col-sm-4 text-left">
+            <p class="font-weight-bold">Contact Info:</p>
+          </div>
+      </div>
+      <div class="row picture-row">
+          <div class="col-sm-4 text-left">
+            <p>Email: Naueen.Chaudhry@medicine.ufl.edu</p>
+          </div>
       </div>
 
       <div class="row spacer-row">
@@ -81,6 +117,16 @@ const Research = () => {
           </p>
         </div>
       </div>
+      <div class="row picture-contact-row">
+          <div class="col-sm-4 text-left">
+            <p class="font-weight-bold">Contact Info:</p>
+          </div>
+      </div>
+      <div class="row picture-row">
+          <div class="col-sm-4 text-left">
+            <p>Email: Angela.Pham@medicine.ufl.edu</p>
+          </div>
+      </div>
 
       <div class="row spacer-row">
         <div class="col-sm-12 text-center"></div>
@@ -101,9 +147,25 @@ const Research = () => {
           </p>
         </div>
       </div>
+      <div class="row picture-contact-row">
+          <div class="col-sm-4 text-left">
+            <p class="font-weight-bold">Contact Info:</p>
+          </div>
+      </div>
+      <div class="row picture-row">
+          <div class="col-sm-4 text-left">
+            <p>Email: devi.rampertab@medicine.ufl.edu</p>
+          </div>
+      </div>
 
       <div class="row spacer-row">
         <div class="col-sm-12 text-center"></div>
+      </div>
+
+      <div class="row title-row">
+        <div class="col-sm-12 text-left">
+          <h2>University of Miami</h2>
+        </div>
       </div>
 
       <div class="row picture-row">
@@ -115,11 +177,23 @@ const Research = () => {
           </div>
         </div>
         <div class="col-sm-8 test-left">
-          <h5>(a)	Dr. Maria Abreu</h5>
+          <h5>Dr. Maria Abreu</h5>
           <p>
             Some text here
           </p>
         </div>
+      </div>
+      <div class="row picture-contact-row">
+          <div class="col-sm-4 text-left">
+            <p class="font-weight-bold">Contact Info:</p>
+          </div>
+      </div>
+      <div class="row picture-row">
+          <div class="col-sm-4 text-left">
+            <p>Phone: Contact: 305-243-6404</p>
+            <p>Email: mabreu1@med.miami.edu</p>
+
+          </div>
       </div>
 
       <div class="row spacer-row">
@@ -140,6 +214,17 @@ const Research = () => {
             Some text here
           </p>
         </div>
+      </div>
+      <div class="row picture-contact-row">
+          <div class="col-sm-4 text-left">
+            <p class="font-weight-bold">Contact Info:</p>
+          </div>
+      </div>
+      <div class="row picture-row">
+          <div class="col-sm-4 text-left">
+            <p>Phone: Contact: 305-243-8644</p>
+            <p>Email: dkerman@miami.edu</p>
+          </div>
       </div>
     </div>
   );

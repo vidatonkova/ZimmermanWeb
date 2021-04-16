@@ -3,6 +3,23 @@
     background-color: #2b4d59;
     -webkit-text-fill-color: #ffffff;
   }
+
+.research-row {
+    height: 50px;
+    background-color: #2b4d59;
+    margin-left: -600px;
+    margin-right: -600px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.note-block{
+  height: 40px;
+  background-color: rgb(57, 153, 142);
+  color: white;
+  font-size: 20px;
+}
   
   .home-row {
     background-color: #39998e;
@@ -12,6 +29,10 @@
   
   .picture-row {
     background-color: #eff0eb;
+  }
+  .picture-contact-row {
+    background-color: #eff0eb;
+    height: 20px;
   }
   
   .entry-row {
