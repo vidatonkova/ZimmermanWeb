@@ -9,11 +9,14 @@ const Discussion = () => {
   const [open1, setOpen1] = useState(false);
   return (
     <div class="container">
-      <div class="row title-row">
+      <div class="row sub-title-row">
         <div class="col-sm-12 text-center">
           <h3>Discussion</h3>
         </div>
       </div>
+
+      <div class="row faq-spacer"></div>
+
       <div class="row question-box">
         <div class="col-sm-12">
           <form>

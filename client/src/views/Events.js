@@ -11,7 +11,7 @@ const Events = () => {
     <div>
       <div class="container">
         <div class="row title-row">
-          <div className="col-sm-12 text-left">
+          <div className="col-sm-12 text-center">
             <h2>Events and Webinars</h2>
           </div>
         </div>
