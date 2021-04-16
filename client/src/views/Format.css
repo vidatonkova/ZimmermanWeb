@@ -153,15 +153,8 @@ font-size: 20px;
 
 .contact-us {
   background-color: rgb(43, 77, 89);
-  margin-left: -600px;
-  margin-right: -600px;
-  overflow-x: hidden;
 }
 
 .contact-us-bottom {
   background-color: rgb(43, 77, 89);
-  margin-left: -600px;
-  margin-right: -600px;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
