@@ -23,7 +23,7 @@ const Health = () => {
   return (
     <div>
       <div class="container">
-        <div class="row sub-title-row">
+        <div class="row title-row">
           <div className="col-sm-12 text-center">
             <h2>MyHealth and Resources</h2>
           </div>

@@ -7,19 +7,11 @@
 .top-row {
   height: 6vh;
   background-color: #2b4d59;
-  margin-left: -600px;
-  margin-right: -600px;
-  overflow-x: hidden;
-  overflow-y: hidden;
   -webkit-text-fill-color: #ffffff;
 }
 
 .footer-row {
   height: 8vh;
-  margin-left: -600px;
-  margin-right: -600px;
-  overflow-x: hidden;
-  overflow-y: hidden;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
@@ -38,10 +30,6 @@
 .sub-title-row {
   height: 50px;
   background-color: #2b4d59;
-  margin-left: -600px;
-  margin-right: -600px;
-  overflow-x: hidden;
-  overflow-y: hidden;
   -webkit-text-fill-color: #ffffff;
 }
 
@@ -62,7 +50,8 @@ font-size: 20px;
 }
 
 .picture-contact-row{
-
+  background-color: #eff0eb;
+  height: 20px;
 }
 
 .entry-row {
