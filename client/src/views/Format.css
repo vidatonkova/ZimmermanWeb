@@ -1,115 +1,131 @@
 .title-row {
-    height: 50px;
-    background-color: #2b4d59;
-    -webkit-text-fill-color: #ffffff;
-  }
-  
-  .home-row {
-    background-color: #39998e;
-    height: 200px;
-    -webkit-text-fill-color: #ffffff;
-  }
-  
-  .picture-row {
-    background-color: #eff0eb;
-  }
-  
-  .entry-row {
-    height: 50px;
-    background-color: #eff0eb;
-  }
-  
-  .spacer-row {
-    height: 45px;
-    width: 100%;
-  }
-  
-  .faq-spacer {
-    height: 20px;
-  }
-  
-  .col-sm-2 {
-    background-color: #ffffff;
-  }
-  
-  .picture-row {
-    height: 20%;
-  }
-  
-  .nav-link {
-    display: inline-block;
-    font-size: 13px;
-  }
-  
-  .nav-link:hover {
-    font-size: 14px;
-    text-decoration: none;
-  }
-  
-  .nav-bar {
-    height: 40px;
-  }
-  
-  .faq-box{
-    background-color:  rgb(43,77,89);
-    width: 70%;
+  height: 4vh;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
 }
 
-.faq-box:hover{
-    background-color: rgb(57, 153, 142);
-    width: 72%;
+.home-row {
+  background-color: #39998e;
+  -webkit-text-fill-color: #ffffff;
 }
 
-.faq-box:active{
-    background-color: rgb(57, 153, 142);
-    width: 70%;
+.homeSpacer-row {
+  background-color: #39998e;
+  height: 2vh;
 }
 
-.faq-box:focus{
-    background-color: rgb(57, 153, 142);
-    width: 72%;
-
+.picture-row {
+  background-color: #eff0eb;
 }
 
-.question-box{
-    background-color: rgb(43,77,89);
-    overflow-x: hidden;
+.entry-row {
+  background-color: #eff0eb;
 }
 
-.txt-color{
-    background-color:rgb(255,220,124);
-    width: 70%;
-    margin-left: 15%;
+.entrySpacer-row {
+  background-color: #eff0eb;
+  height: 1vh;
 }
 
-.custom-button{
-    background-color: rgb(255,220,124);
-    color: black;
-    border-color: rgb(57, 153, 142);
+.spacer-row {
+  height: 1vh;
+  width: 100vw;
 }
 
-.custom-button:hover{
-    background-color: rgb(224, 194, 109);
-    color: black;
-    border-color: rgb(57, 153, 142);
+.faq-spacer {
+  height: 20px;
 }
 
-.white-text{
-    color:white;
-    font-size: 30px;
+.col-sm-2 {
+  background-color: #ffffff;
 }
 
-.contact-us{
-    background-color: rgb(43,77,89);
-    margin-left: -600px;
-    margin-right: -600px;
-    overflow-x: hidden;
+.picture-row {
+  height: 20%;
 }
 
-.contact-us-bottom{
-    background-color: rgb(43,77,89);
-    margin-left: -600px;
-    margin-right: -600px;
-    overflow-x: hidden;
-    overflow-y: hidden;
+.mainfooter {
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 3vh;
+  background-color: #2b4d59;
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.nav-link:hover {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav-bar {
+  height: 4vh;
+}
+
+.faq-box {
+  background-color: rgb(43, 77, 89);
+  width: 70%;
+}
+
+.faq-box:hover {
+  background-color: rgb(57, 153, 142);
+  width: 72%;
+}
+
+.faq-box:active {
+  background-color: rgb(57, 153, 142);
+  width: 70%;
+}
+
+.faq-box:focus {
+  background-color: rgb(57, 153, 142);
+  width: 72%;
+}
+
+.question-box {
+  background-color: rgb(43, 77, 89);
+  overflow-x: hidden;
+}
+
+.txt-color {
+  background-color: rgb(255, 220, 124);
+  width: 70%;
+  margin-left: 15%;
+}
+
+.custom-button {
+  background-color: rgb(255, 220, 124);
+  color: black;
+  border-color: rgb(57, 153, 142);
+}
+
+.custom-button:hover {
+  background-color: rgb(224, 194, 109);
+  color: black;
+  border-color: rgb(57, 153, 142);
+}
+
+.white-text {
+  color: white;
+  font-size: 30px;
+}
+
+.contact-us {
+  background-color: rgb(43, 77, 89);
+  margin-left: -600px;
+  margin-right: -600px;
+  overflow-x: hidden;
+}
+
+.contact-us-bottom {
+  background-color: rgb(43, 77, 89);
+  margin-left: -600px;
+  margin-right: -600px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
