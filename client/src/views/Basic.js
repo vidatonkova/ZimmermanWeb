@@ -74,7 +74,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen1(!open1)}
@@ -108,7 +108,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen2(!open2)}
@@ -139,7 +139,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen3(!open3)}
@@ -167,7 +167,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen4(!open4)}
@@ -197,7 +197,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen5(!open5)}
@@ -252,7 +252,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen6(!open6)}
@@ -332,7 +332,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen7(!open7)}
@@ -361,7 +361,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen8(!open8)}
@@ -421,7 +421,7 @@ const Basic = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen9(!open9)}

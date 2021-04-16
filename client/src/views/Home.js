@@ -52,6 +52,7 @@ const Home = () => {
           </div>
         </div>
         <div class="row homeSpacer-row"></div>
+        
         <div class="row spacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-5 text-center">
