@@ -11,7 +11,7 @@ import abreu from "./img/abreu.png";
 const Research = () => {
   return (
     <div class="container">
-      <div class="row research-row">
+      <div class="row sub-title-row">
         <div class="col-sm-12 text-center">
           <h2>Research</h2>
         </div>

@@ -22,8 +22,8 @@ const Basic = () => {
   return (
     <div>
       <div class="container">
-        <div class="row title-row">
-          <div className="col-sm-12 text-left">
+        <div class="row sub-title-row">
+          <div className="col-sm-12 text-center">
             <h2>Basic IBD Information</h2>
           </div>
         </div>
