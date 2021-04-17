@@ -1,5 +1,17 @@
 .title-row {
-  height: 4vh;
+  height: 6vh;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.top-row {
+  height: 6vh;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.footer-row {
+  height: 8vh;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
@@ -22,6 +34,25 @@
   -webkit-text-fill-color: #ffffff;
 }
 
+.sign-up-box{
+  height: 50px;
+  background-color: rgb(43, 77, 89);
+  color: white;
+}
+
+.sub-title-row {
+  height: 50px;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.note-block{
+height: 40px;
+background-color: rgb(57, 153, 142);
+color: white;
+font-size: 20px;
+}
+
 .homeSpacer-row {
   background-color: #39998e;
   height: 2vh;
@@ -29,6 +60,11 @@
 
 .picture-row {
   background-color: #eff0eb;
+}
+
+.picture-contact-row{
+  background-color: #eff0eb;
+  height: 20px;
 }
 
 .entry-row {
@@ -130,15 +166,8 @@
 
 .contact-us {
   background-color: rgb(43, 77, 89);
-  margin-left: -600px;
-  margin-right: -600px;
-  overflow-x: hidden;
 }
 
 .contact-us-bottom {
   background-color: rgb(43, 77, 89);
-  margin-left: -600px;
-  margin-right: -600px;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }

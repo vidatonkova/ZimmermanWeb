@@ -33,19 +33,28 @@ const SignIn = () => {
             />
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">
-          Sign in
-        </button>
+        <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2 text-center">
+          <button type="submit" class="btn btn-primary custom-button">
+            Sign in
+          </button>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
       </form>
-      <div class="row entry-row">
-        <div class="col-sm-6 text-right">
+      <div class="row spacer-row"></div>
+      <div class="row align-items-center">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 sign-up-box text-right  align-self-center">
           <p>Dont have an account?</p>
         </div>
-        <div class="col-sm-6 text-left">
-          <Link className="nav-link" to="/Sign_Up">
+        <div class="col-sm-3 sign-up-box text-left align-self-center">
+          <Link className="nav-link custom-button" to="/Sign_Up">
             Sign Up
           </Link>
         </div>
+        <div class="col-sm-4"></div>
       </div>
     </div>
   );

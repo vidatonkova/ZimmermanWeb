@@ -24,7 +24,7 @@ const Basic = () => {
       <div class="container">
         <div class="row topSpace-row"></div>
         <div class="row title-row">
-          <div className="col-sm-12 text-left">
+          <div className="col-sm-12 text-center">
             <h2>Basic IBD Information</h2>
           </div>
         </div>

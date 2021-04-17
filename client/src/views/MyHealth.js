@@ -6,7 +6,11 @@ import { Collapse } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import "./Format.css";
 
+<<<<<<< HEAD
 const MyHealth = () => {
+=======
+const Health = () => {
+>>>>>>> 60f8311a34e2e773a9698160c80edb3ad3a0511e
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
@@ -25,7 +29,7 @@ const MyHealth = () => {
       <div class="container">
         <div class="row topSpace-row"></div>
         <div class="row title-row">
-          <div className="col-sm-12 text-left">
+          <div className="col-sm-12 text-center">
             <h2>MyHealth and Resources</h2>
           </div>
         </div>
@@ -1205,4 +1209,8 @@ const MyHealth = () => {
   </div>
 </div>
 */
+<<<<<<< HEAD
 export default MyHealth;
+=======
+export default Health;
+>>>>>>> 60f8311a34e2e773a9698160c80edb3ad3a0511e
