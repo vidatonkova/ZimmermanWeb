@@ -4,6 +4,19 @@
   -webkit-text-fill-color: #ffffff;
 }
 
+.container {
+  padding-top: 10px;
+  max-width: 99%;
+}
+
+.topSpace-row {
+  height: 7vh;
+}
+
+.h2 {
+  font-size: 20vw;
+}
+
 .home-row {
   background-color: #39998e;
   -webkit-text-fill-color: #ffffff;
@@ -59,7 +72,7 @@
 }
 
 .nav-link:hover {
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
 }
 

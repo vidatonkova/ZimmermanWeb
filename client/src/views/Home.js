@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <div class="container">
+        <div class="row topSpace-row"></div>
         <div class="row homeSpacer-row"></div>
         <div class="row home-row">
           <div className="col-sm-12 text-center">
@@ -52,7 +53,7 @@ const Home = () => {
           </div>
         </div>
         <div class="row homeSpacer-row"></div>
-        
+
         <div class="row spacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-5 text-center">

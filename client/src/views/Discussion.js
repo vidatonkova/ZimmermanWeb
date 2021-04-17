@@ -9,6 +9,7 @@ const Discussion = () => {
   const [open1, setOpen1] = useState(false);
   return (
     <div class="container">
+      <div class="row topSpace-row"></div>
       <div class="row title-row">
         <div class="col-sm-12 text-center">
           <h3>Discussion</h3>

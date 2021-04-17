@@ -10,6 +10,7 @@ import Isaac from "./img/Isaacs-headshot.jpg";
 const Research = () => {
   return (
     <div class="container">
+      <div class="row topSpace-row"></div>
       <div class="row title-row">
         <div class="col-sm-12 text-left">
           <h2>Research</h2>

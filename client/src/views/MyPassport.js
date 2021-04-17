@@ -10,6 +10,7 @@ const MyPassport = () => {
   return (
     <div>
       <div class="container">
+        <div class="row topSpace-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>My IBD Passport </h2>

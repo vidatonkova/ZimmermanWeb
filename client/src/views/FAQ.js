@@ -11,6 +11,7 @@ const FAQ = () => {
   const [open3, setOpen3] = useState(false);
   return (
     <div class="container">
+      <div class="row topSpace-row"></div>
       <div class="row title-row">
         <div class="col-sm-12 text-left">
           <h2>Frequently Asked Questions</h2>
