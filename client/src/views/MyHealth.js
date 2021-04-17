@@ -1205,8 +1205,4 @@ const MyHealth = () => {
   </div>
 </div>
 */
-<<<<<<< HEAD
 export default MyHealth;
-=======
-export default Health;
->>>>>>> 60f8311a34e2e773a9698160c80edb3ad3a0511e
