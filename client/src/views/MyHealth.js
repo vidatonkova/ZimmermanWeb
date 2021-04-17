@@ -6,11 +6,7 @@ import { Collapse } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import "./Format.css";
 
-<<<<<<< HEAD
 const MyHealth = () => {
-=======
-const Health = () => {
->>>>>>> 60f8311a34e2e773a9698160c80edb3ad3a0511e
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
