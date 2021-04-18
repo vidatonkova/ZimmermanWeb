@@ -28,7 +28,8 @@ const Discussion = (props) => {
         return Axios.post(
             config.backpoint + '/discuss',
             {
-                question: question
+                question: question,
+                answer: ""
             }
         )
         .then((response) => {
@@ -130,56 +131,3 @@ const Discussion = (props) => {
 };
 
 export default Discussion;
-
-/*
-
-const Post = (props) => {
-    
-    return (
-        <div>
-            <div className="spacer" > &nbsp; </div>
-            <div style={{textAlign: "center", fontSize: "300%"}}>Post</div>
-            <Container>
-                <Row>
-                    <Col>
-                    <form onSubmit={makePost}>
-                        <label>
-                            Name:
-                        <input type="text" value={name} onChange={handleChangeName}/>
-                            Post:
-                        <input type="text" value={post} onChange={handleChangePost}/>
-                        </label>
-                        <input type="submit" value="Submit" />
-                    </form>
-                    </Col>
-                    <Col>
-                        <ListGroup>
-                            <Async promiseFn={loadPosts}>
-                                {({data, error, isLoading}) => {
-                                        if (isLoading)
-                                            return "Loading...";
-                                        if (error) {
-                                            console.log(error);
-                                            return "Oops, something went wrong";
-                                        }
-                                        if (data && Array.isArray(data)) {
-                                            return data.reverse().map(entry => {
-                                                return <div>
-                                                    <ListGroup.Item variant="dark">{entry.name}</ListGroup.Item>
-                                                    <ListGroup.Item>{entry.post}</ListGroup.Item>
-                                                </div>
-                                            })
-                                        }
-                                    }
-                                }
-                            </Async>
-                        </ListGroup>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-        );
-}
-
-export default Post;
-*/
