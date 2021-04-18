@@ -2,14 +2,15 @@ const express = require('express');
 //const MongoClient = require('mongodb').MongoClient;
 const cors = require('cors');
 const Users = require ('./models/users').Users;
+const Posts = require ('./models/posts').Posts;
 const mongoose = require ('mongoose');
 
 const uri = process.env.mongoUri || require('./config.json').mongoUri;
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'mongodb coneection error;;;;;'));
+db.on('error', console.error.bind(console, 'mongodb connection error'));
 
-  //const Posts = client.db("ExampleAppDb").collection("Posts");
+
   const port = process.env.PORT || 8080;
 
   const app = express()
@@ -51,6 +52,35 @@ db.on('error', console.error.bind(console, 'mongodb coneection error;;;;;'));
       console.error(err);
         res.json({ message: "ur moms a hoe ur a hoe too" });
     }
+});
+
+app.post('/discuss', async (req, res) => {
+
+  const post = new Posts({
+    question: req.body.question,
+    answer: req.body.answer
+  });
+
+  try {
+      const savePost = await post.save();
+      res.json(savePost);
+  }
+  catch (err) {
+    console.error(err);
+      res.json({ message: "ur question is trashy" });
+  }
+});
+
+app.get('/discuss', async (req, res) => {
+  Posts.find({}, (error, documents) => {
+    if (error) {
+      res.send(error);
+    }
+    else {
+      res.send(documents);
+    }
+  });
+
 });
 
   app.listen(port, () => console.log(`Server now running on port ${port}!`));

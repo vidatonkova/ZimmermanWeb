@@ -51,7 +51,7 @@ function App() {
             <Route
               exact
               path="/Sign_In"
-              render={(props) => <SignIn {...props} />}
+              render={(props) => <SignIn setUsername={setUsername} {...props} />}
             />
             <Route
               exact
