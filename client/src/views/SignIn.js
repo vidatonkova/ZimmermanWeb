@@ -1,10 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./Format.css";
 
-const SignIn = () => {
-  return (
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Format.css';
+import {getUser} from '../api';
+
+class SignIn extends Component{
+
+async componentDidMount(){
+    let response = await getUser();
+    console.log(response);
+}
+
+   render(){
+        return (
+
     <div class="container">
       <div class="row sub-title-row">
         <div class="col-sm-12 text-center">
@@ -58,5 +68,9 @@ const SignIn = () => {
     </div>
   );
 };
+
+}
+
+
 
 export default SignIn;
