@@ -125,7 +125,7 @@ const Discussion = (props) => {
                         }
                     }
                 </Async>
-        </div>
+             </div>
         </div>
         );
 };
