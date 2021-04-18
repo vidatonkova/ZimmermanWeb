@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Format.css';
 import {getUser} from '../api';
+import url from '../config';
 
 class SignIn extends Component{
 
@@ -12,6 +13,9 @@ async componentDidMount(){
     console.log(response);
 }
 
+handleSignIn(event){
+console.log(event.form);
+}
    render(){
         return (
 
@@ -21,7 +25,7 @@ async componentDidMount(){
           <h3>Sign In</h3>
         </div>
       </div>
-      <form>
+      <form onSubmit={this.handleSignIn}>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputUsername4">Username</label>
