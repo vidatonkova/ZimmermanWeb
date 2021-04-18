@@ -3,11 +3,8 @@ const express = require('express');
 const cors = require('cors');
 const Users = require ('./models/users').Users;
 const mongoose = require ('mongoose');
-const config = require ('./config');
 
-
-const uri = mongouri;
-console.log(config);
+const uri = process.env.mongoUri || require('./config.json').mongoUri;
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'mongodb coneection error;;;;;'));
@@ -25,7 +22,7 @@ db.on('error', console.error.bind(console, 'mongodb coneection error;;;;;'));
 
   app.get('/', function (req, res) {
       res.body = "yeah boi";
-      return res.send('ur a hoe');
+      return res.send('ur a cool bean');
   });
 
   app.get('/users/find', function (req, res) {
