@@ -12,7 +12,7 @@ const FAQ = () => {
     const [open3, setOpen3] = useState(false);
     return (
     <div class="container">
-        <div class="row title-row">
+        <div class="row title-row" >
             <div class="col-sm-12 text-center">
                 <h3>Frequently Asked Questions</h3>
             </div>
@@ -83,27 +83,6 @@ const FAQ = () => {
         <div class="row faq-spacer"></div>
         <div class="row faq-spacer"></div>
         <div class="row faq-spacer"></div>
-
-        <div class="row contact-us">
-            <div class="col-sm-12 text-center">
-                <h3 style={{ color: 'white' }}>Contact Us</h3>
-            </div>
-        </div>
-
-        <div class="row contact-us-bottom">
-            <div class="col-sm-4 text-center">
-                <h5 style={{ color: 'white' }}>Call Us</h5>
-                <p style={{ color: 'white' }}>407-407-4070</p>
-            </div>
-            <div class="col-sm-4 text-center">
-                <h5 style={{ color: 'white' }}>Email Us</h5>
-                <p style={{ color: 'white' }}>saySomething@gmail.com</p>
-            </div>
-            <div class="col-sm-4 text-center">
-                <h5 style={{ color: 'white' }}>Contact UF</h5>
-                <p style={{ color: 'white' }}>ufl.edu</p>
-            </div>
-        </div>
     </div>
     );
 };

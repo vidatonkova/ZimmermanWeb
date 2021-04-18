@@ -11,49 +11,32 @@ const Events = () => {
     <div>
       <div class="container">
         <div class="row title-row">
-          <div className="col-sm-12 text-left">
-            <h2>Events and Surveys</h2>
+          <div className="col-sm-12 text-center">
+            <h2>Events and Webinars</h2>
           </div>
         </div>
         <div class="row spacer-row"></div>
         <div class="row title-row">
-          <div className="col-sm-5 text-center">
-            <h2>Events</h2>
-          </div>
-          <div className="col-sm-2 text-center"></div>
-          <div className="col-sm-5 text-center">
-            <h2>Surveys</h2>
+          <div className="col-sm-12 text-center">
+            <h2>Information</h2>
           </div>
         </div>
         <div class="row entry-row">
-          <div className="col-sm-4 text-left">Recipe Competition</div>
-          <div className="col-sm-1 text-center">Done?</div>
-          <div className="col-sm-2 text-center"></div>
-          <div className="col-sm-4 text-left">
-            What kinds of food cause your IBD?
+          <div className="col-sm-12 text-left">
+            If you would like to participate in future events and webinars,{" "}
+            <b>register first</b>. A member will contact you!
           </div>
-          <div className="col-sm-1 text-center">Done?</div>
+        </div>
+        <div class="row spacer-row"></div>
+        <div class="row title-row">
+          <div className="col-sm-12 text-center">
+            <h2>Links</h2>
+          </div>
         </div>
         <div class="row entry-row">
-          <div className="col-sm-4 text-left">Tie Dye!</div>
-          <div className="col-sm-1 text-left">Done?</div>
-          <div className="col-sm-2 text-center"></div>
-          <div className="col-sm-4 text-left">Why is the Sky Blue?</div>
-          <div className="col-sm-1 text-left">Done?</div>
-        </div>
-        <div class="row entry-row">
-          <div className="col-sm-4 text-left">Picnic at the Plaza</div>
-          <div className="col-sm-1 text-left">Done?</div>
-          <div className="col-sm-2 text-center"></div>
-          <div className="col-sm-4 text-left">Specific Foods and IBD</div>
-          <div className="col-sm-1 text-left">Done?</div>
-        </div>
-        <div class="row entry-row">
-          <div className="col-sm-4 text-left">Event: TBA</div>
-          <div className="col-sm-1 text-left">Done?</div>
-          <div className="col-sm-2 text-center"></div>
-          <div className="col-sm-4 text-left">Survey: TBD</div>
-          <div className="col-sm-1 text-left">Done?</div>
+          <div className="col-sm-12 text-center">
+            Stay tuned for future webinars and events
+          </div>
         </div>
       </div>
     </div>

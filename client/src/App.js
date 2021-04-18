@@ -12,6 +12,7 @@ import {
 import { useState } from "react";
 
 import NavBar from "./components/Nav";
+import Footer from "./components/Footer";
 
 import Home from "./views/Home";
 import MyHealth from "./views/MyHealth";
@@ -22,6 +23,7 @@ import Discussion from "./views/Discussion";
 import FAQ from "./views/FAQ";
 import Events from "./views/Events";
 import Basic from "./views/Basic";
+import MyPassport from "./views/MyPassport";
 
 function App() {
   let [username, setUsername] = useState("");
@@ -40,6 +42,11 @@ function App() {
               exact
               path="/My_Health"
               render={(props) => <MyHealth {...props} />}
+            />
+            <Route
+              exact
+              path="/MyPassport"
+              render={(props) => <MyPassport {...props} />}
             />
             <Route
               exact
@@ -75,6 +82,7 @@ function App() {
           </Switch>
         </div>
       </div>
+      <Footer />
     </Router>
   );
 }
