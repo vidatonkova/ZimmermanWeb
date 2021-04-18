@@ -6,7 +6,9 @@ import { Collapse } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import "./Format.css";
 
-const Health = () => {
+
+const MyHealth = () => {
+
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
@@ -1204,4 +1206,4 @@ const Health = () => {
   </div>
 </div>
 */
-export default Health;
+export default MyHealth;
