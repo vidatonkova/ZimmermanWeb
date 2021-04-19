@@ -22,7 +22,11 @@
 }
 
 .topSpace-row {
-  height: 7vh;
+  height: 9vh;
+}
+
+.tower-row {
+  height: 30vh;
 }
 
 .h2 {
@@ -170,4 +174,8 @@ font-size: 20px;
 
 .contact-us-bottom {
   background-color: rgb(43, 77, 89);
+}
+
+.bg-yellow {
+  background-color: rgb(255, 220, 124);
 }
