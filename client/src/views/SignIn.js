@@ -23,7 +23,7 @@ console.log(event.form);
       <div class="row topSpace-row"></div>
       <div class="row title-row">
         <div class="col-sm-12 text-center">
-          <h3>Sign In</h3>
+          <h2>Sign In</h2>
         </div>
       </div>
       <form onSubmit={this.handleSignIn}>
@@ -51,7 +51,7 @@ console.log(event.form);
         <div class="col-sm-5"></div>
         <div class="col-sm-2 text-center">
           <button type="submit" class="btn btn-primary custom-button">
-            Sign in
+            <h9>Sign in</h9>
           </button>
         </div>
         <div class="col-sm-5"></div>
@@ -61,11 +61,11 @@ console.log(event.form);
       <div class="row align-items-center">
         <div class="col-sm-3"></div>
         <div class="col-sm-3 sign-up-box text-right  align-self-center">
-          <p>Dont have an account?</p>
+          <h9>Dont have an account?</h9>
         </div>
         <div class="col-sm-3 sign-up-box text-left align-self-center">
           <Link className="nav-link custom-button" to="/Sign_Up">
-            Sign Up
+            <h9>Sign Up</h9>
           </Link>
         </div>
         <div class="col-sm-4"></div>
