@@ -1,4 +1,7 @@
-import "./App.css";
+
+import logo from './logo.svg';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   Route,
@@ -48,7 +51,7 @@ function App() {
             <Route
               exact
               path="/Sign_In"
-              render={(props) => <SignIn {...props} />}
+              render={(props) => <SignIn setUsername={setUsername} {...props} />}
             />
             <Route
               exact

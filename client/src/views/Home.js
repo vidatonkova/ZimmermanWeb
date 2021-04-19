@@ -121,7 +121,7 @@ const Home = () => {
     </div>
   );
 };
-/* 
+/*
 <div class="container">
             <div class="row title-row">
                 <div class="col-sm-12 text-center">
@@ -155,7 +155,7 @@ const Home = () => {
         </div>
         );
 
-
+/*
 <div className="spacer" > &nbsp; </div>
 
 <div className="container">
