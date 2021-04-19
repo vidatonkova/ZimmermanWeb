@@ -26,11 +26,16 @@ const MyHealth = () => {
     <div>
       <div class="container">
         <div class="row topSpace-row"></div>
+        <div class="row topSpacer-row"></div>
+        <div className="spacer" > &nbsp; </div>
         <div class="row title-row">
           <div className="col-sm-12 text-center">
             <h2>MyHealth and Resources</h2>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>On this page you will find informmation regarding general resources
@@ -38,6 +43,8 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>College Transition and IBD</h2>
@@ -49,7 +56,7 @@ const MyHealth = () => {
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection">
               {" "}
-              <h9>CC Foundation Campus Connections</h9>
+              <h9 class="light-blue">CC Foundation Campus Connections</h9>
             </a>
           </div>
         </div>
@@ -90,20 +97,24 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen1(!open1)}
               aria-controls="example-collapse-text"
               aria-expanded={open1}
-              className="faq-box"
+              className="faq-box1"
             >
               <h9><i>Crohn’s and Colitis: Understanding and Managing IBD</i></h9>
             </Button>
             <Collapse in={open1}>
               <div id="example-collapse-text">
+              <div class="some">
                 <h9>
+                <div class="row entrySpacer-row"></div>
+                <div class="row entrySpacer-row"></div>
                 Hillary Steinhart, MD, MSc, FRCP(C)
                 <br></br>
                 Paperback: 224 pages
@@ -115,6 +126,7 @@ const MyHealth = () => {
                 is written by a leading expert in the field and provides the
                 most current and important information on these conditions. The
                 book answers important questions and covers topics such as:
+                <br></br>
                 <br></br>● What is inflammatory bowel disease?
                 <br></br>● What are the symptoms?
                 <br></br>● How do you get Crohn’s disease or ulcerative colitis?
@@ -136,10 +148,13 @@ const MyHealth = () => {
                 way to improve health and quality of life and provide hope to
                 your loved ones.
                 </h9>
+                <hr />
+              </div>
               </div>
             </Collapse>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
@@ -623,7 +638,6 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
-        <hr />
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
           <h9><b>Understanding your risk for colon cancer:</b></h9>
@@ -675,6 +689,7 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>Sexual Health and Inflammatory Bowel Disease</h2>

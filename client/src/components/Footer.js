@@ -6,6 +6,10 @@ const Footer = () => {
     <div className="mainFooter">
       <div className="container">
         <hr />
+
+        <div class="row pre-footer-row">
+        </div>
+
         <div class="row footer-row">
           <div class="col-sm-6 text-center">
             <h4>University of Florida</h4>
@@ -15,6 +19,20 @@ const Footer = () => {
           </div>
         </div>
 
+        <div class="row footer-row">
+        <div class="col-sm-6 text-center">
+        <a class="yellow-footer" href="https://gastroliver.medicine.ufl.edu/ibd/">
+              {" "}
+              <h9>UF IBD website</h9>
+            </a>
+          </div>
+          <div class="col-sm-6 text-center">
+          <a className="yellow-footer" href="https://med.miami.edu/en/departments/medicine/divisions/crohns-and-colitis-center/">
+              {" "}
+              <h9>UM crohns and colotis website</h9>
+            </a>
+          </div>
+        </div>
         
         <div class="row sub-footer-row">
           <div class="col-sm-3 text-center">
@@ -31,10 +49,6 @@ const Footer = () => {
               Tel: 352-273-9400(patient-related)<br></br>
               Fax: 352-627-4179(patient-related)<br></br>
             </p>
-            <a class="yellow-footer" href="https://gastroliver.medicine.ufl.edu/ibd/">
-              {" "}
-              <h9>UF IBD website</h9>
-            </a>
           </div>
           <div class="col-sm-3 text-center">
           <h6>Address</h6>
@@ -48,10 +62,6 @@ const Footer = () => {
             <p>
               Tel: 305-243-8644<br></br>
             </p>
-            <a className="yellow-footer" href="https://med.miami.edu/en/departments/medicine/divisions/crohns-and-colitis-center/">
-              {" "}
-              <h9>UM crohns and colotis website</h9>
-            </a>
           </div>
         </div>
       </div>

@@ -29,6 +29,7 @@ const Basic = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
             <h3><b>What is Inflammatory Bowel Disease?</b></h3>
@@ -51,6 +52,8 @@ const Basic = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
             <h3><b>There are three different types of inflammatory bowel disease.</b></h3>
@@ -71,6 +74,9 @@ const Basic = () => {
             </h9>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
@@ -107,7 +113,7 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -138,7 +144,7 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -166,7 +172,7 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -196,7 +202,7 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -252,7 +258,7 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -334,7 +340,7 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -363,7 +369,7 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
