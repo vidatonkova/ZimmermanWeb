@@ -33,8 +33,8 @@ const MyHealth = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
-            On this page you will find informmation regarding general resources
-            about your health and specific resources concerning IBD.
+            <h9>On this page you will find informmation regarding general resources
+            about your health and specific resources concerning IBD.  When clicking on a link, use the right click function if able. </h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
@@ -45,7 +45,7 @@ const MyHealth = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div className="col-sm-6">CCFA:</div>
+          <div className="col-sm-6"><h9>CCFA:</h9></div>
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection">
               {" "}
@@ -55,7 +55,7 @@ const MyHealth = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div className="col-sm-6">Living in a College Dorm:</div>
+          <div className="col-sm-6"><h9>Living in a College Dorm:</h9></div>
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection/navigating-college/dorm-life/">
               {" "}
@@ -65,7 +65,7 @@ const MyHealth = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div className="col-sm-6">Diet While Away at College:</div>
+          <div className="col-sm-6"><h9>Diet While Away at College:</h9></div>
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection/managing-ibd/nutrition/">
               {" "}
@@ -75,7 +75,7 @@ const MyHealth = () => {
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div className="col-sm-6">Social Life:</div>
+          <div className="col-sm-6"><h9>Social Life:</h9></div>
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection/navigating-college/social-life/">
               {" "}
@@ -99,10 +99,11 @@ const MyHealth = () => {
               aria-expanded={open1}
               className="faq-box"
             >
-              <i>Crohn’s and Colitis: Understanding and Managing IBD</i>
+              <h9><i>Crohn’s and Colitis: Understanding and Managing IBD</i></h9>
             </Button>
             <Collapse in={open1}>
               <div id="example-collapse-text">
+                <h9>
                 Hillary Steinhart, MD, MSc, FRCP(C)
                 <br></br>
                 Paperback: 224 pages
@@ -134,6 +135,7 @@ const MyHealth = () => {
                 Dr. Steinhart’s expertise and practical advice will go a long
                 way to improve health and quality of life and provide hope to
                 your loved ones.
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -148,13 +150,14 @@ const MyHealth = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <i>
+              <h9><i>
                 Crohn’s Disease and Ulcerative Colitis: Everything You Need to
                 Know
-              </i>
+              </i></h9>
             </Button>
             <Collapse in={open2}>
               <div id="example-collapse-text">
+              <h9>
                 Fred Saibel, MD
                 <br></br>
                 Paperback: 224 pages
@@ -203,6 +206,7 @@ const MyHealth = () => {
                 For people with IBD, their relatives, and their caregivers, this
                 book explains the plain facts about a disease that seriously
                 affects the daily lives of so many.
+              </h9>
               </div>
             </Collapse>
           </div>
@@ -217,13 +221,14 @@ const MyHealth = () => {
               aria-expanded={open3}
               className="faq-box"
             >
-              <i>
+              <h9><i>
                 IBD Self-Management: The AGA Guide to Crohn’s Disease and
                 Ulcerative Colitis
-              </i>
+              </i></h9>
             </Button>
             <Collapse in={open3}>
               <div id="example-collapse-text">
+              <h9>
                 Sunanda V. Kane, M.D.
                 <br></br>
                 MSPH Paperback: 288 pages
@@ -246,6 +251,7 @@ const MyHealth = () => {
                 affects people’s lives. This book is for people of all ages,
                 including parents concerned about growth in their children and
                 teens with IBD.
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -260,11 +266,11 @@ const MyHealth = () => {
               aria-expanded={open4}
               className="faq-box"
             >
-              <i>Learning Sickness: A Year With Crohn’s Disease</i>
+              <h9><i>Learning Sickness: A Year With Crohn’s Disease</i></h9>
             </Button>
             <Collapse in={open4}>
               <div id="example-collapse-text">
-                James M. Lang
+              <h9>James M. Lang
                 <br></br>
                 Paperback: 187 pages
                 <br></br>
@@ -279,6 +285,7 @@ const MyHealth = () => {
                 and began a writing career. Jim Lang provides a completely
                 honest look at the way the disease can affect every aspect of a
                 person’s life: physical, emotional, and spiritual.
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -293,11 +300,11 @@ const MyHealth = () => {
               aria-expanded={open5}
               className="faq-box"
             >
-              <i>Pete Learns All About Crohn’s and Colitis</i>
+              <h9><i>Pete Learns All About Crohn’s and Colitis</i></h9>
             </Button>
             <Collapse in={open5}>
               <div id="example-collapse-text">
-                Hilarie and Joe Staton
+              <h9>Hilarie and Joe Staton
                 <br></br>
                 Comic book
                 <br></br>
@@ -310,6 +317,7 @@ const MyHealth = () => {
                   {" "}
                   <h9>CCFA Comic Book</h9>
                 </a>
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -323,42 +331,42 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● UF IBD College Transition Video:
+          <h9>● UF IBD College Transition Video:</h9>
             <a href="https://youtu.be/r0Ctc2yxin0">
               {" "}
               <h9>UF IBD Transition</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
-            ● UF Inflammatory Bowel Disease Program :
+          <h9>● UF Inflammatory Bowel Disease Program :</h9>
             <a href="https://gastroliver.medicine.ufl.edu/ibd/">
               {" "}
               <h9>UF IBD Program</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
-            ● UF IBD Support Group:
+          <h9>● UF IBD Support Group:</h9>
             <a href="https://gastroliver.medicine.ufl.edu/ibd/ibd-patient-info/uf-student-ibd-support-system/">
               {" "}
               <h9>UF IBD Support Group</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
-            ● CCFA Gainesville Support Group:
+          <h9>● CCFA Gainesville Support Group:</h9>
             <a href="https://www.crohnscolitisfoundation.org/chapters/centralflorida/support-groups/ibd-support-group-gainesville-fl-not-currently-meeting">
               {" "}
               <h9>CCFA Support Group</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
-            ● Disability Resource Center:
+          <h9>● Disability Resource Center:</h9>
             <a href="https://disability.ufl.edu">
               {" "}
               <h9>Disability Resource Center</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
-            ● Psychologists Specializing in Chronic Illness at UF:
+          <h9>● Psychologists Specializing in Chronic Illness at UF:</h9>
             <a href="https://chp.phhp.ufl.edu/about-2/people/core-faculty/lori-b-waxenberg-phd-abpp/">
               {" "}
               <h9>UF Chronic Illness Specialists</h9>
@@ -374,7 +382,7 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● University of Miami Crohn’s and Colitis Center:
+          <h9>● University of Miami Crohn’s and Colitis Center:</h9>
             <a href="https://med.miami.edu/en/departments/medicine/divisions/crohns-and-colitis-center">
               {" "}
               <h9>UM CCC</h9>
@@ -383,7 +391,7 @@ const MyHealth = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● Dr. Maria T. Abreu Video:
+          <h9>● Dr. Maria T. Abreu Video:</h9>
             <a href="https://vimeo.com/378441358">
               {" "}
               <h9>Dr. Abreu Video</h9>
@@ -392,7 +400,7 @@ const MyHealth = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● CCFA University of Miami Support Group:
+          <h9>● CCFA University of Miami Support Group:</h9>
             <a href="https://www.crohnscolitisfoundation.org/chapters/florida/support-groups/ccfa-support-group-miami-fl-UM">
               {" "}
               <h9>CCFA UM Support Group</h9>
@@ -401,7 +409,7 @@ const MyHealth = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● CCFA Southern Florida Chapter:
+          <h9>● CCFA Southern Florida Chapter:</h9>
             <a href="https://www.crohnscolitisfoundation.org/chapters/florida">
               {" "}
               <h9>CCFA Southern FL Chapter</h9>
@@ -410,7 +418,7 @@ const MyHealth = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● University of Miami Office of Disability Services:
+          <h9>● University of Miami Office of Disability Services:</h9>
             <a href="https://camnercenter.miami.edu/disability-services/index.html">
               {" "}
               <h9>UM Office of Disability Services</h9>
@@ -419,7 +427,7 @@ const MyHealth = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● University of Miami Pediatric Psychology Clinic:
+          <h9>● University of Miami Pediatric Psychology Clinic:</h9>
             <a href="http://pediatrics.med.miami.edu/mailman-center/clinical-services/pediatric-psychology/">
               {" "}
               <h9>UM Pediatric Psychology Clinic</h9>
@@ -448,17 +456,17 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            Vaccines are used to reduce our risk for infections. Some vaccines
+          <h9>Vaccines are used to reduce our risk for infections. Some vaccines
             are made with a live virus and others are made with an inactivated
             form of the virus. Vaccines that are made with a live virus may
             cause some symptoms of the virus. However, they lower your risk for
-            getting a more serious form of the infection.
+            getting a more serious form of the infection.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            People with IBD often need to take immunosuppressive medicines,
+          <h9>People with IBD often need to take immunosuppressive medicines,
             which put them at increased risk for certain infections. People
             taking thiopurine medicines (like azathioprine [Imuran®] and
             mercaptopurine [Purinethol®]) are at a high risk for infections with
@@ -474,7 +482,7 @@ const MyHealth = () => {
             There is also an increased risk for bacterial infections of the skin
             and soft tissues. Pneumonia is the most common, serious, and
             sometimes fatal infection that can occur while a person is taking an
-            anti-TNF medicine.
+            anti-TNF medicine.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
@@ -486,28 +494,28 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            The <b>pneumonia vaccine</b> (Pneumovax®) can protect people against
+          <h9> The <b>pneumonia vaccine</b> (Pneumovax®) can protect people against
             23 of the most aggressive types of pneumonia with just one shot. It
             is not a live vaccine and will not give you pneumonia. This vaccine
             is advised for all adults age 65 and older and also for anyone who
             is taking immunosuppressive medicines (including prednisone). A
-            booster is given at 5 years.
+            booster is given at 5 years.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            The <b>flu vaccine</b> can prevent the flu or shorten the time the
+          <h9>The <b>flu vaccine</b> can prevent the flu or shorten the time the
             flu lasts and ease its symptoms. A flu shot is advised each fall for
             all people with IBD. Anyone who takes immunosuppressive medicines
             should get the shot and avoid the nasal spray. The shot is made of
-            inactivated virus and the nasal spray is made of the live virus.
+            inactivated virus and the nasal spray is made of the live virus.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            The <b>hepatitis B vaccine</b> is given to prevent severe infections
+          <h9>The <b>hepatitis B vaccine</b> is given to prevent severe infections
             of the liver. These infections can be more serious, and even fatal,
             among people who are taking anti-TNF medicines. This vaccine is now
             a part of the routine childhood shots. It is a good idea for
@@ -516,26 +524,26 @@ const MyHealth = () => {
             vaccine to work. It often comes in a form that combines both
             hepatitis A and hepatitis B vaccines in a single shot (although it
             is still three [3] shots total). This vaccine is inactivated and
-            safe to get while taking immunosuppressive medicines.
+            safe to get while taking immunosuppressive medicines.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            The <b>human papilloma virus (HPV) vaccine</b> (Gardasil® and
+          <h9>The <b>human papilloma virus (HPV) vaccine</b> (Gardasil® and
             Cervarix®) is recommended for young women between ages 11 and 26 to
             reduce their risk for cervical cancer. It is a good idea for young
             women with IBD to have this vaccine because taking an
             immunosuppressive medicine can increase your risk of HPV infection.
             A total of three (3) shots are required over 6 months for the
             vaccine to work. This vaccine is inactivated and safe to get while
-            taking immunosuppressive medicines.
+            taking immunosuppressive medicines.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Chickenpox and shingles</b> are caused by the same virus –
+          <h9><b>Chickenpox and shingles</b> are caused by the same virus –
             varicella zoster. This virus lives on in the body after chickenpox
             and can occur again as shingles. Having the vaccine for both
             chickenpox and shingles is advised for adults. However, because
@@ -544,55 +552,55 @@ const MyHealth = () => {
             have one of these vaccines at least 2 months after stopping an
             immunosuppressive medicine, and to not start taking
             immunosuppressive medicine for about 2 months after having one of
-            these shots.
+            these shots.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Injectable polio vaccine</b> is not a live virus, and will not
+          <h9><b>Injectable polio vaccine</b> is not a live virus, and will not
             cause polio. This vaccine is advised for children. The oral form is
             a live vaccine and is not considered safe for people who take
-            immunosuppressive medicines.
+            immunosuppressive medicines.</h9>
           </div>
         </div>
         <hr />
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Vaccination plan</b>
+          <h9><b>Vaccination plan</b></h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Childhood:</b> MMR, polio, rotavirus, Hib, TdaP, chickenpox, and
-            hepatitis A and B long before immune suppressed
+          <h9><b>Childhood:</b> MMR, polio, rotavirus, Hib, TdaP, chickenpox, and
+            hepatitis A and B long before immune suppressed</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Adolescence:</b> meningitis, TdaP, hepatitis B, and Gardasil (for
-            females).
+          <h9><b>Adolescence:</b> meningitis, TdaP, hepatitis B, and Gardasil (for
+            females).</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>At diagnosis of IBD:</b> flu shot. If immunosuppressive medicine
+          <h9><b>At diagnosis of IBD:</b> flu shot. If immunosuppressive medicine
             is not needed right away, consider pneumonia vaccine and shingles
-            vaccine.
+            vaccine.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            Smoking and Inflammatory Bowel Disease
+          <h9>Smoking and Inflammatory Bowel Disease
             <a href="https://www.crohnsandcolitis.org.uk/about-crohns-and-colitis/publications/smoking-and-ibd#:~:text=Many%20studies%20have%20shown%20that,carries%20many%20other%20health%20risks.">
               {" "}
               <h9>IBD and Smoking</h9>
-            </a>
+            </a></h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
@@ -604,66 +612,66 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            Some people with IBD have a slightly higher risk for colon cancer
+          <h9>Some people with IBD have a slightly higher risk for colon cancer
             than those without IBD. The exact risk is not known, but new studies
             suggest that the risk is lower than had been thought in the past.
             Not everyone with IBD has the same risk for colon cancer. Having a
             colonoscopy as often as advised can help to detect early signs of
             cancer or pre-cancer, when it can be treated most easily. Everyone
             with IBD in the colon requires a colonoscopy starting 8 years after
-            the first symptoms of IBD, and then every 1 to 2 years.
+            the first symptoms of IBD, and then every 1 to 2 years.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <hr />
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Understanding your risk for colon cancer:</b>
+          <h9><b>Understanding your risk for colon cancer:</b></h9>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● People with ulcerative colitis have an increased risk for colon
-            cancer 8 to 10 years after diagnosis.
+          <h9>● People with ulcerative colitis have an increased risk for colon
+            cancer 8 to 10 years after diagnosis.</h9>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● People with a limited form of ulcerative colitis that involves
-            just the rectum do not have an increased risk for colon cancer.
+          <h9>● People with a limited form of ulcerative colitis that involves
+            just the rectum do not have an increased risk for colon cancer.</h9>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● Taking your IBD medicines regularly can help to decrease your
+          <h9>● Taking your IBD medicines regularly can help to decrease your
             risk. IBD medicines help reduce your symptoms and also decrease the
-            risk for colon cancer.
+            risk for colon cancer.</h9>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● Some medicines, supplements, and vitamins can have a
+          <h9>● Some medicines, supplements, and vitamins can have a
             “chemopreventive” effect, meaning that they protect a person from
             getting cancer. No medicine, supplement, or vitamin has been
             definitely shown to prevent cancer, but several show promise. These
             include IBD medicines related to mesalamine (Asacol®, Pentasa®,
             Lialda®, Colazal®, Azulfidine®) and folate (also called folic acid).
-            Ask your doctor about new advances in this area.
+            Ask your doctor about new advances in this area.</h9>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● If you have Crohn’s disease with inflammation in your colon you
+          <h9> ● If you have Crohn’s disease with inflammation in your colon you
             may be at increased risk for colon cancer. The most common type of
             Crohn’s disease is when it occurs only in the last part of the small
             intestine (the terminal ileum) and does not increase the risk for
-            colon cancer.
+            colon cancer.</h9>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            ● Ask your doctor if you have an increased risk of colon cancer
-            because you have IBD.
+          <h9>● Ask your doctor if you have an increased risk of colon cancer
+            because you have IBD.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
@@ -675,7 +683,7 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>
+          <h9><b>
               Can I have a normal sex life if I have Crohn’s disease or
               ulcerative colitis?
             </b>
@@ -702,7 +710,7 @@ const MyHealth = () => {
             vaccine, always use condoms to protect yourself from STDs. Overall,
             when treated, patients with IBD have happy and healthy sexual
             activity. Treatment of your condition leads to increased energy
-            level and interest in intimacy.
+            level and interest in intimacy.</h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
@@ -724,14 +732,14 @@ const MyHealth = () => {
               aria-expanded={open6}
               className="faq-box"
             >
-              <b>
+              <h3><b>
                 Can I have a baby if I have Crohn’s disease or ulcerative
                 colitis?
-              </b>
+              </b></h3>
             </Button>
             <Collapse in={open6}>
               <div id="example-collapse-text">
-                Yes, most women who have IBD are able to get pregnant and carry
+                <h9>Yes, most women who have IBD are able to get pregnant and carry
                 a baby to term. Having IBD does not reduce the chances you will
                 get pregnant. The effect of IBD on pregnancy depends on how
                 severe the disease was before and during pregnancy. If the
@@ -775,6 +783,7 @@ const MyHealth = () => {
                 is taking azathioprine when his partner becomes pregnant. Both
                 men and women should talk to their doctor about this risk before
                 starting to take azathioprine.
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -789,14 +798,14 @@ const MyHealth = () => {
               aria-expanded={open7}
               className="faq-box"
             >
-              <b>
+              <h3><b>
                 How can I make sure my IBD is well controlled before I get
                 pregnant?
-              </b>
+              </b></h3>
             </Button>
             <Collapse in={open7}>
               <div id="example-collapse-text">
-                The best way to control your disease is to get regular care from
+                <h9>The best way to control your disease is to get regular care from
                 your health care team and take your medicines faithfully and in
                 the prescribed doses. Tell to your doctor about your symptoms
                 and any side effects, so you can work together to find the best
@@ -815,7 +824,7 @@ const MyHealth = () => {
                 IBD that is not controlled may cause fistulas, abscesses, and
                 perforations. These are severe and need special treatment and
                 maybe even surgery. Surgery during pregnancy may harm both the
-                mother and her baby.
+                mother and her baby.</h9>
               </div>
             </Collapse>
           </div>
@@ -830,17 +839,17 @@ const MyHealth = () => {
               aria-expanded={open8}
               className="faq-box"
             >
-              <b>
+              <h3><b>
                 Will I have to go to the doctor more often when I am pregnant?
-              </b>
+              </b></h3>
             </Button>
             <Collapse in={open8}>
               <div id="example-collapse-text">
-                If you are taking immunosuppressive medicines or having disease
+                <h9>If you are taking immunosuppressive medicines or having disease
                 flares while you are pregnant, you will need to see your
                 obstetrician and IBD doctor more often. Your baby’s growth will
                 be closely monitored by your obstetrician with ultrasound scans
-                over the course of your pregnancy.
+                over the course of your pregnancy.</h9>
               </div>
             </Collapse>
           </div>
@@ -855,11 +864,11 @@ const MyHealth = () => {
               aria-expanded={open9}
               className="faq-box"
             >
-              <b>Will my IBD get worse when I am pregnant?</b>
+              <h3><b>Will my IBD get worse when I am pregnant?</b></h3>
             </Button>
             <Collapse in={open9}>
               <div id="example-collapse-text">
-                IBD does not always get worse during pregnancy. Women whose IBD
+                <h9>IBD does not always get worse during pregnancy. Women whose IBD
                 is in remission when they get pregnant are likely to stay in
                 remission. Women with active disease when they get pregnant are
                 likely to have active disease during pregnancy. Therefore, many
@@ -874,7 +883,7 @@ const MyHealth = () => {
                 immune system that normally happens in pregnancy. Some women
                 have flares shortly after giving birth when the immune system
                 returns to normal. Of course, symptoms do not improve for every
-                pregnant woman with IBD.
+                pregnant woman with IBD.</h9>
               </div>
             </Collapse>
           </div>
@@ -889,14 +898,14 @@ const MyHealth = () => {
               aria-expanded={open10}
               className="faq-box"
             >
-              <b>
+              <h3><b>
                 Should I keep taking my medicines for IBD while I am trying to
                 get pregnant of if I become pregnant?
-              </b>
+              </b></h3>
             </Button>
             <Collapse in={open10}>
               <div id="example-collapse-text">
-                You will do better if your disease is under control before and
+                <h9>You will do better if your disease is under control before and
                 during pregnancy. Most medicines used to treat IBD are generally
                 safe to take during pregnancy. Therefore, it is a good idea to
                 keep taking the medicines to treat your IBD while you are
@@ -910,7 +919,7 @@ const MyHealth = () => {
                 you are pregnant, don’t stop your IBD medicines. Call your
                 doctor right away to discuss whether you should keep taking your
                 medicines. Methotrexate is the only medicine that you absolutely
-                cannot take during pregnancy.
+                cannot take during pregnancy.</h9>
               </div>
             </Collapse>
           </div>
@@ -925,11 +934,11 @@ const MyHealth = () => {
               aria-expanded={open11}
               className="faq-box"
             >
-              <b>Will IBD medicines harm my baby?</b>
+              <h3><b>Will IBD medicines harm my baby?</b></h3>
             </Button>
             <Collapse in={open11}>
               <div id="example-collapse-text">
-                The U.S. Food and Drug Administration decides the safety level
+                <h9>The U.S. Food and Drug Administration decides the safety level
                 of drugs taken during pregnancy. Category A includes medicines
                 like Tylenol®, which have been shown to be of very low risk to
                 the baby during pregnancy. Category B medicines are the next
@@ -1009,6 +1018,7 @@ const MyHealth = () => {
                 during conception and pregnancy. Loperamide (Imodium®), which is
                 also used to treat diarrhea, is considered a safer choice
                 because it is a category B drug.
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -1023,17 +1033,17 @@ const MyHealth = () => {
               aria-expanded={open12}
               className="faq-box"
             >
-              <b>Can I breast-feed my baby while taking my IBD medicines?</b>
+              <h3><b>Can I breast-feed my baby while taking my IBD medicines?</b></h3>
             </Button>
             <Collapse in={open12}>
               <div id="example-collapse-text">
-                Some IBD medicines are safe to continue while breast-feeding.
+                <h9>Some IBD medicines are safe to continue while breast-feeding.
                 These include mesalamine, sulfasalazine, and prednisone. Talk to
                 your doctor if you are taking azathioprine, 6- mercaptopurine,
                 or anti-TNF medicines and plan to nurse your infant.
                 Methotrexate is NEVER to be taken while breast-feeding. It may
                 be better for you and your baby to continue your medicines and
-                bottle-feed your baby.
+                bottle-feed your baby.</h9>
               </div>
             </Collapse>
           </div>
@@ -1048,12 +1058,12 @@ const MyHealth = () => {
               aria-expanded={open13}
               className="faq-box"
             >
-              <b>What if I get somebody else pregnant?</b>
+              <h3><b>What if I get somebody else pregnant?</b></h3>
             </Button>
             <Collapse in={open13}>
               <div id="example-collapse-text">
-                Methotrexate is a medication that could cause a temporary
-                increased chance of infertility and low sperm count in men.
+                <h9>Methotrexate is a medication that could cause a temporary
+                increased chance of infertility and low sperm count in men.</h9>
               </div>
             </Collapse>
           </div>
@@ -1067,13 +1077,13 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Will my children get IBD?</b>
+            <h3><b>Will my children get IBD?</b></h3>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            Experts are still trying to figure out the exact cause of IBD. At
+            <h9>Experts are still trying to figure out the exact cause of IBD. At
             this time there seems to be more than one cause. Your genes may play
             a role, and also other things such as infection. If you have Crohn’s
             disease, the risk that your child will develop Crohn’s disease is
@@ -1082,14 +1092,14 @@ const MyHealth = () => {
             although your children are at a higher risk for IBD than the general
             public, they are not likely to develop IBD. If your child has
             symptoms of IBD or is not growing as expected, tell your child’s
-            doctor that you have IBD.
+            doctor that you have IBD.</h9>
           </div>
         </div>
         <hr />
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Mental health and Wellness</b>
+          <h9><b>Mental health and Wellness</b></h9>
             <a href="https://www.crohnscolitisfoundation.org/mental-health">
               {" "}
               <h9>Mental Health and IBD Resource</h9>
@@ -1101,7 +1111,7 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Talking to a medical professional</b>
+          <h9><b>Talking to a medical professional</b></h9>
             <a href="https://www.crohnscolitisfoundation.org/mental-health/talking-to-your-healthcare-team">
               {" "}
               <h9>Medical Professional Contact</h9>
@@ -1111,28 +1121,28 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            Clinical Psychologist at UF:
+          <h9>Clinical Psychologist at UF:</h9>
           </div>
-          <div className="col-sm-12 text-left">Dr. Lori Waxenberg</div>
+          <div className="col-sm-12 text-left"><h9>Dr. Lori Waxenberg</h9></div>
           <div className="col-sm-12 text-left">
-            E-mail: lwaxenbe@phhp.ufl.edu
+          <h9>E-mail: lwaxenbe@phhp.ufl.edu</h9>
           </div>
-          <div className="col-sm-12 text-left">Office: 352-273-5273</div>
+          <div className="col-sm-12 text-left"><h9>Office: 352-273-5273</h9></div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            Clinical Psychologist at UM:
+          <h9>Clinical Psychologist at UM:</h9>
           </div>
           <div className="col-sm-12 text-left"></div>
-          <div className="col-sm-12 text-left">E-mail:</div>
-          <div className="col-sm-12 text-left">Office:</div>
+          <div className="col-sm-12 text-left"><h9>E-mail:</h9></div>
+          <div className="col-sm-12 text-left"><h9>Office:</h9></div>
         </div>
         <hr />
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Stress management </b>
+            <h9><b>Stress management</b></h9>
             <a href="https://www.crohnscolitisfoundation.org/mental-health/coping-strategies-for-better-mental-health">
               {" "}
               <h9>Mental Health and IBD Resource</h9>
@@ -1144,29 +1154,31 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>Support group</b>
+            <h9><b>Support group</b></h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            For information about IBD support groups at the University of
+          <h9>For information about IBD support groups at the University of
             Florida and University of Miami, please click one of the links
-            below.
+            below.</h9>
           </div>
           <div className="col-sm-12 text-left">
-            University of Florida Support Group:
+          <h9>University of Florida Support Group:
             <a href="https://gastroliver.medicine.ufl.edu/ibd/ibd-patient-info/uf-student-ibd-support-system/">
               {" "}
               <h9>UF IBD Support Group</h9>
             </a>
+            </h9>
           </div>
           <div className="col-sm-12 text-left">
-            University of Miami Support Group:
+          <h9>University of Miami Support Group:
             <a href="https://www.crohnscolitisfoundation.org/chapters/florida/support-groups/ccfa-support-group-miami-fl-UM">
               {" "}
               <h9>CCFA UM Support Group</h9>
             </a>
+            </h9>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
@@ -1178,11 +1190,12 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>COVID-19 Risk Calculator: </b>
+          <h9><b>COVID-19 Risk Calculator: </b>
             <a href="http://shiny.bios.unc.edu/secure-ibd-risk-calc/">
               {" "}
               <h9>COVID-19 Risk Calculator</h9>
             </a>
+            </h9>
           </div>
         </div>
       </div>

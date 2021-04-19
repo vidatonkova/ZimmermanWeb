@@ -15,7 +15,7 @@ const FAQ = () => {
         <div class="row topSpace-row"></div>
         <div class="row title-row" >
             <div class="col-sm-12 text-center">
-                <h3>Frequently Asked Questions</h3>
+                <h2>Frequently Asked Questions</h2>
             </div>
         </div>
 
