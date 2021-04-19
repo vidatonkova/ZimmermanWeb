@@ -29,9 +29,10 @@ const Basic = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>What is Inflammatory Bowel Disease?</b>
+            <h3><b>What is Inflammatory Bowel Disease?</b></h3>
           </div>
           <div className="col-sm-12 text-left">
             <h9>
@@ -51,11 +52,11 @@ const Basic = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            <b>
-              There are three different types of inflammatory bowel disease.
-            </b>
+            <h3><b>There are three different types of inflammatory bowel disease.</b></h3>
           </div>
           <div className="col-sm-12 text-left">
             <h9>1. Ulcerative colitis affects only the colon.</h9>
@@ -74,6 +75,9 @@ const Basic = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -83,10 +87,11 @@ const Basic = () => {
               aria-expanded={open1}
               className="faq-box"
             >
-              <b>What is ulcerative colitis (UC)?</b>
+              <h4><b>What is ulcerative colitis (UC)?</b></h4>
             </Button>
             <Collapse in={open1}>
               <div id="example-collapse-text">
+                <h9>
                 Ulcerative colitis starts in the rectum and can affect the
                 entire colon or only part of it. It may be called proctitis if
                 only the rectum is affected and left-sided colitis if only the
@@ -103,11 +108,12 @@ const Basic = () => {
                 irritable bowel syndrome, infectious colitis, and ischemic
                 colitis because it is caused by chronic immune-mediated
                 inflammation.
+                </h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -117,11 +123,11 @@ const Basic = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <b>What is Crohn’s disease (CD)?</b>
+              <h4><b>What is Crohn’s disease (CD)?</b></h4>
             </Button>
             <Collapse in={open2}>
               <div id="example-collapse-text">
-                Crohn’s disease can affect any part of the digestive tract:
+                <h9>Crohn’s disease can affect any part of the digestive tract:
                 mouth, esophagus, stomach, proximal (duodenal and jejunal) or
                 distal (ileum) small intestine or the colon. The most common
                 area affected is at the end of the small intestine, the terminal
@@ -133,12 +139,12 @@ const Basic = () => {
                 Crohn’s ileitis when only the ileum is affected. It is called
                 Crohn’s colitis when only the colon is affected. And it is
                 called Crohn’s ileocolitis when both the ileum and the colon are
-                affected.
+                affected.</h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -148,11 +154,11 @@ const Basic = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <b>What is indeterminate colitis?</b>
+              <h4><b>What is indeterminate colitis?</b></h4>
             </Button>
             <Collapse in={open3}>
               <div id="example-collapse-text">
-                Indeterminate colitis also only affects the colon, but it is not
+                <h9>Indeterminate colitis also only affects the colon, but it is not
                 the same as ulcerative colitis. IBD may be called indeterminate
                 colitis when the biopsy cells under the microscope look more
                 like cells from a person with ulcerative colitis, but with the
@@ -161,12 +167,12 @@ const Basic = () => {
                 more likely to affect isolated segments of the colon, rather
                 than continuous stretches of the colon, as happens in ulcerative
                 colitis. Also, in Crohn’s disease the ulcerations can look deep
-                and long.
+                and long.</h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -176,11 +182,11 @@ const Basic = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <b>Who is at most risk of getting IBD?</b>
+              <h4><b>Who is at most risk of getting IBD?</b></h4>
             </Button>
             <Collapse in={open4}>
               <div id="example-collapse-text">
-                CAll types of IBD affect men and women equally. It can occur at
+                <h9>All types of IBD affect men and women equally. It can occur at
                 any age, but often starts between the ages of 15 to 25. Crohn’s
                 disease is more common among people who have a family history of
                 the disease, though the change of having Crohn’s if a parent or
@@ -191,12 +197,12 @@ const Basic = () => {
                 intestinal inflammation. Despite the inability to control
                 inflammation with diet alone, dietary modifications can
                 substantially improve symptoms of diarrhea, abdominal pain, gas,
-                and bloating that are common in IBD.
+                and bloating that are common in IBD.</h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -206,11 +212,11 @@ const Basic = () => {
               aria-expanded={open5}
               className="faq-box"
             >
-              <b>What are the symptoms of IBD?</b>
+              <h4><b>What are the symptoms of IBD?</b></h4>
             </Button>
             <Collapse in={open5}>
               <div id="example-collapse-text">
-                People with IBD tend to have flares with active symptoms and
+                <h9>People with IBD tend to have flares with active symptoms and
                 periods of remission with no symptoms. The severity of these
                 symptoms varies greatly between patients, and they partly depend
                 on where the inflammation occurs. Inflammation in the colon
@@ -247,11 +253,12 @@ const Basic = () => {
                 <b>● Skin rashes</b>
                 <br></br>
                 <b>● Joint pain</b>
+                </h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -261,10 +268,11 @@ const Basic = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <b>What are the complications of IBD?</b>
+              <h4><b>What are the complications of IBD?</b></h4>
             </Button>
             <Collapse in={open6}>
               <div id="example-collapse-text">
+                <h9>
                 <br></br>
                 <b>● Bowel obstruction:</b> In Crohn’s disease if a stricture
                 develops contents may be unable to pass through your intestine,
@@ -327,11 +335,12 @@ const Basic = () => {
                 which can lead to gallstones. Poor absorption of bile salts
                 leads to an increase in cholesterol in the bile, which may cause
                 gallstones.
+                </h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -341,11 +350,11 @@ const Basic = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <b>How is IBD diagnosed?</b>
+              <h4><b>How is IBD diagnosed?</b></h4>
             </Button>
             <Collapse in={open7}>
               <div id="example-collapse-text">
-                You will have a complete physical exam. You may need some tests,
+                <h9>You will have a complete physical exam. You may need some tests,
                 such as blood tests, stool tests, CT or MRI scans, and
                 colonoscopy with biopsy. The colonoscopy will look for ulcers or
                 inflammation in the intestine. Because most of the treatments
@@ -355,12 +364,12 @@ const Basic = () => {
                 not an infection or another illness. There is no single perfect
                 test to diagnose IBD. Careful interpretation of the results of
                 testing by an experienced provider is needed to confirm the
-                diagnosis.
+                diagnosis.</h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row change-later"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -370,11 +379,11 @@ const Basic = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <b>How are Crohn’s disease and ulcerative colitis treated?</b>
+              <h4><b>How are Crohn’s disease and ulcerative colitis treated?</b></h4>
             </Button>
             <Collapse in={open8}>
               <div id="example-collapse-text">
-                There is no cure for IBD at this time, although this is an
+                <h9>There is no cure for IBD at this time, although this is an
                 important topic of current research. However, treatment are
                 improving every year, becoming more effective and safer
                 overtime. Long term control of inflammation leads to the best
@@ -416,6 +425,7 @@ const Basic = () => {
                 products. Always let your health care team know if you are using
                 them. You should not rely on complementary treatments alone to
                 manage your IBD.
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -430,13 +440,14 @@ const Basic = () => {
               aria-expanded={open2}
               className="faq-box"
             >
-              <b>
+              <h4><b>
                 What should I know about my IBD to be an informed partner in my
                 care?
-              </b>
+              </b></h4>
             </Button>
             <Collapse in={open9}>
               <div id="example-collapse-text">
+                <h9>
                 <br></br>
                 <b>1.</b> Do you know if you have Crohn’s disease, ulcerative
                 colitis, or indeterminate colitis?
@@ -451,6 +462,7 @@ const Basic = () => {
                 <br></br>
                 <b>5.</b> Do you know what medicines (i.e. steroids) you have
                 taken in the past? Why did you stop taking each one?
+                </h9>
               </div>
             </Collapse>
           </div>
@@ -459,17 +471,17 @@ const Basic = () => {
         <div class="row spacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-center">
-            <h3>Didn't answer your question or want to learn more?</h3>
+            <h1>Didn't answer your question or want to learn more?</h1>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
-            Check out these pages for more information!
+            <h9>Check out these pages for more information!</h9>
             <Link className="nav-link" to="/Research">
-              Research
+              <h3>Research</h3>
             </Link>
             <Link className="nav-link" to="/Discussion">
-              Discussion board
+              <h3>Discussion board</h3>
             </Link>
           </div>
         </div>

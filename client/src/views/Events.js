@@ -24,8 +24,8 @@ const Events = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            If you would like to participate in future events and webinars,{" "}
-            <b>register first</b>. A member will contact you!
+            <h9>If you would like to participate in future events and webinars,{" "}
+            <b>register first</b>. A member will contact you!</h9>
           </div>
         </div>
         <div class="row spacer-row"></div>
@@ -36,7 +36,7 @@ const Events = () => {
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
-            Stay tuned for future webinars and events
+            <h9>Stay tuned for future webinars and events</h9>
           </div>
         </div>
       </div>
