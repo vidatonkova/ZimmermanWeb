@@ -17,6 +17,7 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
   app.use(express.json());
   app.use(cors());
 
+  //Basic Testing of Routes
   app.get('/ping', function (req, res) {
   return res.send('pong');
   });
@@ -26,6 +27,9 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
       return res.send('ur a cool bean');
   });
 
+
+  //Users
+  
   app.get('/users/find', function (req, res) {
       Users.find({}, (error, documents) => {
         if (error) {
@@ -54,6 +58,21 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
     }
 });
 
+
+//Posting
+
+app.get('/discuss', async (req, res) => {
+  Posts.find({}, (error, documents) => {
+    if (error) {
+      res.send(error);
+    }
+    else {
+      res.send(documents);
+    }
+  });
+
+});
+
 app.post('/discuss', async (req, res) => {
 
   const post = new Posts({
@@ -69,18 +88,6 @@ app.post('/discuss', async (req, res) => {
     console.error(err);
       res.json({ message: "ur question is trashy" });
   }
-});
-
-app.get('/discuss', async (req, res) => {
-  Posts.find({}, (error, documents) => {
-    if (error) {
-      res.send(error);
-    }
-    else {
-      res.send(documents);
-    }
-  });
-
 });
 
   app.listen(port, () => console.log(`Server now running on port ${port}!`));

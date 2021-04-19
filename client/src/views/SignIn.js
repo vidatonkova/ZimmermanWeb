@@ -1,36 +1,59 @@
 
-import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Format.css';
-import {getUser} from '../api';
-import url from '../config';
+import { React, useState} from 'react';
+import Axios from 'axios';
+import Async from 'react-async';
+import config from '../config.js';
+import ListGroup from 'react-bootstrap/ListGroup';
 
-class SignIn extends Component{
 
-async componentDidMount(){
-    let response = await getUser();
-    console.log(response);
+const SignIn = (props) => {
+  let [u, setU] = useState("");
+  let [p, setP] = useState("");
+
+  
+    const handleChangeU = (event) => {
+      setU(event.target.value);
+    }
+  const handleChangeP = (event) => {
+      setP(event.target.value);
+    }
+
+    const handleSignIn = () => {
+      console.log(u);
+      console.log(p);
+      
+    }
+
+  const loadU = () => {
+    return Axios.get(
+      config.backpoint + '/users/find'
+    )
+    .then((response) => {
+        return response.data;
+    })
+    .catch((error) => {
+        console.error(error)
+        return error;
+    })
 }
 
-handleSignIn(event){
-console.log(event.form);
-}
-   render(){
-        return (
-
+   
+  return (
     <div class="container">
       <div class="row sub-title-row">
         <div class="col-sm-12 text-center">
           <h3>Sign In</h3>
         </div>
       </div>
-      <form onSubmit={this.handleSignIn}>
+      <form onSubmit={handleSignIn}>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputUsername4">Username</label>
             <input
-              type="username"
+              type="text" value={u} onChange={handleChangeU}
               class="form-control"
               id="inputUsername4"
               placeholder="Username"
@@ -39,7 +62,7 @@ console.log(event.form);
           <div class="form-group col-md-6">
             <label for="inputPassword4">Password</label>
             <input
-              type="password"
+              type="text" value={p} onChange={handleChangeP}
               class="form-control"
               id="inputPassword4"
               placeholder="Password"
@@ -68,13 +91,34 @@ console.log(event.form);
           </Link>
         </div>
         <div class="col-sm-4"></div>
+
+        <Async promiseFn={loadU}>
+            {({data, error, isLoading}) => {
+                    if (isLoading)
+                        return "Loading...";
+                    if (error) {
+                        console.log(error);
+                        return "Oops, something went wrong";
+                    }
+                    if (data && Array.isArray(data)) {
+                        return data.reverse().map(entry => {
+                            return <div>
+                                <ListGroup.Item variant="dark">{u}</ListGroup.Item>
+                                <ListGroup.Item>{p}</ListGroup.Item>
+                                <ListGroup.Item>{entry.u}</ListGroup.Item>
+                                <ListGroup.Item>{entry.p}</ListGroup.Item>
+                            </div>
+                        })
+                    }
+                }
+            }
+        </Async>
       </div>
     </div>
   );
-};
 
 }
 
-
+                              
 
 export default SignIn;
