@@ -22,12 +22,21 @@
 }
 
 .topSpace-row {
-  height: 7vh;
+  height: 9vh;
 }
 
-.h2 {
-  font-size: 20vw;
+h1 {
+  font-size: 2vw;
 }
+
+h2 {
+  font-size: 2.5vw;
+}
+
+h9 {
+  font-size: 1vw;
+}
+
 
 .home-row {
   background-color: #39998e;

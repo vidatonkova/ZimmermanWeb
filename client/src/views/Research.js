@@ -23,7 +23,7 @@ const Research = () => {
       <div class="row align-items-center">
         <div class="col-sm-2 text-center"></div>
         <div class="col-sm-8 text-center note-block align-self-center">
-          <p>To make an appointment with any of these physicians, contact (352) 273-9400. </p>
+          <h9>To make an appointment with any of these physicians, contact (352) 273-9400. </h9>
         </div>
         <div class="col-sm-2 text-center"></div>
       </div>
@@ -45,8 +45,8 @@ const Research = () => {
           </div>
         </div>
         <div class="col-sm-8 text-left">
-          <h5>Dr. Ellen Zimmermann</h5>
-          <p>
+          <h3>Dr. Ellen Zimmermann</h3>
+          <h9>
             Dr. Ellen Zimmermann has 20 years experience in academic medicine at
             the University of Michigan. At the University of Michigan, Dr.
             Zimmermann built a vibrant basic and translational research program,
@@ -57,17 +57,17 @@ const Research = () => {
             Zimmermann is the current Vice Chair for Academic Affairs for the UF
             College of Medicine, along with being an active researcher and
             practicing physician.
-          </p>
+          </h9>
         </div>
       </div>
       <div class="row picture-contact-row">
           <div class="col-sm-4 text-left">
-            <p class="font-weight-bold">Contact Info:</p>
+            <h9 class="font-weight-bold">Contact Info:</h9>
           </div>
       </div>
       <div class="row picture-row">
           <div class="col-sm-4 text-left">
-            <p>Email: ellen.zimmermann@medicine.ufl.edu</p>
+            <h9>Email: ellen.zimmermann@medicine.ufl.edu</h9>
           </div>
       </div>
 
@@ -82,20 +82,20 @@ const Research = () => {
           </div>
         </div>
         <div class="col-sm-8 test-left">
-          <h5>Dr. Naueen Chaudhry </h5>
-          <p>
+          <h3>Dr. Naueen Chaudhry </h3>
+          <h9>
             Some text here
-          </p>
+          </h9>
         </div>
       </div>
       <div class="row picture-contact-row">
           <div class="col-sm-4 text-left">
-            <p class="font-weight-bold">Contact Info:</p>
+            <h9 class="font-weight-bold">Contact Info:</h9>
           </div>
       </div>
       <div class="row picture-row">
           <div class="col-sm-4 text-left">
-            <p>Email: Naueen.Chaudhry@medicine.ufl.edu</p>
+            <h9>Email: Naueen.Chaudhry@medicine.ufl.edu</h9>
           </div>
       </div>
 
@@ -112,20 +112,20 @@ const Research = () => {
           </div>
         </div>
         <div class="col-sm-8 test-left">
-          <h5>Dr. Angela Pham </h5>
-          <p>
+          <h3>Dr. Angela Pham </h3>
+          <h9>
             Some text here
-          </p>
+          </h9>
         </div>
       </div>
       <div class="row picture-contact-row">
           <div class="col-sm-4 text-left">
-            <p class="font-weight-bold">Contact Info:</p>
+            <h9 class="font-weight-bold">Contact Info:</h9>
           </div>
       </div>
       <div class="row picture-row">
           <div class="col-sm-4 text-left">
-            <p>Email: Angela.Pham@medicine.ufl.edu</p>
+            <h9>Email: Angela.Pham@medicine.ufl.edu</h9>
           </div>
       </div>
 
@@ -142,20 +142,20 @@ const Research = () => {
           </div>
         </div>
         <div class="col-sm-8 test-left">
-          <h5>Dr. Devi Rampertab</h5>
-          <p>
+          <h3>Dr. Devi Rampertab</h3>
+          <h9>
             Some text Here
-          </p>
+          </h9>
         </div>
       </div>
       <div class="row picture-contact-row">
           <div class="col-sm-4 text-left">
-            <p class="font-weight-bold">Contact Info:</p>
+            <h9 class="font-weight-bold">Contact Info:</h9>
           </div>
       </div>
       <div class="row picture-row">
           <div class="col-sm-4 text-left">
-            <p>Email: devi.rampertab@medicine.ufl.edu</p>
+            <h9>Email: devi.rampertab@medicine.ufl.edu</h9>
           </div>
       </div>
 
@@ -178,21 +178,22 @@ const Research = () => {
           </div>
         </div>
         <div class="col-sm-8 test-left">
-          <h5>Dr. Maria Abreu</h5>
-          <p>
+          <h3>Dr. Maria Abreu</h3>
+          <h9>
             Some text here
-          </p>
+          </h9>
         </div>
       </div>
       <div class="row picture-contact-row">
           <div class="col-sm-4 text-left">
-            <p class="font-weight-bold">Contact Info:</p>
+            <h9 class="font-weight-bold">Contact Info:</h9>
           </div>
       </div>
       <div class="row picture-row">
           <div class="col-sm-4 text-left">
-            <p>Phone: Contact: 305-243-6404</p>
-            <p>Email: mabreu1@med.miami.edu</p>
+            <h9>Phone: Contact: 305-243-6404</h9>
+            <br></br>
+            <h9>Email: mabreu1@med.miami.edu</h9>
 
           </div>
       </div>
@@ -210,21 +211,22 @@ const Research = () => {
           </div>
         </div>
         <div class="col-sm-8 test-left">
-          <h5>Dr. David Kerman</h5>
-          <p>
+          <h3>Dr. David Kerman</h3>
+          <h9>
             Some text here
-          </p>
+          </h9>
         </div>
       </div>
       <div class="row picture-contact-row">
           <div class="col-sm-4 text-left">
-            <p class="font-weight-bold">Contact Info:</p>
+            <h9 class="font-weight-bold">Contact Info:</h9>
           </div>
       </div>
       <div class="row picture-row">
           <div class="col-sm-4 text-left">
-            <p>Phone: Contact: 305-243-8644</p>
-            <p>Email: dkerman@miami.edu</p>
+            <h9>Phone: Contact: 305-243-8644</h9>
+            <br></br>
+            <h9>Email: dkerman@miami.edu</h9>
           </div>
       </div>
     </div>
