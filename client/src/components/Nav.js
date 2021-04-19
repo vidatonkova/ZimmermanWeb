@@ -16,7 +16,7 @@ const NavBar = (props) => {
                 <h1>Home</h1>
               </Nav.Link>
               <Nav.Link href="/Basic">
-                <h1>Basic</h1>
+                <h1>IBD</h1>
               </Nav.Link>
               <Nav.Link href="/Research">
                 <h1>Meet the Team</h1>
@@ -30,11 +30,13 @@ const NavBar = (props) => {
               <Nav.Link href="/FAQ">
                 <h1>FAQ</h1>
               </Nav.Link>
-              <Nav.Link href="/Sign_In">
-                <h1>Sign In</h1>
-              </Nav.Link>
               <Nav.Link href="/Discussion">
                 <h1>Discussion</h1>
+              </Nav.Link>
+            </Nav>
+            <Nav>
+              <Nav.Link href="/Sign_In">
+                <h1>Sign In</h1>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
