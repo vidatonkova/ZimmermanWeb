@@ -1,11 +1,17 @@
 .title-row {
-  height: 6vh;
+  height: 6.5vh;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
 
 .top-row {
   height: 6vh;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.pre-footer-row {
+  height: 3vh;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
@@ -24,18 +30,15 @@
 
 .container {
   padding-top: 10px;
-  max-width: 99%;
+  max-width: 92%;
 }
 
 .topSpace-row {
   height: 9vh;
-<<<<<<< HEAD
-=======
 }
 
 .tower-row {
   height: 30vh;
->>>>>>> main
 }
 
 h1 {
@@ -47,7 +50,8 @@ h2 {
 }
 
 h9 {
-  font-size: 1vw;
+  font-weight: 375;
+  font-size: 22px;
 }
 
 
@@ -96,6 +100,15 @@ font-size: 20px;
 .entrySpacer-row {
   background-color: #eff0eb;
   height: 1vh;
+}
+
+.topSpacer-row {
+  height: 1vh;
+}
+
+.change-later {
+  background-color: #eff0eb;
+  height: 2vh;
 }
 
 .spacer-row {
@@ -158,6 +171,26 @@ font-size: 20px;
   width: 72%;
 }
 
+.faq-box1 {
+  background-color: rgb(57, 153, 142);
+  width: 98%;
+}
+
+.faq-box1:hover {
+  background-color: rgb(49, 133, 123);
+  width: 100%;
+}
+
+.faq-box1:active {
+  background-color: rgb(49, 133, 123);
+  width: 98%;
+}
+
+.faq-box1:focus {
+  background-color: rgb(49, 133, 123);
+  width: 100%;
+}
+
 .question-box {
   background-color: rgb(43, 77, 89);
   overflow-x: hidden;
@@ -204,4 +237,24 @@ font-size: 20px;
 
 .yellow-footer:hover {
   color: rgb(224, 194, 109);
+}
+
+.dark-blue {
+  color: rgb(43, 77, 89);
+}
+
+.dark-blue:hover {
+  color: rgb(57, 153, 142);
+}
+
+.light-blue {
+  color: rgb(57, 153, 142);
+}
+
+.light-blue:hover {
+  color: rgb(43, 77, 89);
+}
+
+.some {
+  text-align: left;
 }

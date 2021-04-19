@@ -86,13 +86,13 @@ const Home = () => {
         </div>
         <div class="row entry-row">
           <div class="col-sm-1 text-right">
-            <Link className="nav-link" to="/FAQ">
+            <Link className="nav-link dark-blue" to="/FAQ">
               <h3>FAQ</h3>
             </Link>
           </div>
           <div class="col-sm-1 text-right"></div>
           <div class="col-sm-3 text-left">
-            <Link className="nav-link" to="/Basic">
+            <Link className="nav-link dark-blue1" to="/Basic">
               <h3>IBD Basics</h3>
             </Link>
           </div>

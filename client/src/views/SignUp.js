@@ -70,7 +70,7 @@ const SignUp = () => {
             />
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" class="btn btn-primary custom-button">
           <h9>Sign Up</h9>
         </button>
       </form>
