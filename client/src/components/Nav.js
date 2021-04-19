@@ -1,64 +1,54 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import "./../views/Format.css";
 
 const NavBar = (props) => {
   return (
-    <div class="container">
-      <div class="row nav-bar">
-        <div class="col-sm-3 text-center">
-          <h3>Zimmerman Labs</h3>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/Home" class="nav-link">
-            <h4>Home</h4>
-          </Link>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/Basic" class="nav-link">
-            <h4>Basics</h4>
-          </Link>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/Research" class="nav-link">
-            <h4>Team</h4>
-          </Link>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/Events" class="nav-link">
-            <h4>Events</h4>
-          </Link>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/My_Health" class="nav-link">
-            <h4>Health</h4>
-          </Link>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/FAQ" class="nav-link">
-            <h4>FAQ</h4>
-          </Link>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/Sign_In" class="nav-link">
-            <h4>Account</h4>
-          </Link>
-        </div>
-        <div class="col-sm-1 text-center">
-          <Link className="nav-link" to="/Discussion" class="nav-link">
-            <h4>Discussion</h4>
-          </Link>
-        </div>
-      </div>
-      <hr />
-    </div>
+    <>
+      <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
+        <Container>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav>
+              <Nav.Link href="/Home">
+                <h1>Home</h1>
+              </Nav.Link>
+              <Nav.Link href="/Basic">
+                <h1>Basic</h1>
+              </Nav.Link>
+              <Nav.Link href="/Research">
+                <h1>Meet the Team</h1>
+              </Nav.Link>
+              <Nav.Link href="/Events">
+                <h1>Events</h1>
+              </Nav.Link>
+              <Nav.Link href="/My_Health">
+                <h1>MyHealth</h1>
+              </Nav.Link>
+              <Nav.Link href="/FAQ">
+                <h1>FAQ</h1>
+              </Nav.Link>
+              <Nav.Link href="/Sign_In">
+                <h1>Sign In</h1>
+              </Nav.Link>
+              <Nav.Link href="/Discussion">
+                <h1>Discussion</h1>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
   );
 };
 
 export default NavBar;
 
 /*
+
+
 
 Test out messing with the Nav Bar to make it horizontal
 

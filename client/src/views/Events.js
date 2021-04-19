@@ -10,6 +10,7 @@ const Events = () => {
   return (
     <div>
       <div class="container">
+        <div class="row topSpace-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-center">
             <h2>Events and Webinars</h2>
