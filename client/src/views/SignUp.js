@@ -46,7 +46,7 @@ const SignUp = () => {
       <div class="row topSpace-row"></div>
       <div class="row sub-title-row">
         <div class="col-sm-12 text-center">
-          <h3>Sign Up</h3>
+          <h2>Sign Up</h2>
         </div>
       </div>
       <form onSubmit={makeAcc}>
@@ -71,7 +71,7 @@ const SignUp = () => {
           </div>
         </div>
         <button type="submit" class="btn btn-primary">
-          Sign Up
+          <h9>Sign Up</h9>
         </button>
       </form>
     </div>
