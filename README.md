@@ -1,8 +1,13 @@
 # ZimmermanWeb
 Website for the Zimmerman Lab - VJAM SWE 
 
-Team and Roles:
+## Team and Roles:
 * Vida Tonkova: Project Manager
 * Austin Jacobs: Scrum Master
 * Michael Mendel: Backend Developer
 * Jack Gonzales : Frontend Developer
+
+## How to start up the website
+<ol>
+  
+</ol>
