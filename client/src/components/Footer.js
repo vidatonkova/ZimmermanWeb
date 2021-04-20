@@ -21,13 +21,13 @@ const Footer = () => {
 
         <div class="row footer-row">
         <div class="col-sm-6 text-center">
-        <a class="yellow-footer" href="https://gastroliver.medicine.ufl.edu/ibd/">
+        <a class="yellow-footer2" href="https://gastroliver.medicine.ufl.edu/ibd/">
               {" "}
-              <h9>UF IBD website</h9>
+              <h9 class="yellow-footer2">UF IBD website</h9>
             </a>
           </div>
           <div class="col-sm-6 text-center">
-          <a className="yellow-footer" href="https://med.miami.edu/en/departments/medicine/divisions/crohns-and-colitis-center/">
+          <a style= {{color: "white"}} href="https://med.miami.edu/en/departments/medicine/divisions/crohns-and-colitis-center/">
               {" "}
               <h9>UM Crohns and Colitis website</h9>
             </a>
