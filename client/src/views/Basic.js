@@ -52,12 +52,9 @@ const Basic = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
-<<<<<<< HEAD
         <hr />
-=======
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
->>>>>>> main
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
             <h3><b>There are three different types of inflammatory bowel disease.</b></h3>
@@ -81,11 +78,6 @@ const Basic = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
-<<<<<<< HEAD
-=======
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -122,14 +114,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
 
         <div class="row between-button-spacer"></div>
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -161,14 +148,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>      
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -197,14 +179,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -235,14 +212,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -299,14 +271,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -388,14 +355,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -426,14 +388,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -496,14 +453,9 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>
 
->>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -540,13 +492,8 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-=======
         
         <div class="row between-button-spacer"></div>
->>>>>>> main
         <hr />
         <div class="row spacer-row"></div>
         <div class="row title-row">
@@ -558,13 +505,8 @@ const Basic = () => {
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>Check out these pages for more information!</h9>
-<<<<<<< HEAD
             <Link className="nav-link" to="/My_Health">
               <h3>MyHealth</h3>
-=======
-            <Link className="nav-link light-blue" to="/Research">
-              <h3>Research</h3>
->>>>>>> main
             </Link>
             <Link className="nav-link light-blue" to="/Discussion">
               <h3>Discussion board</h3>

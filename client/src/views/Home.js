@@ -87,7 +87,6 @@ const Home = () => {
           </div>
         </div>
         <div class="row entry-row">
-<<<<<<< HEAD
           <div class="col-sm-3 text-center">
             <Link className="nav-link" to="/FAQ">
               <h3>FAQ</h3>
@@ -105,28 +104,6 @@ const Home = () => {
           </div>
           <div class="col-sm-3 text-center">
             <Link className="nav-link" to="/Sign_Up">
-=======
-          <div class="col-sm-1 text-right">
-            <Link className="nav-link light-blue" to="/FAQ">
-              <h3>FAQ</h3>
-            </Link>
-          </div>
-          <div class="col-sm-1 text-right"></div>
-          <div class="col-sm-3 text-left">
-            <Link className="nav-link light-blue" to="/Basic">
-              <h3>IBD Basics</h3>
-            </Link>
-          </div>
-          <div className="col-sm-2 text-right"></div>
-          <div class="col-sm-1 text-right">
-            <Link className="nav-link light-blue" to="/Sign_In">
-              <h3>Login</h3>
-            </Link>
-          </div>
-          <div class="col-sm-1 text-right"></div>
-          <div class="col-sm-3 text-left">
-            <Link className="nav-link light-blue" to="/Sign_Up">
->>>>>>> main
               <h3>Create an Account</h3>
             </Link>
           </div>
