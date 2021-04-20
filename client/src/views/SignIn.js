@@ -23,13 +23,13 @@ console.log(event.form);
       <div class="row topSpace-row"></div>
       <div class="row title-row">
         <div class="col-sm-12 text-center">
-          <h3>Sign In</h3>
+          <h2>Sign In</h2>
         </div>
       </div>
       <form onSubmit={this.handleSignIn}>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputUsername4">Username</label>
+            <label for="inputUsername4"><h2>Username</h2></label>
             <input
               type="username"
               class="form-control"
@@ -38,7 +38,7 @@ console.log(event.form);
             />
           </div>
           <div class="form-group col-md-6">
-            <label for="inputPassword4">Password</label>
+            <label for="inputPassword4"><h2>Password</h2></label>
             <input
               type="password"
               class="form-control"
@@ -61,14 +61,14 @@ console.log(event.form);
       <div class="row align-items-center">
         <div class="col-sm-3"></div>
         <div class="col-sm-3 sign-up-box text-right  align-self-center">
-          <p>Dont have an account?</p>
+          <h9>Dont have an account?</h9>
         </div>
         <div class="col-sm-3 sign-up-box text-left align-self-center">
           <Link className="nav-link custom-button" to="/Sign_Up">
             Sign Up
           </Link>
         </div>
-        <div class="col-sm-4"></div>
+        <div class="col-sm-3"></div>
       </div>
     </div>
   );

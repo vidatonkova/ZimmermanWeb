@@ -1,5 +1,5 @@
 .title-row {
-  height: 6vh;
+  height: 6.5vh;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
@@ -16,6 +16,10 @@
   -webkit-text-fill-color: #ffffff;
 }
 
+.color-Nav {
+  -webkit-text-fill-color: rgb(255, 220, 124);
+}
+
 .container {
   padding-top: 10px;
   max-width: 99%;
@@ -23,13 +27,10 @@
 
 .topSpace-row {
   height: 9vh;
-<<<<<<< HEAD
-=======
 }
 
 .tower-row {
   height: 30vh;
->>>>>>> main
 }
 
 h1 {

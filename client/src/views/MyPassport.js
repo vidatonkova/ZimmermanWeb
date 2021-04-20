@@ -19,7 +19,7 @@ const MyPassport = () => {
         <div class="row spacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
-            IBD Passport serves as a one stop shop for recording personal health
+            <h9>IBD Passport serves as a one stop shop for recording personal health
             information in order to be an active partner in your IBD care. Below
             are a series of downloadable documents where you can track your
             daily lifestyle (bathroom tracker), disease management (medications,
@@ -27,9 +27,10 @@ const MyPassport = () => {
             healthcare provider. We do not collect any of this information – the
             IBD passport is a free, printable tool for patients to track their
             disease status and provide their physicians with updated and
-            accurate information, as well as potentially mitigate complications.
+            accurate information, as well as potentially mitigate complications.</h9>
           </div>
         </div>
+        <hr />
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
