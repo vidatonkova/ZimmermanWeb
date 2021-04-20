@@ -9,8 +9,13 @@ Website for the Zimmerman Lab - VJAM SWE
 
 ## How to start up the website
 <ol>
-<li>
-Open command prompt and navigate to a directory you want the project to be in.
-
-</li>
+  <li>
+    Open command prompt and navigate to a directory you want the project to be in using this command.
+    ```bash
+     git clone https://github.com/vidatonkova/ZimmermanWeb.git
+     ```
+  </li>
+  <li>
+    
+  </li>
 </ol>
