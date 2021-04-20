@@ -51,26 +51,28 @@ console.log(event.form);
         <div class="col-sm-5"></div>
         <div class="col-sm-2 text-center">
           <button type="submit" class="btn btn-primary custom-button">
-            Sign in
+            <h9>Sign in</h9>
           </button>
         </div>
         <div class="col-sm-5"></div>
       </div>
       </form>
       <div class="row spacer-row"></div>
-      <div class="row align-items-center">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-3 sign-up-box text-right  align-self-center">
+      <div class="row">
+        <div class="col-sm-12 text-center">
           <h9>Dont have an account?</h9>
         </div>
-        <div class="col-sm-3 sign-up-box text-left align-self-center">
+      </div>
+      <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2 text-center">
           <Link className="nav-link custom-button" to="/Sign_Up">
-            Sign Up
+            <h9>Sign Up</h9>
           </Link>
         </div>
-        <div class="col-sm-3"></div>
+        <div class="col-sm-5"></div>
       </div>
-    </div>
+      </div>
   );
 };
 

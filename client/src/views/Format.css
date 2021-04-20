@@ -10,8 +10,20 @@
   -webkit-text-fill-color: #ffffff;
 }
 
+.pre-footer-row {
+  height: 3vh;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
+}
+
 .footer-row {
-  height: 8vh;
+  height: 5vh;
+  background-color: #2b4d59;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.sub-footer-row {
+  height: 18vh;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
@@ -22,7 +34,7 @@
 
 .container {
   padding-top: 10px;
-  max-width: 99%;
+  max-width: 92%;
 }
 
 .topSpace-row {
@@ -42,7 +54,8 @@ h2 {
 }
 
 h9 {
-  font-size: 1vw;
+  font-weight: 375;
+  font-size: 22px;
 }
 
 
@@ -58,7 +71,7 @@ h9 {
 }
 
 .sub-title-row {
-  height: 50px;
+  height: 65px;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
@@ -77,6 +90,38 @@ font-size: 20px;
 
 .picture-row {
   background-color: #eff0eb;
+  align-items: center;
+  height: 20vh;
+}
+
+.picture1-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture2-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture3-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture4-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 25vh;
+}
+
+.picture5-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 25vh;
 }
 
 .picture-contact-row{
@@ -91,6 +136,25 @@ font-size: 20px;
 .entrySpacer-row {
   background-color: #eff0eb;
   height: 1vh;
+}
+
+.topSpacer-row {
+  height: 1vh;
+}
+
+.change-later {
+  background-color: #eff0eb;
+  height: 2vh;
+}
+
+.between-button-spacer {
+  background-color: #eff0eb;
+  height: 4vh;
+}
+
+.in-button-spacer {
+  background-color: #eff0eb;
+  height: 3vh;
 }
 
 .spacer-row {
@@ -153,6 +217,26 @@ font-size: 20px;
   width: 72%;
 }
 
+.faq-box1 {
+  background-color: rgb(57, 153, 142);
+  width: 98%;
+}
+
+.faq-box1:hover {
+  background-color: rgb(49, 133, 123);
+  width: 100%;
+}
+
+.faq-box1:active {
+  background-color: rgb(49, 133, 123);
+  width: 98%;
+}
+
+.faq-box1:focus {
+  background-color: rgb(49, 133, 123);
+  width: 100%;
+}
+
 .question-box {
   background-color: rgb(43, 77, 89);
   overflow-x: hidden;
@@ -189,6 +273,34 @@ font-size: 20px;
   background-color: rgb(43, 77, 89);
 }
 
-.bg-yellow {
-  background-color: rgb(255, 220, 124);
+.pre-line {
+  white-space: pre-line;
+}
+
+.yellow-footer {
+  color: rgb(255, 220, 124);
+}
+
+.yellow-footer:hover {
+  color: rgb(224, 194, 109);
+}
+
+.dark-blue {
+  color: rgb(43, 77, 89);
+}
+
+.dark-blue:hover {
+  color: rgb(57, 153, 142);
+}
+
+.light-blue {
+  color: rgb(57, 153, 142);
+}
+
+.light-blue:hover {
+  color: rgb(43, 77, 89);
+}
+
+.some {
+  text-align: left;
 }

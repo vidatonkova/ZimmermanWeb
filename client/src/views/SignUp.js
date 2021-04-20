@@ -46,7 +46,7 @@ const SignUp = () => {
       <div class="row topSpace-row"></div>
       <div class="row sub-title-row">
         <div class="col-sm-12 text-center">
-          <h3>Sign Up</h3>
+          <h2>Sign Up</h2>
         </div>
       </div>
       <form onSubmit={makeAcc}>
@@ -70,9 +70,16 @@ const SignUp = () => {
             />
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">
-          Sign Up
-        </button>
+
+        <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2 text-center">
+          <button type="submit" class="btn btn-primary custom-button">
+            <h9>Sign Up</h9>
+          </button>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
       </form>
     </div>
   );

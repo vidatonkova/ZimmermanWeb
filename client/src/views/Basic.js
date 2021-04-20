@@ -52,7 +52,12 @@ const Basic = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+<<<<<<< HEAD
         <hr />
+=======
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+>>>>>>> main
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
             <h3><b>There are three different types of inflammatory bowel disease.</b></h3>
@@ -76,6 +81,11 @@ const Basic = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+<<<<<<< HEAD
+=======
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -90,6 +100,7 @@ const Basic = () => {
             <Collapse in={open1}>
               <div id="example-collapse-text">
                 <h9>
+                <div class="row in-button-spacer"></div>
                 Ulcerative colitis starts in the rectum and can affect the
                 entire colon or only part of it. It may be called proctitis if
                 only the rectum is affected and left-sided colitis if only the
@@ -111,8 +122,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+
+        <div class="row between-button-spacer"></div>
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -126,6 +143,7 @@ const Basic = () => {
             </Button>
             <Collapse in={open2}>
               <div id="example-collapse-text">
+                <div class="row in-button-spacer"></div>
                 <h9>Crohn’s disease can affect any part of the digestive tract:
                 mouth, esophagus, stomach, proximal (duodenal and jejunal) or
                 distal (ileum) small intestine or the colon. The most common
@@ -143,8 +161,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>      
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -158,6 +182,7 @@ const Basic = () => {
             </Button>
             <Collapse in={open3}>
               <div id="example-collapse-text">
+                <div class="row in-button-spacer"></div>
                 <h9>Indeterminate colitis also only affects the colon, but it is not
                 the same as ulcerative colitis. IBD may be called indeterminate
                 colitis when the biopsy cells under the microscope look more
@@ -172,8 +197,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -187,6 +218,7 @@ const Basic = () => {
             </Button>
             <Collapse in={open4}>
               <div id="example-collapse-text">
+                <div class="row in-button-spacer"></div>
                 <h9>All types of IBD affect men and women equally. It can occur at
                 any age, but often starts between the ages of 15 to 25. Crohn’s
                 disease is more common among people who have a family history of
@@ -203,8 +235,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -218,6 +256,7 @@ const Basic = () => {
             </Button>
             <Collapse in={open5}>
               <div id="example-collapse-text">
+                <div class="row in-button-spacer"></div>
                 <h9>People with IBD tend to have flares with active symptoms and
                 periods of remission with no symptoms. The severity of these
                 symptoms varies greatly between patients, and they partly depend
@@ -260,8 +299,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -276,7 +321,7 @@ const Basic = () => {
             <Collapse in={open6}>
               <div id="example-collapse-text">
                 <h9>
-                <br></br>
+                <div class="row in-button-spacer"></div>
                 <b>● Bowel obstruction:</b> In Crohn’s disease if a stricture
                 develops contents may be unable to pass through your intestine,
                 this is called an <b> obstruction</b>. Long-term obstruction
@@ -343,8 +388,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -358,7 +409,9 @@ const Basic = () => {
             </Button>
             <Collapse in={open7}>
               <div id="example-collapse-text">
-                <h9>You will have a complete physical exam. You may need some tests,
+                <h9>
+                <div class="row in-button-spacer"></div>
+                You will have a complete physical exam. You may need some tests,
                 such as blood tests, stool tests, CT or MRI scans, and
                 colonoscopy with biopsy. The colonoscopy will look for ulcers or
                 inflammation in the intestine. Because most of the treatments
@@ -373,8 +426,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -388,7 +447,9 @@ const Basic = () => {
             </Button>
             <Collapse in={open8}>
               <div id="example-collapse-text">
-                <h9>There is no cure for IBD at this time, although this is an
+                <h9>
+                <div class="row in-button-spacer"></div>
+                There is no cure for IBD at this time, although this is an
                 important topic of current research. However, treatment are
                 improving every year, becoming more effective and safer
                 overtime. Long term control of inflammation leads to the best
@@ -435,8 +496,14 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>
+
+>>>>>>> main
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -454,7 +521,7 @@ const Basic = () => {
             <Collapse in={open9}>
               <div id="example-collapse-text">
                 <h9>
-                <br></br>
+                <div class="row in-button-spacer"></div>
                 <b>1.</b> Do you know if you have Crohn’s disease, ulcerative
                 colitis, or indeterminate colitis?
                 <br></br>
@@ -473,8 +540,13 @@ const Basic = () => {
             </Collapse>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row entrySpacer-row"></div>
         <div class="row entrySpacer-row"></div>
+=======
+        
+        <div class="row between-button-spacer"></div>
+>>>>>>> main
         <hr />
         <div class="row spacer-row"></div>
         <div class="row title-row">
@@ -486,10 +558,15 @@ const Basic = () => {
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>Check out these pages for more information!</h9>
+<<<<<<< HEAD
             <Link className="nav-link" to="/My_Health">
               <h3>MyHealth</h3>
+=======
+            <Link className="nav-link light-blue" to="/Research">
+              <h3>Research</h3>
+>>>>>>> main
             </Link>
-            <Link className="nav-link" to="/Discussion">
+            <Link className="nav-link light-blue" to="/Discussion">
               <h3>Discussion board</h3>
             </Link>
           </div>
@@ -499,57 +576,5 @@ const Basic = () => {
     </div>
   );
 };
-/* 
-<div class="container">
-            <div class="row title-row">
-                <div class="col-sm-12 text-center">
-                    <h3>Sign In</h3>
-                </div>
-            </div>
-            <div class="row entry-row">
-                <div class="col-sm-3 text-right">
-                    Username:
-                </div>
-                <div class="col-sm-9 test-left">
-                    Box 
-                </div>
-            </div>
-            <div class="row entry-row">
-            <div class="col-sm-3 text-right">
-                    <p>Password:</p>
-                </div>
-                <div class="col-sm-9 text-left">
-                    <p>Box to enter information goes here</p>
-                </div>
-            </div>
-            <div class="row entry-row">
-                <div class="col-sm-6 text-right">
-                    <p>Dont have an account?</p>
-                </div>
-                <div class="col-sm-6 text-left">
-                    <Link className = "nav-link" to='/Sign_Up'>Sign Up</Link>
-                </div>
-            </div>
-        </div>
-        );
-
-
-<div className="spacer" > &nbsp; </div>
-
-<div className="container">
-  <div className="row">
-    <div className="col-xs-3"></div>
-    <div className="col-xs-9"></div>
-  </div>
-  <div className="row">
-    <div className="col-*-*"></div>
-    <div className="col-*-*"></div>
-    <div className="col-*-*"></div>
-  </div>
-  <div className="row">
-    ...
-  </div>
-</div>
-*/
 
 export default Basic;
