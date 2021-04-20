@@ -2,9 +2,14 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha server.test.js",
-    "install-all": "npm install && cd client && npm install",
+   "install-all": "npm install && cd client && npm install",
     "client": "cd client && npm start",
-    "start": "node server.js"
+    "server": "nodemon server.js",
+    "dev": "\"nodemon server.js\" \"cd client && npm run start\"",
+    "build": "cd client && npm build",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+
   },
   "author": "",
   "license": "ISC",
@@ -30,5 +35,5 @@
     "url": "https://github.com/vidatonkova/ZimmermanWeb/issues"
   },
   "homepage": "https://github.com/vidatonkova/ZimmermanWeb#readme",
-  "proxy": "http://localhost:8080"
+  "proxy": "http://localhost:3000"
 }
