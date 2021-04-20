@@ -70,9 +70,16 @@ const SignUp = () => {
             />
           </div>
         </div>
-        <button type="submit" class="btn btn-primary custom-button">
-          <h9>Sign Up</h9>
-        </button>
+
+        <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2 text-center">
+          <button type="submit" class="btn btn-primary custom-button">
+            <h9>Sign Up</h9>
+          </button>
+        </div>
+        <div class="col-sm-5"></div>
+      </div>
       </form>
     </div>
   );

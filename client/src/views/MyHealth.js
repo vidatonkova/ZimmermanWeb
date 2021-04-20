@@ -96,8 +96,7 @@ const MyHealth = () => {
             <h2>Recommended Books about Inflammatory Bowel Disease</h2>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-center ">
             <Button
@@ -113,8 +112,7 @@ const MyHealth = () => {
               <div id="example-collapse-text">
               <div class="some">
                 <h9>
-                <div class="row entrySpacer-row"></div>
-                <div class="row entrySpacer-row"></div>
+                <div class="row in-button-spacer"></div>
                 Hillary Steinhart, MD, MSc, FRCP(C)
                 <br></br>
                 Paperback: 224 pages
@@ -148,14 +146,12 @@ const MyHealth = () => {
                 way to improve health and quality of life and provide hope to
                 your loved ones.
                 </h9>
-                <hr />
               </div>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -163,7 +159,7 @@ const MyHealth = () => {
               onClick={() => setOpen2(!open2)}
               aria-controls="example-collapse-text"
               aria-expanded={open2}
-              className="faq-box"
+              className="faq-box1"
             >
               <h9><i>
                 Crohn’s Disease and Ulcerative Colitis: Everything You Need to
@@ -173,6 +169,7 @@ const MyHealth = () => {
             <Collapse in={open2}>
               <div id="example-collapse-text">
               <h9>
+                <div class="row in-button-spacer"></div>
                 Fred Saibel, MD
                 <br></br>
                 Paperback: 224 pages
@@ -226,7 +223,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -234,7 +231,7 @@ const MyHealth = () => {
               onClick={() => setOpen3(!open3)}
               aria-controls="example-collapse-text"
               aria-expanded={open3}
-              className="faq-box"
+              className="faq-box1"
             >
               <h9><i>
                 IBD Self-Management: The AGA Guide to Crohn’s Disease and
@@ -244,6 +241,7 @@ const MyHealth = () => {
             <Collapse in={open3}>
               <div id="example-collapse-text">
               <h9>
+                <div class="row in-button-spacer"></div>
                 Sunanda V. Kane, M.D.
                 <br></br>
                 MSPH Paperback: 288 pages
@@ -271,7 +269,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -279,13 +277,15 @@ const MyHealth = () => {
               onClick={() => setOpen4(!open4)}
               aria-controls="example-collapse-text"
               aria-expanded={open4}
-              className="faq-box"
+              className="faq-box1"
             >
               <h9><i>Learning Sickness: A Year With Crohn’s Disease</i></h9>
             </Button>
             <Collapse in={open4}>
               <div id="example-collapse-text">
-              <h9>James M. Lang
+              <h9>
+                <div class="row in-button-spacer"></div>
+                James M. Lang
                 <br></br>
                 Paperback: 187 pages
                 <br></br>
@@ -305,7 +305,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -313,13 +313,15 @@ const MyHealth = () => {
               onClick={() => setOpen5(!open5)}
               aria-controls="example-collapse-text"
               aria-expanded={open5}
-              className="faq-box"
+              className="faq-box1"
             >
               <h9><i>Pete Learns All About Crohn’s and Colitis</i></h9>
             </Button>
             <Collapse in={open5}>
               <div id="example-collapse-text">
-              <h9>Hilarie and Joe Staton
+              <h9>
+                <div class="row in-button-spacer"></div>
+                Hilarie and Joe Staton
                 <br></br>
                 Comic book
                 <br></br>
@@ -328,7 +330,7 @@ const MyHealth = () => {
                 <br></br>
                 View and download this comic book from the following web page on
                 the CCFA web site:
-                <a href="http://www.ccfa.org/info/brochures/ccfa.online.comicbook.pdfwww.ccfa.org">
+                <a href="http://www.ccfa.org/info/brochures/ccfa.online.comicbook.pdfwww.ccfa.org" class="light-blue">
                   {" "}
                   <h9>CCFA Comic Book</h9>
                 </a>
@@ -337,7 +339,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>University of Florida Resources</h2>
@@ -737,7 +739,7 @@ const MyHealth = () => {
             </h2>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -745,7 +747,7 @@ const MyHealth = () => {
               onClick={() => setOpen6(!open6)}
               aria-controls="example-collapse-text"
               aria-expanded={open6}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>
                 Can I have a baby if I have Crohn’s disease or ulcerative
@@ -754,7 +756,9 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open6}>
               <div id="example-collapse-text">
-                <h9>Yes, most women who have IBD are able to get pregnant and carry
+                <h9>
+                <div class="row in-button-spacer"></div>  
+                Yes, most women who have IBD are able to get pregnant and carry
                 a baby to term. Having IBD does not reduce the chances you will
                 get pregnant. The effect of IBD on pregnancy depends on how
                 severe the disease was before and during pregnancy. If the
@@ -803,7 +807,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -811,7 +815,7 @@ const MyHealth = () => {
               onClick={() => setOpen7(!open7)}
               aria-controls="example-collapse-text"
               aria-expanded={open7}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>
                 How can I make sure my IBD is well controlled before I get
@@ -820,7 +824,9 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open7}>
               <div id="example-collapse-text">
-                <h9>The best way to control your disease is to get regular care from
+                <h9>
+                <div class="row in-button-spacer"></div>
+                The best way to control your disease is to get regular care from
                 your health care team and take your medicines faithfully and in
                 the prescribed doses. Tell to your doctor about your symptoms
                 and any side effects, so you can work together to find the best
@@ -844,7 +850,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -852,7 +858,7 @@ const MyHealth = () => {
               onClick={() => setOpen8(!open8)}
               aria-controls="example-collapse-text"
               aria-expanded={open8}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>
                 Will I have to go to the doctor more often when I am pregnant?
@@ -860,7 +866,9 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open8}>
               <div id="example-collapse-text">
-                <h9>If you are taking immunosuppressive medicines or having disease
+                <h9>
+                <div class="row in-button-spacer"></div>
+                If you are taking immunosuppressive medicines or having disease
                 flares while you are pregnant, you will need to see your
                 obstetrician and IBD doctor more often. Your baby’s growth will
                 be closely monitored by your obstetrician with ultrasound scans
@@ -869,7 +877,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -877,13 +885,15 @@ const MyHealth = () => {
               onClick={() => setOpen9(!open9)}
               aria-controls="example-collapse-text"
               aria-expanded={open9}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>Will my IBD get worse when I am pregnant?</b></h3>
             </Button>
             <Collapse in={open9}>
               <div id="example-collapse-text">
-                <h9>IBD does not always get worse during pregnancy. Women whose IBD
+                <h9>
+                <div class="row in-button-spacer"></div>
+                IBD does not always get worse during pregnancy. Women whose IBD
                 is in remission when they get pregnant are likely to stay in
                 remission. Women with active disease when they get pregnant are
                 likely to have active disease during pregnancy. Therefore, many
@@ -903,7 +913,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -911,7 +921,7 @@ const MyHealth = () => {
               onClick={() => setOpen10(!open10)}
               aria-controls="example-collapse-text"
               aria-expanded={open10}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>
                 Should I keep taking my medicines for IBD while I am trying to
@@ -920,7 +930,9 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open10}>
               <div id="example-collapse-text">
-                <h9>You will do better if your disease is under control before and
+                <h9>
+                <div class="row in-button-spacer"></div>
+                You will do better if your disease is under control before and
                 during pregnancy. Most medicines used to treat IBD are generally
                 safe to take during pregnancy. Therefore, it is a good idea to
                 keep taking the medicines to treat your IBD while you are
@@ -939,7 +951,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -947,13 +959,15 @@ const MyHealth = () => {
               onClick={() => setOpen11(!open11)}
               aria-controls="example-collapse-text"
               aria-expanded={open11}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>Will IBD medicines harm my baby?</b></h3>
             </Button>
             <Collapse in={open11}>
               <div id="example-collapse-text">
-                <h9>The U.S. Food and Drug Administration decides the safety level
+                <h9>
+                <div class="row in-button-spacer"></div>
+                The U.S. Food and Drug Administration decides the safety level
                 of drugs taken during pregnancy. Category A includes medicines
                 like Tylenol®, which have been shown to be of very low risk to
                 the baby during pregnancy. Category B medicines are the next
@@ -1038,7 +1052,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -1046,13 +1060,15 @@ const MyHealth = () => {
               onClick={() => setOpen12(!open12)}
               aria-controls="example-collapse-text"
               aria-expanded={open12}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>Can I breast-feed my baby while taking my IBD medicines?</b></h3>
             </Button>
             <Collapse in={open12}>
               <div id="example-collapse-text">
-                <h9>Some IBD medicines are safe to continue while breast-feeding.
+                <h9>
+                <div class="row in-button-spacer"></div>
+                Some IBD medicines are safe to continue while breast-feeding.
                 These include mesalamine, sulfasalazine, and prednisone. Talk to
                 your doctor if you are taking azathioprine, 6- mercaptopurine,
                 or anti-TNF medicines and plan to nurse your infant.
@@ -1063,7 +1079,7 @@ const MyHealth = () => {
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row entry-row">
           <div class="col-sm-12 text-left ">
             <Button
@@ -1071,19 +1087,21 @@ const MyHealth = () => {
               onClick={() => setOpen13(!open13)}
               aria-controls="example-collapse-text"
               aria-expanded={open13}
-              className="faq-box"
+              className="faq-box1"
             >
               <h3><b>What if I get somebody else pregnant?</b></h3>
             </Button>
             <Collapse in={open13}>
               <div id="example-collapse-text">
-                <h9>Methotrexate is a medication that could cause a temporary
+                <h9>
+                <div class="row in-button-spacer"></div>
+                Methotrexate is a medication that could cause a temporary
                 increased chance of infertility and low sperm count in men.</h9>
               </div>
             </Collapse>
           </div>
         </div>
-        <div class="row entrySpacer-row"></div>
+        <div class="row between-button-spacer"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>Genetic Risk for Inflammatory Bowel Disease in Childbearing</h2>
