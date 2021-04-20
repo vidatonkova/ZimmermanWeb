@@ -85,47 +85,39 @@ const Discussion = (props) => {
                 </form>
             </div>
             </div>
-
             <div class="row faq-spacer"></div>
-
             <div class="row">
-            
-
-                <Async promiseFn={loadPosts}>
-                    {({data, error, isLoading}) => {
-                            if (isLoading)
-                                return "Loading...";
-                            if (error) {
-                                console.log(error);
-                                return "Oops, something went wrong";
+                <div>
+                    <Container className="justify-content-md-center">
+                    <ListGroup variant = "flush">
+                        <div>
+                        <Async promiseFn={loadPosts}>
+                            {({data, error, isLoading}) => {
+                                    if (isLoading)
+                                        return "Loading...";
+                                    if (error) {
+                                        console.log(error);
+                                        return "Oops, something went wrong";
+                                    }
+                                    if (data && Array.isArray(data)) {
+                                        return data.reverse().map(entry => {
+                                            return(
+                                            <div>
+                                                <ListGroup.Item variant = "info">{entry.question}</ListGroup.Item>
+                                                <ListGroup.Item>{entry.answer}</ListGroup.Item>
+                                                <br></br>
+                                            </div>
+                                            ) 
+                                        })
+                                    }
+                                }
                             }
-                            if (data && Array.isArray(data)) {
-                                return data.reverse().map(entry => {
-                                    return <div>
-                                        <div class="col-sm-12 text-center ">
-                                            <Button
-                                                type="button"
-                                                onClick={() => setOpen1(!open1)}
-                                                aria-controls="example-collapse-text"
-                                                aria-expanded={open1}
-                                                className="faq-box"
-                                            >
-                                            {entry.question}
-                                            </Button>
-                                            <Collapse in={open1}>
-                                                <div id="example-collapse-text" class="faq-box">
-                                                    <p class="txt-color">{entry.answer}</p>
-                                                </div>
-                                            </Collapse>
-                                        </div>
-                                        
-                                    </div>
-                                })
-                            }
-                        }
-                    }
-                </Async>
-             </div>
+                        </Async>
+                        </div>
+                    </ListGroup>
+                    </Container>
+                </div>
+           </div>
         </div>
         );
 };

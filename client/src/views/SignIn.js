@@ -1,24 +1,55 @@
 
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Route, Redirect } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Format.css';
-import {getUser} from '../api';
-import url from '../config';
+import { React, useState} from 'react';
+import Axios from 'axios';
+import Async from 'react-async';
+import config from '../config.js';
+import ListGroup from 'react-bootstrap/ListGroup';
+import Alert from 'react-bootstrap/Alert'
 
-class SignIn extends Component{
 
-async componentDidMount(){
-    let response = await getUser();
-    console.log(response);
+const SignIn = (props) => {
+  let [u, setU] = useState("");
+  let [p, setP] = useState("");
+  let [alerty, setA] = useState(false);
+  let [b, setB] = useState(false);
+  
+    const handleChangeU = (event) => {
+      setU(event.target.value);
+    }
+    const handleChangeP = (event) => {
+      setP(event.target.value);
+    }
+
+    const handleSignIn = () => {
+      console.log(u);
+      console.log(p);
+      
+    }
+    const handleAlert = () => {
+      if(alerty){
+        setB(true);
+      }
+    }
+
+  const loadU = () => {
+    return Axios.get(
+      config.backpoint + '/users/find'
+    )
+    .then((response) => {
+      console.log(response.data);
+        return response.data;
+    })
+    .catch((error) => {
+        console.error(error)
+        return error;
+    })
 }
 
-handleSignIn(event){
-console.log(event.form);
-}
-   render(){
-        return (
-
+   
+  return (
     <div class="container">
       <div class="row topSpace-row"></div>
       <div class="row title-row">
@@ -26,21 +57,21 @@ console.log(event.form);
           <h2>Sign In</h2>
         </div>
       </div>
-      <form onSubmit={this.handleSignIn}>
+      <form onSubmit={handleSignIn}>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputUsername4"><h2>Username</h2></label>
+            <label>Username</label>
             <input
-              type="username"
+              type="text" value={u} onChange={handleChangeU}
               class="form-control"
               id="inputUsername4"
               placeholder="Username"
             />
           </div>
           <div class="form-group col-md-6">
-            <label for="inputPassword4"><h2>Password</h2></label>
+            <label>Password</label>
             <input
-              type="password"
+              type="text" value={p} onChange={handleChangeP}
               class="form-control"
               id="inputPassword4"
               placeholder="Password"
@@ -50,13 +81,16 @@ console.log(event.form);
         <div class="row">
         <div class="col-sm-5"></div>
         <div class="col-sm-2 text-center">
-          <button type="submit" class="btn btn-primary custom-button">
-            <h9>Sign in</h9>
+          <button type="submit" onClick={handleAlert} class="btn btn-primary custom-button">
+            Sign in
           </button>
         </div>
         <div class="col-sm-5"></div>
       </div>
       </form>
+      {b ? <Alert variant='success'>
+      LOGGED IN
+      </Alert>: <div></div>}
       <div class="row spacer-row"></div>
       <div class="row">
         <div class="col-sm-12 text-center">
@@ -70,14 +104,35 @@ console.log(event.form);
             <h9>Sign Up</h9>
           </Link>
         </div>
-        <div class="col-sm-5"></div>
+        <div class="col-sm-4"></div>
+
+        <Async promiseFn={loadU}>
+          {({data, error, isLoading}) => {
+              if (isLoading)
+                  return "Loading...";
+              if (error) {
+                  console.log(error);
+                  return "Oops, something went wrong";
+              }
+              if (data && Array.isArray(data)) {
+                data.reverse().map(entry => {
+                  console.log(u);
+                  console.log(entry.fname);
+                      if(u == entry.fname){
+                        console.log("test");
+                        setA(true);
+                      }
+                })
+              }
+            }
+          }
+        </Async>
       </div>
-      </div>
+    </div>
   );
-};
 
 }
 
-
+                              
 
 export default SignIn;
