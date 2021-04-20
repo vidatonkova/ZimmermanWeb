@@ -9,5 +9,8 @@ Website for the Zimmerman Lab - VJAM SWE
 
 ## How to start up the website
 <ol>
-  
+<li>
+Open command prompt and navigate to a directory you want the project to be in.
+
+</li>
 </ol>
