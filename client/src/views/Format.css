@@ -67,7 +67,7 @@ h9 {
 }
 
 .sub-title-row {
-  height: 50px;
+  height: 65px;
   background-color: #2b4d59;
   -webkit-text-fill-color: #ffffff;
 }
@@ -86,6 +86,38 @@ font-size: 20px;
 
 .picture-row {
   background-color: #eff0eb;
+  align-items: center;
+  height: 20vh;
+}
+
+.picture1-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture2-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture3-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture4-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 25vh;
+}
+
+.picture5-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 25vh;
 }
 
 .picture-contact-row{
@@ -109,6 +141,16 @@ font-size: 20px;
 .change-later {
   background-color: #eff0eb;
   height: 2vh;
+}
+
+.between-button-spacer {
+  background-color: #eff0eb;
+  height: 4vh;
+}
+
+.in-button-spacer {
+  background-color: #eff0eb;
+  height: 3vh;
 }
 
 .spacer-row {

@@ -31,11 +31,11 @@ const FAQ = () => {
                     aria-expanded={open1}
                     className="faq-box"
                 >
-                click
+                How do I know if I have IBD?
                 </Button>
                 <Collapse in={open1}>
                     <div id="example-text" class="faq-box">
-                        <p class="txt-color">Insert response from database.</p>
+                        <p class="txt-color">Go to a doctor and get diagnosed if you think you have symptoms.</p>
                     </div>
                 </Collapse>
                 </div>
