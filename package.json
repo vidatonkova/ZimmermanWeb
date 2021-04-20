@@ -34,5 +34,5 @@
     "url": "https://github.com/vidatonkova/ZimmermanWeb/issues"
   },
   "homepage": "https://github.com/vidatonkova/ZimmermanWeb#readme",
-  "proxy": "http://localhost:8080"
+  "proxy": "http://localhost:3000"
 }
