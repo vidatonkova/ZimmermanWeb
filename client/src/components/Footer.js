@@ -46,8 +46,8 @@ const Footer = () => {
             <p>
               Tel: 352-273-9472<br></br>
               Fax: 352-627-4761<br></br>
-              Tel: 352-273-9400(patient-related)<br></br>
-              Fax: 352-627-4179(patient-related)<br></br>
+              Tel: 352-273-9400 (patient-related)<br></br>
+              Fax: 352-627-4179 (patient-related)<br></br>
             </p>
           </div>
           <div class="col-sm-3 text-center">

@@ -88,22 +88,22 @@ const Home = () => {
         </div>
         <div class="row entry-row">
           <div class="col-sm-3 text-center">
-            <Link className="nav-link" to="/FAQ">
+            <Link className="nav-link light-blue" to="/FAQ">
               <h3>FAQ</h3>
             </Link>
           </div>
           <div class="col-sm-3 text-center">
-            <Link className="nav-link" to="/Basic">
+            <Link className="nav-link light-blue" to="/Basic">
               <h3>IBD Basics</h3>
             </Link>
           </div>
           <div class="col-sm-3 text-center">
-            <Link className="nav-link" to="/Sign_In">
+            <Link className="nav-link light-blue" to="/Sign_In">
               <h3>Login</h3>
             </Link>
           </div>
           <div class="col-sm-3 text-center">
-            <Link className="nav-link" to="/Sign_Up">
+            <Link className="nav-link light-blue" to="/Sign_Up">
               <h3>Create an Account</h3>
             </Link>
           </div>

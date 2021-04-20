@@ -28,8 +28,16 @@
   -webkit-text-fill-color: #ffffff;
 }
 
+.c5 {
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
 .color-Nav {
   -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+.color-Nav:hover {
+  -webkit-text-fill-color: rgb(255, 220, 124);
 }
 
 .container {
@@ -303,4 +311,8 @@ font-size: 20px;
 
 .some {
   text-align: left;
+}
+
+.DP {
+  align-content: center;
 }
