@@ -17,8 +17,10 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
   const app = express()
   app.use(express.json());
   app.use(cors());
-  app.use('/', express.static('../client/build'))
-  app.use(express.static('../client/build'))
+  // app.use('/', express.static('../client/build'))
+  // app.use(express.static('../client/build'))
+  
+  app.use('/', express.static(path.join(__dirname, '/client/build')));
 
   app.get('/ping', function (req, res) {
   return res.send('pong');
@@ -81,9 +83,9 @@ app.get('/discuss', async (req, res) => {
 
 });
 
-  
- 
   app.get('*', (req, res) => {
+    console.log(__dirname);
+    console.log(path.join(__dirname, '/client/build', 'index.html'));
     res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
   });
   
