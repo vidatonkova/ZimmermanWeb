@@ -12,7 +12,7 @@ Open command prompt and navigate to a directory you want the project to be in us
 ```bash
 git clone https://github.com/vidatonkova/ZimmermanWeb.git
 ```
-Then, when the git repository downloads (it should take very long), type this command into the terminal
+Then, when the git repository downloads (it shouldn't take very long), type this command into the terminal
 ```bash
 cd ZimmermanWeb
 ```
