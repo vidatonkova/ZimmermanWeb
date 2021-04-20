@@ -34,8 +34,6 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
-        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>On this page you will find informmation regarding general resources
@@ -91,6 +89,7 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>Recommended Books about Inflammatory Bowel Disease</h2>
@@ -346,6 +345,7 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
           <h9>● UF IBD College Transition Video:</h9>
@@ -391,6 +391,8 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>University of Miami Resources</h2>
@@ -452,11 +454,14 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2 class="light-blue">Maintaining My Health</h2>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <Link className="nav-link" to="/MyPassport" class="nav-link">
@@ -465,6 +470,7 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>Preventing Infections with Vaccines</h2>
@@ -503,6 +509,8 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>Vaccines</h2>
@@ -581,6 +589,7 @@ const MyHealth = () => {
             immunosuppressive medicines.</h9>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <hr />
         <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
@@ -621,6 +630,7 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>Preventing Colon Cancer</h2>
@@ -731,6 +741,7 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2>
@@ -1215,6 +1226,7 @@ const MyHealth = () => {
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
           <div className="col-sm-12 text-left">
             <h2 class="light-blue">COVID-19 Resources</h2>
@@ -1231,6 +1243,7 @@ const MyHealth = () => {
             </h9>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
       </div>
     </div>
   );

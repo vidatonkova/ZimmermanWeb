@@ -16,29 +16,35 @@ const Events = () => {
             <h2>Events and Webinars</h2>
           </div>
         </div>
+        <hr />
         <div class="row spacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-center">
             <h2>Information</h2>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-left">
             <h9>If you would like to participate in future events and webinars,{" "}
             <b>register first</b>. A member will contact you!</h9>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row spacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-center">
             <h2>Links</h2>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>Stay tuned for future webinars and events</h9>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
       </div>
     </div>
   );

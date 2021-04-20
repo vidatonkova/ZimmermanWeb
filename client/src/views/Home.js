@@ -55,36 +55,57 @@ const Home = () => {
         <div class="row homeSpacer-row"></div>
         <div class="row spacer-row"></div>
         <div class="row title-row">
-          <h2>Overview</h2>
+          <div className="col-sm-12 text-left"><h2> Overview</h2></div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <h9>Here you will find an overview of what each of the main pages on the Crohn's and Colitis Clinical Care Consortium website.  THe Home page is the HUB for the webstie and serves as the entry point for visiting the website.  The Basic tab contains basic information about inflammatory bowel disease.  Information covered includes what IBD is and other simmilar information.  The Meet the Team tab includes information about the medical professionals within the consortium from both the University of Florida and the University of Miami.  The Events tab has links to future webinars and activities.  Stay tuned!  The MyHealth tab provides information regarding recommended books, resources specific to the University of Florida and the University of Miami, the IBD passport, and information about the relationship between IBD and your health.  The FAQ tab answers some Frequently Asked Questions regarding Inflammatory Bowel Disease.  The Sign In page allows users to sign into their account and create a new one if needed.  The Discussion page provides a place for users to ask questions regarding IBD to be answered. </h9>
+          <div className="col-sm-12 text-left"><h9>Here you will find an overview of what each of the main pages on the Crohn's and Colitis Clinical Care Consortium website.  THe Home page is the HUB for the webstie and serves as the entry point for visiting the website.  The Basic tab contains basic information about inflammatory bowel disease.  Information covered includes what IBD is and other simmilar information.  The Meet the Team tab includes information about the medical professionals within the consortium from both the University of Florida and the University of Miami.  The Events tab has links to future webinars and activities.  Stay tuned!  The MyHealth tab provides information regarding recommended books, resources specific to the University of Florida and the University of Miami, the IBD passport, and information about the relationship between IBD and your health.  The FAQ tab answers some Frequently Asked Questions regarding Inflammatory Bowel Disease.  The Sign In page allows users to sign into their account and create a new one if needed.  The Discussion page provides a place for users to ask questions regarding IBD to be answered. </h9></div>
+          
         </div>
-
-        <div class="row spacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row title-row">
-          <div className="col-sm-5 text-center">
+          <div className="col-sm-6 text-center">
             <h1>Need to Know</h1>
           </div>
-          <div className="col-sm-2 text-center"></div>
-          <div className="col-sm-5 text-center">
+          <div className="col-sm-6 text-center">
             <h1>Returning User?</h1>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
-          <div className="col-sm-5 text-left">
+          <div className="col-sm-6 text-left">
             <h9>The links below will provide basic information about Inflammatory
             Bowel Disease and the answers to some some frequently asked
             questions.</h9>
           </div>
-          <div className="col-sm-2 text-right"></div>
-          <div className="col-sm-5 text-left">
+          <div className="col-sm-6 text-left">
             <h9>If you are a returning user to the Crohn's and Colitis Clinical Care
             Consorium (C5) website, you can login below. You can click on the
             sign up link below to create an account.</h9>
           </div>
         </div>
         <div class="row entry-row">
+<<<<<<< HEAD
+          <div class="col-sm-3 text-center">
+            <Link className="nav-link" to="/FAQ">
+              <h3>FAQ</h3>
+            </Link>
+          </div>
+          <div class="col-sm-3 text-center">
+            <Link className="nav-link" to="/Basic">
+              <h3>IBD Basics</h3>
+            </Link>
+          </div>
+          <div class="col-sm-3 text-center">
+            <Link className="nav-link" to="/Sign_In">
+              <h3>Login</h3>
+            </Link>
+          </div>
+          <div class="col-sm-3 text-center">
+            <Link className="nav-link" to="/Sign_Up">
+=======
           <div class="col-sm-1 text-right">
             <Link className="nav-link light-blue" to="/FAQ">
               <h3>FAQ</h3>
@@ -105,16 +126,20 @@ const Home = () => {
           <div class="col-sm-1 text-right"></div>
           <div class="col-sm-3 text-left">
             <Link className="nav-link light-blue" to="/Sign_Up">
+>>>>>>> main
               <h3>Create an Account</h3>
             </Link>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
         <div class="row spacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-center">
             <h1>Meet your Crohn's and Colitis Team</h1>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>Click this link to learn more about the Crohn's and Colitis Teams
@@ -124,6 +149,8 @@ const Home = () => {
             </Link>
           </div>
         </div>
+        <div class="row entrySpacer-row"></div>
+        <hr />
       </div>
     </div>
   );

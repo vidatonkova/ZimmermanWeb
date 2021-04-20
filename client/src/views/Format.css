@@ -28,6 +28,10 @@
   -webkit-text-fill-color: #ffffff;
 }
 
+.color-Nav {
+  -webkit-text-fill-color: rgb(255, 220, 124);
+}
+
 .container {
   padding-top: 10px;
   max-width: 92%;

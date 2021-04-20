@@ -29,7 +29,7 @@ console.log(event.form);
       <form onSubmit={this.handleSignIn}>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputUsername4">Username</label>
+            <label for="inputUsername4"><h2>Username</h2></label>
             <input
               type="username"
               class="form-control"
@@ -38,7 +38,7 @@ console.log(event.form);
             />
           </div>
           <div class="form-group col-md-6">
-            <label for="inputPassword4">Password</label>
+            <label for="inputPassword4"><h2>Password</h2></label>
             <input
               type="password"
               class="form-control"

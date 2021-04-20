@@ -7,7 +7,7 @@ import "./../views/Format.css";
 const NavBar = (props) => {
   return (
     <>
-      <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
+      <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" className="color-Nav">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
