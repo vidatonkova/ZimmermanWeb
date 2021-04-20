@@ -29,7 +29,7 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
 
 
   //Users
-  
+
   app.get('/users/find', function (req, res) {
       Users.find({}, (error, documents) => {
         if (error) {
@@ -86,7 +86,7 @@ app.post('/discuss', async (req, res) => {
   }
   catch (err) {
     console.error(err);
-      res.json({ message: "ur question is trashy" });
+      res.json({ message: "ur question is trashy"});
   }
 });
 

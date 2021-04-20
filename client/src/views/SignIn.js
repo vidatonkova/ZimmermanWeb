@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom';
+import { Link, Route, Redirect } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Format.css';
 import { React, useState} from 'react';
@@ -7,17 +7,19 @@ import Axios from 'axios';
 import Async from 'react-async';
 import config from '../config.js';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Alert from 'react-bootstrap/Alert'
 
 
 const SignIn = (props) => {
   let [u, setU] = useState("");
   let [p, setP] = useState("");
-
+  let [alerty, setA] = useState(false);
+  let [b, setB] = useState(false);
   
     const handleChangeU = (event) => {
       setU(event.target.value);
     }
-  const handleChangeP = (event) => {
+    const handleChangeP = (event) => {
       setP(event.target.value);
     }
 
@@ -26,12 +28,18 @@ const SignIn = (props) => {
       console.log(p);
       
     }
+    const handleAlert = () => {
+      if(alerty){
+        setB(true);
+      }
+    }
 
   const loadU = () => {
     return Axios.get(
       config.backpoint + '/users/find'
     )
     .then((response) => {
+      console.log(response.data);
         return response.data;
     })
     .catch((error) => {
@@ -51,7 +59,7 @@ const SignIn = (props) => {
       <form onSubmit={handleSignIn}>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputUsername4">Username</label>
+            <label>Username</label>
             <input
               type="text" value={u} onChange={handleChangeU}
               class="form-control"
@@ -60,7 +68,7 @@ const SignIn = (props) => {
             />
           </div>
           <div class="form-group col-md-6">
-            <label for="inputPassword4">Password</label>
+            <label>Password</label>
             <input
               type="text" value={p} onChange={handleChangeP}
               class="form-control"
@@ -72,13 +80,16 @@ const SignIn = (props) => {
         <div class="row">
         <div class="col-sm-5"></div>
         <div class="col-sm-2 text-center">
-          <button type="submit" class="btn btn-primary custom-button">
+          <button type="submit" onClick={handleAlert} class="btn btn-primary custom-button">
             Sign in
           </button>
         </div>
         <div class="col-sm-5"></div>
       </div>
       </form>
+      {b ? <Alert variant='success'>
+      LOGGED IN
+      </Alert>: <div></div>}
       <div class="row spacer-row"></div>
       <div class="row align-items-center">
         <div class="col-sm-3"></div>
@@ -93,25 +104,25 @@ const SignIn = (props) => {
         <div class="col-sm-4"></div>
 
         <Async promiseFn={loadU}>
-            {({data, error, isLoading}) => {
-                    if (isLoading)
-                        return "Loading...";
-                    if (error) {
-                        console.log(error);
-                        return "Oops, something went wrong";
-                    }
-                    if (data && Array.isArray(data)) {
-                        return data.reverse().map(entry => {
-                            return <div>
-                                <ListGroup.Item variant="dark">{u}</ListGroup.Item>
-                                <ListGroup.Item>{p}</ListGroup.Item>
-                                <ListGroup.Item>{entry.u}</ListGroup.Item>
-                                <ListGroup.Item>{entry.p}</ListGroup.Item>
-                            </div>
-                        })
-                    }
-                }
+          {({data, error, isLoading}) => {
+              if (isLoading)
+                  return "Loading...";
+              if (error) {
+                  console.log(error);
+                  return "Oops, something went wrong";
+              }
+              if (data && Array.isArray(data)) {
+                data.reverse().map(entry => {
+                  console.log(u);
+                  console.log(entry.fname);
+                      if(u == entry.fname){
+                        console.log("test");
+                        setA(true);
+                      }
+                })
+              }
             }
+          }
         </Async>
       </div>
     </div>
