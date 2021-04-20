@@ -21,11 +21,6 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
   return res.send('pong');
   });
 
-  app.get('/', function (req, res) {
-      res.body = "yeah boi";
-      return res.send('ur a cool bean');
-  });
-
   app.get('/users/find', function (req, res) {
       Users.find({}, (error, documents) => {
         if (error) {
@@ -50,7 +45,7 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
     }
     catch (err) {
       console.error(err);
-        res.json({ message: "ur moms a hoe ur a hoe too" });
+        res.json({ message: "u have a bad user" });
     }
 });
 
@@ -67,7 +62,7 @@ app.post('/discuss', async (req, res) => {
   }
   catch (err) {
     console.error(err);
-      res.json({ message: "ur question is trashy" });
+      res.json({ message: "ur question is bad" });
   }
 });
 
@@ -82,6 +77,15 @@ app.get('/discuss', async (req, res) => {
   });
 
 });
+
+  app.use('/', express.static('../client/build'))
+  app.use(express.static('../client/build'))
+ 
+  app.all('/*', (req, res) => {
+    // res.status(201).json({message: "nothing here!"});
+    res.sendFile(path.resolve("../client/build/index.html"));
+  });
+  
 
   app.listen(port, () => console.log(`Server now running on port ${port}!`));
 
