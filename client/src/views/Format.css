@@ -63,7 +63,7 @@ h2 {
 
 h9 {
   font-weight: 375;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 
@@ -315,4 +315,8 @@ font-size: 20px;
 
 .DP {
   align-content: center;
+}
+
+.yellow-footer2{
+  color: rgb(255, 194, 27);
 }
