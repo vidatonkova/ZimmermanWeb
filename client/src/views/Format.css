@@ -46,7 +46,7 @@
 }
 
 h1 {
-  font-size: 2vw;
+  font-size: 25px;
 }
 
 h2 {
@@ -278,7 +278,7 @@ font-size: 20px;
 }
 
 .yellow-footer {
-  color: rgb(255, 220, 124);
+  color: rgb(255, 194, 27);
 }
 
 .yellow-footer:hover {
