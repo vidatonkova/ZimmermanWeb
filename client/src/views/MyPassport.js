@@ -36,7 +36,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1DQ1ngkjxv-8erZfWhaL0hadNFXuX6O_v/view?usp=sharing">
               {" "}
-              <h9>My Information</h9>
+              <h9 class="light-blue">My Information</h9>
             </a>
           </div>
         </div>
@@ -45,7 +45,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1hIMQrhJ5K_yEg2K2e8WL73NZYr8Av_0T/view?usp=sharing">
               {" "}
-              <h9>My Appointment Planner</h9>
+              <h9 class="light-blue">My Appointment Planner</h9>
             </a>
           </div>
         </div>
@@ -54,7 +54,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/12DYJWyeGOkFfgTWipgNfXLw4n4ct1jcx/view?usp=sharing">
               {" "}
-              <h9>My Medicines</h9>
+              <h9 class="light-blue">My Medicines</h9>
             </a>
           </div>
         </div>
@@ -63,7 +63,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1MQEBxOHV-LqT1s9KBdqycMcvmzKPwfHp/view?usp=sharing">
               {" "}
-              <h9>Planning for My Next Visit</h9>
+              <h9 class="light-blue">Planning for My Next Visit</h9>
             </a>
           </div>
         </div>
@@ -72,7 +72,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1W4m4-nu7uhblMuQrcRMupeYLFv3CN2Gb/view?usp=sharing">
               {" "}
-              <h9>Bathroom (Bowel Movements) Tracker</h9>
+              <h9 class="light-blue">Bathroom (Bowel Movements) Tracker</h9>
             </a>
           </div>
         </div>
@@ -81,7 +81,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1UsW9LH3zYkN_Qootv1hcqNAfGd5jEJ-A/view?usp=sharing">
               {" "}
-              <h9>Prednisone Taper Schedule</h9>
+              <h9 class="light-blue">Prednisone Taper Schedule</h9>
             </a>
           </div>
         </div>
@@ -90,7 +90,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1M1zlWi5E3qz2yTQP89Bzy2AGgkscIrlj/view?usp=sharing">
               {" "}
-              <h9>Characteristics of My Inflammatory Bowel Disease</h9>
+              <h9 class="light-blue">Characteristics of My Inflammatory Bowel Disease</h9>
             </a>
           </div>
         </div>
@@ -99,7 +99,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/17bXb0E2K9-BwLa3BtzkSdagPofuYOKdr/view?usp=sharing">
               {" "}
-              <h9>Surgery on My Gastrointestinal (GI) Tract</h9>
+              <h9 class="light-blue">Surgery on My Gastrointestinal (GI) Tract</h9>
             </a>
           </div>
         </div>
@@ -108,7 +108,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1v7k7Uc9hp8z3ZDrbkXmuUybw6kFCjqoB/view?usp=sharing">
               {" "}
-              <h9>Monitoring My Laboratory Tests</h9>
+              <h9 class="light-blue">Monitoring My Laboratory Tests</h9>
             </a>
           </div>
         </div>
@@ -117,7 +117,7 @@ const MyPassport = () => {
           <div className="col-sm-12 text-left">
             <a href="https://drive.google.com/file/d/1qcJLZj8w9-gTtkDBNhytNZu6B4utzc63/view?usp=sharing">
               {" "}
-              <h9>Colonoscopy Surveillance</h9>
+              <h9 class="light-blue">Colonoscopy Surveillance</h9>
             </a>
           </div>
         </div>
