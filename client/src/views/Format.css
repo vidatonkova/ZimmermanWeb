@@ -86,7 +86,38 @@ font-size: 20px;
 
 .picture-row {
   background-color: #eff0eb;
-  height: 1000vh;
+  align-items: center;
+  height: 20vh;
+}
+
+.picture1-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture2-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture3-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 26vh;
+}
+
+.picture4-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 25vh;
+}
+
+.picture5-row {
+  background-color: #eff0eb;
+  align-content: flex-end;
+  height: 25vh;
 }
 
 .picture-contact-row{

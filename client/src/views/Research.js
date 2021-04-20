@@ -36,7 +36,7 @@ const Research = () => {
         </div>
       </div>
 
-      <div class="row picture-row align-items-center">
+      <div class="row picture-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
             <a href="/zimmerman.png">
@@ -60,6 +60,7 @@ const Research = () => {
           </h9>
         </div>
       </div>
+
       <div class="row picture-contact-row">
           <div class="col-sm-4 text-left">
             <h9 class="font-weight-bold">Contact Info:</h9>
@@ -73,7 +74,7 @@ const Research = () => {
 
       <div class="row spacer-row"></div>
 
-      <div className="row picture-row align-items-center">
+      <div className="row picture1-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
             <a href="/chaudhry.jpg">
@@ -81,7 +82,7 @@ const Research = () => {
             </a>
           </div>
         </div>
-        <div class="col-sm-8 test-left">
+        <div class="col-sm-8 text-left">
           <h3>Dr. Naueen Chaudhry </h3>
           <h9>
             Some text here
@@ -103,7 +104,7 @@ const Research = () => {
         <div class="col-sm-12 text-center"></div>
       </div>
 
-      <div class="row picture-row align-items-center">
+      <div class="row picture2-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
             <a href="/pham.png">
@@ -133,7 +134,7 @@ const Research = () => {
         <div class="col-sm-12 text-center"></div>
       </div>
 
-      <div class="row picture-row align-items-center">
+      <div class="row picture3-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
             <a href="/rampertab.jpg">
@@ -169,7 +170,7 @@ const Research = () => {
         </div>
       </div>
 
-      <div class="row picture-row align-items-center">
+      <div class="row picture4-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
             <a href="/abreu.png">
@@ -202,7 +203,7 @@ const Research = () => {
         <div class="col-sm-12 text-center"></div>
       </div>
 
-      <div class="row picture-row align-items-center">
+      <div class="row picture5-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
             <a href="/kerman.png">
