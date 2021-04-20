@@ -9,6 +9,7 @@ const NavBar = (props) => {
     <>
       <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" className="color-Nav">
         <Container>
+          <Navbar.Brand href="#home"><h4>Crohn’s and Colitis Clinical Care Consortium (C5)</h4></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
