@@ -477,10 +477,10 @@ const Basic = () => {
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>Check out these pages for more information!</h9>
-            <Link className="nav-link" to="/Research">
+            <Link className="nav-link light-blue" to="/Research">
               <h3>Research</h3>
             </Link>
-            <Link className="nav-link" to="/Discussion">
+            <Link className="nav-link light-blue" to="/Discussion">
               <h3>Discussion board</h3>
             </Link>
           </div>
@@ -489,57 +489,5 @@ const Basic = () => {
     </div>
   );
 };
-/* 
-<div class="container">
-            <div class="row title-row">
-                <div class="col-sm-12 text-center">
-                    <h3>Sign In</h3>
-                </div>
-            </div>
-            <div class="row entry-row">
-                <div class="col-sm-3 text-right">
-                    Username:
-                </div>
-                <div class="col-sm-9 test-left">
-                    Box 
-                </div>
-            </div>
-            <div class="row entry-row">
-            <div class="col-sm-3 text-right">
-                    <p>Password:</p>
-                </div>
-                <div class="col-sm-9 text-left">
-                    <p>Box to enter information goes here</p>
-                </div>
-            </div>
-            <div class="row entry-row">
-                <div class="col-sm-6 text-right">
-                    <p>Dont have an account?</p>
-                </div>
-                <div class="col-sm-6 text-left">
-                    <Link className = "nav-link" to='/Sign_Up'>Sign Up</Link>
-                </div>
-            </div>
-        </div>
-        );
-
-
-<div className="spacer" > &nbsp; </div>
-
-<div className="container">
-  <div className="row">
-    <div className="col-xs-3"></div>
-    <div className="col-xs-9"></div>
-  </div>
-  <div className="row">
-    <div className="col-*-*"></div>
-    <div className="col-*-*"></div>
-    <div className="col-*-*"></div>
-  </div>
-  <div className="row">
-    ...
-  </div>
-</div>
-*/
 
 export default Basic;

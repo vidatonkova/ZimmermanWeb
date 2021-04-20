@@ -66,7 +66,7 @@ const MyHealth = () => {
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection/navigating-college/dorm-life/">
               {" "}
-              <h9>CC Foundation Navigating College Life</h9>
+              <h9 class="light-blue">CC Foundation Navigating College Life</h9>
             </a>
           </div>
         </div>
@@ -76,7 +76,7 @@ const MyHealth = () => {
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection/managing-ibd/nutrition/">
               {" "}
-              <h9>CC Foundation Managing Nutrition</h9>
+              <h9 class="light-blue">CC Foundation Managing Nutrition</h9>
             </a>
           </div>
         </div>
@@ -86,7 +86,7 @@ const MyHealth = () => {
           <div className="col-sm-6 text-left">
             <a href="https://site.crohnscolitisfoundation.org/campus-connection/navigating-college/social-life/">
               {" "}
-              <h9>CC Foundation Navigating Social Life</h9>
+              <h9 class="light-blue">CC Foundation Navigating Social Life</h9>
             </a>
           </div>
         </div>
@@ -349,42 +349,42 @@ const MyHealth = () => {
           <h9>● UF IBD College Transition Video:</h9>
             <a href="https://youtu.be/r0Ctc2yxin0">
               {" "}
-              <h9>UF IBD Transition</h9>
+              <h9 class="light-blue">UF IBD Transition</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
           <h9>● UF Inflammatory Bowel Disease Program :</h9>
             <a href="https://gastroliver.medicine.ufl.edu/ibd/">
               {" "}
-              <h9>UF IBD Program</h9>
+              <h9 class="light-blue">UF IBD Program</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
           <h9>● UF IBD Support Group:</h9>
             <a href="https://gastroliver.medicine.ufl.edu/ibd/ibd-patient-info/uf-student-ibd-support-system/">
               {" "}
-              <h9>UF IBD Support Group</h9>
+              <h9 class="light-blue">UF IBD Support Group</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
           <h9>● CCFA Gainesville Support Group:</h9>
             <a href="https://www.crohnscolitisfoundation.org/chapters/centralflorida/support-groups/ibd-support-group-gainesville-fl-not-currently-meeting">
               {" "}
-              <h9>CCFA Support Group</h9>
+              <h9 class="light-blue">CCFA Support Group</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
           <h9>● Disability Resource Center:</h9>
             <a href="https://disability.ufl.edu">
               {" "}
-              <h9>Disability Resource Center</h9>
+              <h9 class="light-blue">Disability Resource Center</h9>
             </a>
           </div>
           <div className="col-sm-12 text-left">
           <h9>● Psychologists Specializing in Chronic Illness at UF:</h9>
             <a href="https://chp.phhp.ufl.edu/about-2/people/core-faculty/lori-b-waxenberg-phd-abpp/">
               {" "}
-              <h9>UF Chronic Illness Specialists</h9>
+              <h9 class="light-blue">UF Chronic Illness Specialists</h9>
             </a>
           </div>
         </div>
@@ -400,7 +400,7 @@ const MyHealth = () => {
           <h9>● University of Miami Crohn’s and Colitis Center:</h9>
             <a href="https://med.miami.edu/en/departments/medicine/divisions/crohns-and-colitis-center">
               {" "}
-              <h9>UM CCC</h9>
+              <h9 class="light-blue">UM CCC</h9>
             </a>
           </div>
         </div>
@@ -409,7 +409,7 @@ const MyHealth = () => {
           <h9>● Dr. Maria T. Abreu Video:</h9>
             <a href="https://vimeo.com/378441358">
               {" "}
-              <h9>Dr. Abreu Video</h9>
+              <h9 class="light-blue">Dr. Abreu Video</h9>
             </a>
           </div>
         </div>
@@ -418,7 +418,7 @@ const MyHealth = () => {
           <h9>● CCFA University of Miami Support Group:</h9>
             <a href="https://www.crohnscolitisfoundation.org/chapters/florida/support-groups/ccfa-support-group-miami-fl-UM">
               {" "}
-              <h9>CCFA UM Support Group</h9>
+              <h9 class="light-blue">CCFA UM Support Group</h9>
             </a>
           </div>
         </div>
@@ -427,7 +427,7 @@ const MyHealth = () => {
           <h9>● CCFA Southern Florida Chapter:</h9>
             <a href="https://www.crohnscolitisfoundation.org/chapters/florida">
               {" "}
-              <h9>CCFA Southern FL Chapter</h9>
+              <h9 class="light-blue">CCFA Southern FL Chapter</h9>
             </a>
           </div>
         </div>
@@ -436,7 +436,7 @@ const MyHealth = () => {
           <h9>● University of Miami Office of Disability Services:</h9>
             <a href="https://camnercenter.miami.edu/disability-services/index.html">
               {" "}
-              <h9>UM Office of Disability Services</h9>
+              <h9 class="light-blue">UM Office of Disability Services</h9>
             </a>
           </div>
         </div>
@@ -445,20 +445,20 @@ const MyHealth = () => {
           <h9>● University of Miami Pediatric Psychology Clinic:</h9>
             <a href="http://pediatrics.med.miami.edu/mailman-center/clinical-services/pediatric-psychology/">
               {" "}
-              <h9>UM Pediatric Psychology Clinic</h9>
+              <h9 class="light-blue">UM Pediatric Psychology Clinic</h9>
             </a>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-left">
-            <h2>Maintaining My Health</h2>
+            <h2 class="light-blue">Maintaining My Health</h2>
           </div>
         </div>
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <Link className="nav-link" to="/MyPassport" class="nav-link">
-              <h4>My IBD Passport</h4>
+              <h4 class="light-blue">My IBD Passport</h4>
             </Link>
           </div>
         </div>
@@ -614,7 +614,7 @@ const MyHealth = () => {
           <h9>Smoking and Inflammatory Bowel Disease
             <a href="https://www.crohnsandcolitis.org.uk/about-crohns-and-colitis/publications/smoking-and-ibd#:~:text=Many%20studies%20have%20shown%20that,carries%20many%20other%20health%20risks.">
               {" "}
-              <h9>IBD and Smoking</h9>
+              <h9 class="light-blue">IBD and Smoking</h9>
             </a></h9>
           </div>
         </div>
@@ -1117,7 +1117,7 @@ const MyHealth = () => {
           <h9><b>Mental health and Wellness</b></h9>
             <a href="https://www.crohnscolitisfoundation.org/mental-health">
               {" "}
-              <h9>Mental Health and IBD Resource</h9>
+              <h9 class="light-blue">Mental Health and IBD Resource</h9>
             </a>
           </div>
         </div>
@@ -1129,7 +1129,7 @@ const MyHealth = () => {
           <h9><b>Talking to a medical professional</b></h9>
             <a href="https://www.crohnscolitisfoundation.org/mental-health/talking-to-your-healthcare-team">
               {" "}
-              <h9>Medical Professional Contact</h9>
+              <h9 class="light-blue">Medical Professional Contact</h9>
             </a>
           </div>
         </div>
@@ -1160,7 +1160,7 @@ const MyHealth = () => {
             <h9><b>Stress management</b></h9>
             <a href="https://www.crohnscolitisfoundation.org/mental-health/coping-strategies-for-better-mental-health">
               {" "}
-              <h9>Mental Health and IBD Resource</h9>
+              <h9 class="light-blue">Mental Health and IBD Resource</h9>
             </a>
           </div>
         </div>
@@ -1183,7 +1183,7 @@ const MyHealth = () => {
           <h9>University of Florida Support Group:
             <a href="https://gastroliver.medicine.ufl.edu/ibd/ibd-patient-info/uf-student-ibd-support-system/">
               {" "}
-              <h9>UF IBD Support Group</h9>
+              <h9 class="light-blue">UF IBD Support Group</h9>
             </a>
             </h9>
           </div>
@@ -1191,7 +1191,7 @@ const MyHealth = () => {
           <h9>University of Miami Support Group:
             <a href="https://www.crohnscolitisfoundation.org/chapters/florida/support-groups/ccfa-support-group-miami-fl-UM">
               {" "}
-              <h9>CCFA UM Support Group</h9>
+              <h9 class="light-blue">CCFA UM Support Group</h9>
             </a>
             </h9>
           </div>
@@ -1199,7 +1199,7 @@ const MyHealth = () => {
         <div class="row entrySpacer-row"></div>
         <div class="row title-row">
           <div className="col-sm-12 text-left">
-            <h2>COVID-19 Resources</h2>
+            <h2 class="light-blue">COVID-19 Resources</h2>
           </div>
         </div>
         <div class="row entrySpacer-row"></div>
@@ -1208,7 +1208,7 @@ const MyHealth = () => {
           <h9><b>COVID-19 Risk Calculator: </b>
             <a href="http://shiny.bios.unc.edu/secure-ibd-risk-calc/">
               {" "}
-              <h9>COVID-19 Risk Calculator</h9>
+              <h9 class="light-blue">COVID-19 Risk Calculator</h9>
             </a>
             </h9>
           </div>
