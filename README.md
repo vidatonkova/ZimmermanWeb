@@ -23,8 +23,7 @@ npm i
 ```bash
 npm start
 ```
-Next, you'll want to open up a new terminal and navigate to the folder you were just in
-Then, you'll want to navigate to the client directory using
+Next, you'll want to open up a new terminal and navigate to the folder you were just in. After this, navigate to the client directory using
 ```bash
 cd client
 ```
