@@ -4,6 +4,7 @@ const cors = require('cors');
 const Users = require ('./models/users').Users;
 const Posts = require ('./models/posts').Posts;
 const mongoose = require ('mongoose');
+const path = require ('path');
 
 const uri = process.env.mongoUri || require('./config.json').mongoUri;
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -16,6 +17,8 @@ db.on('error', console.error.bind(console, 'mongodb connection error'));
   const app = express()
   app.use(express.json());
   app.use(cors());
+  app.use('/', express.static('../client/build'))
+  app.use(express.static('../client/build'))
 
   app.get('/ping', function (req, res) {
   return res.send('pong');
@@ -78,14 +81,11 @@ app.get('/discuss', async (req, res) => {
 
 });
 
-  app.use('/', express.static('../client/build'))
-  app.use(express.static('../client/build'))
+  
  
-  app.all('/*', (req, res) => {
-    // res.status(201).json({message: "nothing here!"});
-    res.sendFile(path.resolve("../client/build/index.html"));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
   });
   
-
   app.listen(port, () => console.log(`Server now running on port ${port}!`));
 
