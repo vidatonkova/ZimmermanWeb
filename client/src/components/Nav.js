@@ -7,9 +7,9 @@ import "./../views/Format.css";
 const NavBar = (props) => {
   return (
     <>
-      <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" className="color-Nav">
+      <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark">
         <Container>
-          <Navbar.Brand href="#home"><h5>Crohn’s and Colitis Clinical Care Consortium (C5)</h5></Navbar.Brand>
+          <Navbar.Brand href="#home"><h5 className="c5">Crohn’s and Colitis Clinical Care Consortium (C5)</h5></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>

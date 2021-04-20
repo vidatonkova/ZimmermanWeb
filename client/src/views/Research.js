@@ -39,7 +39,7 @@ const Research = () => {
       <div class="row picture-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
-            <a href="/zimmerman.png">
+            <a>
               <img src={zimmerman} className="img-responsive" alt="DrZ" />
             </a>
           </div>
@@ -77,7 +77,7 @@ const Research = () => {
       <div className="row picture1-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
-            <a href="/chaudhry.jpg">
+            <a>
               <img src={chaudhry} className="img-responsive" alt="chaudhry" />
             </a>
           </div>
@@ -107,7 +107,7 @@ const Research = () => {
       <div class="row picture2-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
-            <a href="/pham.png">
+            <a>
               <img src={pham} className="img-responsive" alt="pham" />
             </a>
           </div>
@@ -137,7 +137,7 @@ const Research = () => {
       <div class="row picture3-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
-            <a href="/rampertab.jpg">
+            <a>
               <img src={rampertab} className="img-responsive" alt="rampertab" />
             </a>
           </div>
@@ -173,7 +173,7 @@ const Research = () => {
       <div class="row picture4-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
-            <a href="/abreu.png">
+            <a>
               <img src={abreu} className="img-responsive" alt="abreu" />
             </a>
           </div>
@@ -206,7 +206,7 @@ const Research = () => {
       <div class="row picture5-row">
         <div class="col-sm-4 text-right">
           <div class thumbnail>
-            <a href="/kerman.png">
+            <a>
               <img src={kerman} className="img-responsive" alt="kerman" />
             </a>
           </div>

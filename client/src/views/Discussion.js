@@ -86,9 +86,8 @@ const Discussion = (props) => {
             </div>
             </div>
             <div class="row faq-spacer"></div>
-            <div class="row">
-                <div>
-                    <Container className="justify-content-md-center">
+            <div class="row DP">
+                <div class="col-sm-12 DP">
                     <ListGroup variant = "flush">
                         <div>
                         <Async promiseFn={loadPosts}>
@@ -115,7 +114,6 @@ const Discussion = (props) => {
                         </Async>
                         </div>
                     </ListGroup>
-                    </Container>
                 </div>
            </div>
         </div>

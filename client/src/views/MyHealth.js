@@ -150,7 +150,7 @@ const MyHealth = () => {
         </div>
         <div class="row between-button-spacer"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen2(!open2)}
@@ -165,6 +165,7 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open2}>
               <div id="example-collapse-text">
+              <div class="some">
               <h9>
                 <div class="row in-button-spacer"></div>
                 Fred Saibel, MD
@@ -217,12 +218,13 @@ const MyHealth = () => {
                 affects the daily lives of so many.
               </h9>
               </div>
+              </div>
             </Collapse>
           </div>
         </div>
         <div class="row between-button-spacer"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen3(!open3)}
@@ -237,6 +239,7 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open3}>
               <div id="example-collapse-text">
+              <div class="some">
               <h9>
                 <div class="row in-button-spacer"></div>
                 Sunanda V. Kane, M.D.
@@ -262,13 +265,14 @@ const MyHealth = () => {
                 including parents concerned about growth in their children and
                 teens with IBD.
                 </h9>
+                </div>
               </div>
             </Collapse>
           </div>
         </div>
         <div class="row between-button-spacer"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen4(!open4)}
@@ -280,6 +284,7 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open4}>
               <div id="example-collapse-text">
+              <div class="some">
               <h9>
                 <div class="row in-button-spacer"></div>
                 James M. Lang
@@ -298,13 +303,14 @@ const MyHealth = () => {
                 honest look at the way the disease can affect every aspect of a
                 person’s life: physical, emotional, and spiritual.
                 </h9>
+                </div>
               </div>
             </Collapse>
           </div>
         </div>
         <div class="row between-button-spacer"></div>
         <div class="row entry-row">
-          <div class="col-sm-12 text-left ">
+          <div class="col-sm-12 text-center ">
             <Button
               type="button"
               onClick={() => setOpen5(!open5)}
@@ -316,6 +322,7 @@ const MyHealth = () => {
             </Button>
             <Collapse in={open5}>
               <div id="example-collapse-text">
+              <div class="some">
               <h9>
                 <div class="row in-button-spacer"></div>
                 Hilarie and Joe Staton
@@ -332,6 +339,7 @@ const MyHealth = () => {
                   <h9>CCFA Comic Book</h9>
                 </a>
                 </h9>
+                </div>
               </div>
             </Collapse>
           </div>

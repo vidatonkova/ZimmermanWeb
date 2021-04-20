@@ -505,7 +505,7 @@ const Basic = () => {
         <div class="row entry-row">
           <div className="col-sm-12 text-center">
             <h9>Check out these pages for more information!</h9>
-            <Link className="nav-link" to="/My_Health">
+            <Link className="nav-link light-blue" to="/My_Health">
               <h3>MyHealth</h3>
             </Link>
             <Link className="nav-link light-blue" to="/Discussion">
