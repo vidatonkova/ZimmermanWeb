@@ -1,1 +1,1 @@
-exports.backpoint = "http://localhost:8080"
+exports.backpoint = "http://zimmermanweb.herokuapp.com"
