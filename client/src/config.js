@@ -1,1 +1,1 @@
-exports.backpoint = "http://zimmermanweb.herokuapp.com"
+exports.backpoint = "https://zimmermanweb.herokuapp.com"
